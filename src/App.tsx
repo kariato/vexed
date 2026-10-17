@@ -1,36 +1,68 @@
-import { useState } from 'react'
-import { applyCommand, applyGesture, calculatePackScore, createBoard, createSession, emptyProgress, isBlock } from './domain'
-import type { GameCommand, StepResult } from './domain'
+import { useEffect, useState } from 'react'
+import { applyCommand, applyGesture, createBoard, createSession, isBlock, tileAt } from './domain'
+import type { GameCommand, GameSession, Position, StepResult } from './domain'
+import { loadPack } from './data/packLoader'
+import type { RuntimePack } from './data/types'
+import { Board } from './ui/Board'
 import './App.css'
-// Authored demonstration; original pack metadata is not shipped.
-const level = {
-  id: 'demo:0', packId: 'demo', index: 0, par: 1,
-  initialBoard: createBoard(['##########', '#........#', '#........#', '#........#', '#........#', '#........#', '#a.a.....#', '##########']),
+function session(pack: RuntimePack, index: number) {
+  const level = pack.levels[index]!
+  return createSession({ id: level.id, packId: pack.id, index, par: level.par, initialBoard: createBoard(level.rows) })
 }
-const initial = (): StepResult => ({ accepted: true, state: createSession(level), events: [] })
 export default function App() {
-  const [result, setResult] = useState(initial)
-  const { state, events } = result
-  const command = (cmd: GameCommand) => setResult(previous => applyCommand(previous.state, cmd))
-  const step = () => setResult(previous => applyGesture(previous.state, { from: { x: 1, y: 6 }, target: { x: 2, y: 6 }, method: 'drag' }))
-  const score = calculatePackScore(emptyProgress(), { index: 0, moves: state.moveCount, par: level.par })
+  const [pack, setPack] = useState<RuntimePack | null>(null)
+  const [game, setGame] = useState<GameSession | null>(null)
+  const [error, setError] = useState(false)
+  const [attempt, setAttempt] = useState(0)
+  const [selected, setSelected] = useState<Position | null>(null)
+  const [message, setMessage] = useState('Select a block or drag it sideways.')
+  const [solved, setSolved] = useState<Set<number>>(new Set())
+  useEffect(() => {
+    let active = true
+    loadPack('classic').then(value => { if (active) { setPack(value); setGame(session(value, 0)); setError(false) } }).catch(() => { if (active) setError(true) })
+    return () => { active = false }
+  }, [attempt])
+  const accept = (result: StepResult) => {
+    setSelected(null)
+    if (!result.accepted) { setMessage('That move is blocked. Choose an empty destination in another column.'); return }
+    setGame(result.state)
+    if (result.state.status === 'won') {
+      setSolved(previous => new Set(previous).add(result.state.level.index))
+      setMessage('Puzzle solved in ' + result.state.moveCount + ' moves!')
+    } else setMessage(result.state.moveCount + (result.state.moveCount === 1 ? ' move. ' : ' moves. ') + 'Select a block or drag it sideways.')
+  }
+  const command = (value: GameCommand) => { if (game) accept(applyCommand(game, value)) }
+  const restart = () => {
+    setSelected(null)
+    if (game && (!game.moveCount || window.confirm('Restart this puzzle? Your current moves will be cleared.'))) command({ type: 'restart' })
+  }
+  const tap = (target: Position) => {
+    if (!game || game.status === 'won') return
+    if (isBlock(tileAt(game.board, target))) {
+      const same = selected?.x === target.x && selected.y === target.y
+      setSelected(same ? null : target)
+      setMessage(same ? 'Selection cleared.' : 'Block selected. Tap an empty destination, even on another row, or use the arrow buttons.')
+    } else if (selected) accept(applyGesture(game, { from: selected, target, method: 'tap' }))
+  }
+  const changeLevel = (index: number) => {
+    setSelected(null)
+    if (!pack || !game || (game.status !== 'won' && game.moveCount > 0 && !window.confirm('Leave this puzzle? Your current moves will be cleared.'))) return
+    setGame(session(pack, index)); setMessage('Select a block or drag it sideways.')
+  }
   return <main>
-    <header><p className="eyebrow">PALM PUZZLE · WEB ENGINE</p><h1>Vexed<span> / engine lab</span></h1>
-      <p className="intro">The original rules, taking shape on the web.</p></header>
-    <section className="game" aria-label="Engine demonstration">
-      <div className="game-heading"><div><span className="eyebrow">AUTHORED DEMONSTRATION</span><h2>Level 1 · A matching pair</h2></div>
-        <span className={'status ' + state.status}>{state.status === 'won' ? 'Solved' : 'Ready'}</span></div>
-      <dl className="stats"><div><dt>Moves</dt><dd>{state.moveCount}</dd></div><div><dt>Par</dt><dd>{level.par}</dd></div><div><dt>Score</dt><dd>{score}</dd></div></dl>
-      <div className="board" role="img" aria-label={'10 by 8 demo board. ' + (state.status === 'won' ? 'All blocks removed.' : 'Two matching A blocks on row 7, columns 2 and 4.')}>
-        {state.board.cells.flatMap((row, y) => row.map((tile, x) => <div key={x + ':' + y} className={'tile ' + (tile === '#' ? 'wall' : isBlock(tile) ? 'block' : 'air')} aria-hidden="true">{isBlock(tile) ? tile.toUpperCase() : ''}</div>))}
-      </div>
-      <div className="controls"><button onClick={step} disabled={state.status === 'won'}>Run one move <span aria-hidden="true">→</span></button>
-        <button className="secondary" onClick={() => command({ type: 'undo' })} disabled={!state.history.length}>Undo</button>
-        <button className="secondary" onClick={() => command({ type: 'restart' })}>Reset</button></div>
-      <p className="feedback" role="status">{state.status === 'won' ? 'The pair matched and disappeared. Undo restores the move.' : 'Slide A one space to the right. Matching blocks will disappear.'}</p>
-    </section>
-    <aside><h2>Phase 1 · Deterministic engine</h2><p>This preview exercises the same pure TypeScript rules tested against frozen Palm reference boards. Full puzzles, touchscreen dragging and offline play follow in later phases.</p>
-      <details><summary>Last engine events ({events.length})</summary><pre>{events.length ? events.map(event => event.type).join('\n') : 'No events yet.'}</pre></details>
-      <p className="license">Source-informed port of Palm Vexed · GPL-2.0-or-later<br/>Original game: James McCombe and the Vexed project team.</p></aside>
+    <header><div><p className="eyebrow">THE PALM CLASSIC · REBUILT FOR TOUCH</p><h1>Vexed <span>Think sideways.</span></h1></div><p className="intro">Slide. Match. Clear the board.</p></header>
+    {!game || !pack ? <section className="game"><h2>{error ? 'Could not load the Classic puzzles' : 'Loading Classic puzzles…'}</h2>{error && <><p>Check your connection, then try again.</p><button onClick={() => { setError(false); setAttempt(value => value + 1) }}>Retry</button></>}</section> : <>
+      <section className="game" aria-label="Classic puzzle">
+        <div className="game-heading"><div><p className="eyebrow">CLASSIC · 59 ORIGINAL PUZZLES</p><h2>Level {game.level.index + 1}</h2></div><label className="level-picker">Go to level<select aria-label="Go to level" value={game.level.index} onChange={event => changeLevel(Number(event.target.value))}>{pack.levels.map(level => <option key={level.id} value={level.index}>{level.index + 1}{solved.has(level.index) ? ' ✓' : ''}</option>)}</select></label></div>
+        <dl className="stats"><div><dt>Moves</dt><dd>{game.moveCount}</dd></div><div><dt>Par</dt><dd>{game.level.par ?? '—'}</dd></div><div><dt>Cleared</dt><dd>{solved.size}<small> / 59</small></dd></div></dl>
+        <div className="board-frame"><Board key={game.level.id} board={game.board} selected={selected} disabled={game.status === 'won'} onTap={tap}
+          onDrag={(from, target) => accept(applyGesture(game, { from, target, method: 'drag' }))} onCancel={() => setSelected(null)} onUndo={() => command({ type: 'undo' })} onRestart={restart}/></div>
+        <p className={'feedback ' + (game.status === 'won' ? 'success' : '')} role="status" aria-live="polite">{message}</p>
+        <div className="controls"><button className="secondary" onClick={() => command({ type: 'undo' })} disabled={!game.history.length}>Undo</button><button className="secondary" onClick={restart}>Restart</button>
+          <div className="move-controls" aria-label="Move selected block"><button aria-label="Move selected block left" disabled={!selected} onClick={() => selected && accept(applyGesture(game, { from: selected, target: { x: selected.x - 1, y: selected.y }, method: 'tap' }))}>←</button><button aria-label="Move selected block right" disabled={!selected} onClick={() => selected && accept(applyGesture(game, { from: selected, target: { x: selected.x + 1, y: selected.y }, method: 'tap' }))}>→</button></div></div>
+        {game.status === 'won' && <div className="completion">{game.level.index < pack.levels.length - 1 ? <button onClick={() => changeLevel(game.level.index + 1)}>Next puzzle →</button> : <p>Final puzzle cleared. Choose any level to play again.</p>}</div>}
+      </section>
+      <aside><span className="guide-number" aria-hidden="true">01—59</span><h2>A little space.<br/>A lot to untangle.</h2><p>Move blocks sideways into empty space. Gravity pulls them down. Matching blocks disappear when their edges touch.</p><div className="guide"><h3>Make your move</h3><p><strong>Drag</strong> a block left or right. A slide stops when blocks fall or a match clears.</p><p><strong>Tap</strong> a block, then an empty destination. Its column sets the direction and distance; the row can differ.</p><p><strong>Arrow buttons</strong> move a selected block one space. Undo remembers your last 15 gestures.</p></div><details><summary>Keyboard controls</summary><p>Tab to the board. Arrow keys move the cursor; Enter or Space selects a block or destination. Escape clears selection. Z undoes; R restarts.</p></details><p className="session-note">Play any level. Progress lasts for this tab. Refreshing starts fresh.</p><p className="license">Original game: James McCombe and the Vexed project team.<br/>GPL-2.0-or-later · <a href="https://github.com/kariato/vexed">Source & documentation</a></p></aside>
+    </>}
   </main>
 }
