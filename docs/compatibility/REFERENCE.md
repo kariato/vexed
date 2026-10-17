@@ -1,7 +1,7 @@
 # Phase 0 — source audit and compatibility evidence
 
 **Date:** 2026-10-17  
-**Status:** Original sources acquired; core behavior inspected and executable reference baseline established. Full Palm UI parity and publication clearance remain open. No web application is implemented.
+**Status:** Original sources acquired; core behavior inspected and executable reference baseline established. Representative Palm UI behavior is now observed in CloudpilotEmu; exhaustive UI parity and publication clearance for later metadata/contributor packs remain open. No web application is implemented.
 
 ## Sources and exact identity
 
@@ -37,12 +37,13 @@ See [pack-audit.json](pack-audit.json) for per-file author, hash, count and fail
 
 The reference script extracts seven original C functions from `game/game.c` and compiles them locally with `cc`. Drawing, sound, delay, preference UI and replay storage are disabled. `MoveAnimation` is replaced with its final board assignment; all movement, settling, matching, stop and win logic comes from the original functions.
 
-This is stronger evidence than replaying through a newly guessed rules engine, but it is not a Palm executable run. It does not test stylus event dispatch, score aggregation, undo handling, or physical tablet behavior. No full Palm build or emulator was run.
+This is stronger evidence than replaying through a newly guessed rules engine, but it is not a Palm executable run. It additionally wraps original release/undo/solution event cases, `ExitSolution`, and `CalcScore` with controlled Palm-service stubs. Twenty-three assertion-backed handler cases pass. This does not reproduce the Palm event queue or physical tablet behavior. Separately, the original binary was run in CloudpilotEmu; [EMULATOR.md](EMULATOR.md) records setup, observations, and screenshots.
 
 ### Recorded fixtures
 
 - `tests/fixtures/reference/classic.json`: levels 0–29, source hashes, original solution strings, decoded commands, and initial/every intermediate board.
 - `tests/fixtures/reference/gestures.json`: four synthetic original-core cases (multi-cell scoring, blocked attempt, gravity stops drag, match stops drag).
+- `tests/fixtures/reference/handlers.json`: 23 snapshots from original scoring, tap/drag, history and solution handlers, driven by assertion-backed `scripts/reference_handler_cases.c`.
 - Fixture commands are `[x, y, direction, distance]`; direction 1 = left, 2 = right. Rows use `#` wall, `.` air, `a`–`h` blocks.
 
 Thirty Classic fixtures are source-executed reference observations, not manually checked emulator screenshots. Four synthetic expectations also have hand-written assertions. Fixtures are versioned as generated evidence; do not regenerate them to conceal a TypeScript mismatch.
@@ -56,7 +57,8 @@ Thirty Classic fixtures are source-executed reference observations, not manually
 5. Solution penalties have an at-or-below-par exemption; penalized repeated openings accumulate in base score.
 6. The displayed active-level score is more complex than a sum of completed-level differences.
 7. Original transient undo/memory/replay persistence differs from the web recoverability goal.
-8. There are only 19 plaintext INI packs in this archive; PDB parsing is necessary for the remaining source catalogue.
+8. Visible 2.2 level labels are one-based (`game/gfx.c` and emulator), despite documentation describing zero-based labels; IDs remain zero-based.
+9. There are only 19 plaintext INI packs in this archive; PDB parsing is necessary for the remaining source catalogue.
 
 [RULES.md](RULES.md) supersedes unverified engine, scoring and undo assumptions in both planning documents. The design's GitHub Pages/tablet requirements remain unchanged.
 
@@ -64,12 +66,14 @@ Thirty Classic fixtures are source-executed reference observations, not manually
 
 Use the original core as the reference contract and a source-informed GPL-2.0-or-later implementation path, with [licensing limitations](LICENSING.md) retained for packs/art. Keep the TypeScript simulation independent of DOM, React, storage and animations.
 
-Before declaring full Palm compatibility or opening public Pages publication:
+Phase 0 disposition and later release checks:
 
-- Execute or emulate representative drag/tap, undo, solution-view and score cases, including a destination on another row and an empty endpoint beyond a blocking piece.
-- Add score/undo event-level fixtures, including repeated solution penalties and at/below-par exemption. The native harness currently excludes these handlers.
-- Establish explicit pack/fixture redistribution evidence and notices; do not silently infer it from archive co-location.
+- Representative emulator checks for cross-row tap, gravity-stop drag, undo and solution-view restoration are complete. Native original-handler tests cover blocked intermediate paths. Extend coverage when a concrete discrepancy requires it.
+- Score/undo event-case fixtures now cover repeated penalties, cancelled viewing and at/below-par exemption; original Palm queue timing and complete playback remain broader release validation tasks.
+- All 59 Classic board layouts exactly match explicit GPL-covered Vexed 1.3 arrays; see [classic-provenance.json](classic-provenance.json). Later titles/solution strings and contributor packs still require independent provenance decisions before shipping them. The board-only MVP can use generic level labels and newly recorded/derived solutions.
 - Compare original UI behavior at boundaries/cancellation with the safe Pointer Events policy. Preserve audited valid-move rules while rejecting malformed/out-of-bounds browser input.
+
+**Phase 0 disposition:** The source/rules audit, representative native and emulator fixtures, and scoped Classic board provenance provide a usable contract for Phase 1. Remaining contributor-content decisions and broader compatibility checks are tracked release work, rather than reasons to guess the engine rules.
 
 **Next implementation milestone:** Vite/strict TypeScript scaffold and pure engine tested against the frozen reference boards, plus gesture-level history and score tests. No TypeScript engine should be called compatible merely because hand-authored examples pass.
 
@@ -80,5 +84,13 @@ From repository root with the pinned source extracted under `.reference/source/v
 ```sh
 python3 scripts/audit_reference.py .reference/source/vexed --check
 ```
+
+To verify the Classic board provenance after extracting the pinned Vexed 1.3 archive to `.reference/vexed13`:
+
+```sh
+python3 scripts/audit_classic_provenance.py .reference/vexed13 .reference/source/vexed --check
+```
+
+Original 1.3 source URL and archive/file hashes are in `classic-provenance.json`. All 59 boards match exactly; this is a scoped provenance comparison, not a license inference about unrelated metadata.
 
 Requires Python 3 and `cc`; no third-party Python packages or historical executables are needed. Every source-tree file is checked against the source manifest before compiling. `--check` compares generated fixture/report bytes to committed outputs; without it, the tool regenerates them. Failed replays produce a nonzero exit status.

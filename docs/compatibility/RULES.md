@@ -1,6 +1,6 @@
 # Palm Vexed 2.2 rules contract — Phase 0
 
-Audit date: 2026-10-17. Evidence: files inside the SHA-256-pinned source archive in [REFERENCE.md](REFERENCE.md). Line references below refer to that archive, not the web implementation. This is a source-based contract; no Palm emulator or physical Palm has been exercised.
+Audit date: 2026-10-17. Evidence: files inside the SHA-256-pinned source archive in [REFERENCE.md](REFERENCE.md). Line references below refer to that archive, not the web implementation. This contract combines source inspection, native handler execution, and representative [CloudpilotEmu observations](EMULATOR.md). No physical Palm or tablet has been exercised.
 
 ## Board and content
 
@@ -36,7 +36,7 @@ Packs have one `[General]` section and repeated `[Level]` sections, preserving t
 
 Web policy: reject malformed commands and invalid pointer endpoints without mutation. For otherwise valid Classic gestures whose path collides, retain the source's attempted-step counting. Do not silently normalize this in the compatibility engine. A future forgiving mode would need a separate explicit policy.
 
-Original undo/memorize/replay buffers do not survive application exit (official instructions). Persisting them in the web app is a deliberate recoverability enhancement, not original parity. Native fixtures do not yet execute the Palm undo event handler.
+Original undo/memorize/replay buffers do not survive application exit (official instructions). Persisting them in the web app is a deliberate recoverability enhancement, not original parity. The native handler fixtures now execute the undo event case, including the 15-entry ring and restoration of a multi-cell gesture.
 
 ## Solutions and scoring
 
@@ -51,7 +51,7 @@ Original undo/memorize/replay buffers do not survive application exit (official 
 3. For the active level, use current made, or the smaller of previous best and current made if already solved.
 4. Add only the positive excess of that active count over active par.
 
-This can add an active-level excess while an earlier result for that level is already in the completed sum. Preserve a dedicated score fixture before implementing or simplifying this behavior.
+This can add an active-level excess while an earlier result for that level is already in the completed sum. The native handler fixtures preserve this behavior before any TypeScript implementation or simplification.
 
 `game/vexed.c:1227–1259`: solution viewing adds five to persistent base made on each confirmed penalized opening. It is free if already solved at or below par (`<=`, despite a nearby comment saying less than par). Cancelled confirmation and missing solution incur no penalty. Re-solving does not erase base penalties. `ExitSolution` and the solution form save/restore player state; the penalty remains.
 
@@ -59,9 +59,15 @@ Level access is up to one past highest solved. Replay/memorize interactions use 
 
 ## Executable evidence and remaining verification
 
-[audit_reference.py](../../scripts/audit_reference.py) compiles the actual `MoveBlock`, gravity, match, comparison, copy, block-count and player-move function bodies from the pinned source. Palm drawing/sound/delay are stubbed; `MoveAnimation` only performs its final board mutation. Solution mode bypasses replay-buffer writes. This is a native core reference, not an independently invented engine.
+[audit_reference.py](../../scripts/audit_reference.py) compiles the actual `MoveBlock`, gravity, match, comparison, copy, block-count and player-move function bodies from the pinned source. Palm drawing/sound/delay are stubbed; `MoveAnimation` only performs its final board mutation. Core solution-replay mode bypasses replay-buffer writes. Handler tests execute with player mode enabled, exercising replay counts and history. This is a native source reference, not an independently invented engine.
 
 - All 1,138 INI solution sequences and 2,878 PDB solution sequences reach an empty board; INI/PDB overlap means 4,016 runs are not 4,016 distinct puzzles.
 - Thirty Classic levels retain initial and every intermediate board for future TypeScript parity tests.
 - Four synthetic fixtures cover multi-cell counts, blocked attempts, gravity stop and removal stop.
-- Scoring, undo, tap event dispatch, replay buffers, persisted preferences, animation, and real touch behavior are inspected in source but not executed by this harness. Add targeted tests/emulator observations before claiming complete Palm compatibility.
+- Twenty-three handler fixtures execute the original release, undo, solution-menu, exit-solution, and score code with controlled Palm service stubs. They cover cross-row taps, rejected endpoints, collisions, multi-cell undo, the 15-entry limit, active/completed scores, repeated/cancelled/exempt solution viewing, and restoration on exit.
+- The actual Palm binary corroborates cross-row taps, gravity-stop dragging, undo, solution entry/exit and its five-point penalty; see EMULATOR.md.
+- Persisted preferences, full automatic replay, native Palm event queue timing, exhaustive UI behavior, and physical tablet input remain outside this harness. Do not claim complete parity from these bounded checks.
+
+## Visible level labels
+
+IDs and indices remain zero-based. The running 2.2 binary and `game/gfx.c:396–398` use `nLevelCurrent + 1` for visible labels. Classic presentation should therefore show level 1 for `classic:0`, superseding the instructions/blueprint claim that this UI begins at zero.

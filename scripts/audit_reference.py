@@ -45,7 +45,10 @@ typedef struct { struct {int x,y;} topLeft,extent; } RectangleType;
 PlayGround current;
 Boolean InSolution=true, InSolutionBack=true, DoingReplay=false;
 MoveType replay[2][10000]; int ReplayCIndex=0, ReplayCurrent=0;
-struct { int PieceMoveAnim,GravityAnim,EliminationAnim; struct { int MoveCountMade; } LevelPack[1]; } VexedPreferences;
+#define kcParRecords 60
+typedef struct { unsigned char MoveCountMade,MoveCountPar; } ScoreRecord;
+typedef struct { int CurrentLevel,SolvedLevels,MoveCountMade,MoveCountPar,BaseMoveCountMade,BaseMoveCountPar; ScoreRecord Score[kcParRecords]; } LevelPackPrefs;
+struct { int PieceMoveAnim,GravityAnim,EliminationAnim; LevelPackPrefs LevelPack[1]; } VexedPreferences;
 void SoundEffect(int a) {} void UpdateStats(void) {} void SysTaskDelay(int a) {}
 void WinEraseRectangle(RectangleType *r,int a) {} void DrawBM(int a,int b,int c,int d) {}
 void MoveAnimation(Int8 x,Int8 y,Int8 dx,Int8 dy,Boolean a,int speed) {
@@ -53,9 +56,45 @@ void MoveAnimation(Int8 x,Int8 y,Int8 dx,Int8 dy,Boolean a,int speed) {
 }
 '''
 code=(SOURCE/'game/game.c').read_text()
-functions=['MoveBlock','CheckGravity','CheckMatches','CompareLevel','CopyLevel','CountBlocksRemaining','PlayerMakeMove2']
-harness=shim+'\n'+'\n'.join(function(code,n) for n in functions)+r'''
-int main(void) {
+functions=['MoveBlock','CheckGravity','CheckMatches','CompareLevel','CopyLevel','CountBlocksRemaining','PlayerMakeMove2','CalcScore']
+# Compile the original event-case bodies with Palm services replaced by controlled stubs.
+vexed=(SOURCE/'game/vexed.c').read_text()
+def between(text,start,end):
+    return text.split(start,1)[1].split(end,1)[0]
+release=between(vexed.split('//{{{ penUpEvent',1)[1], 'case penUpEvent:', '//}}}')
+undo=between(vexed,'case UndoButton:', '//}}}')
+solution=between(vexed,'case ItemSolution:', 'case ItemPreferences:')
+handler_shim = r'''
+#define UndoSize 15
+#define TopRow 16
+#define BottomRow 144
+#define LocUndo 96
+#define LocPending 80
+#define BitmapPending 0
+#define FormSolution 0
+#define AlertNoSolution 1
+#define AlertShowSolution 2
+PlayGround undo[UndoSize],stored;
+int undoMovesMade[UndoSize],UndoCount,UndoIndex;
+int MoveCountMadeStored,MoveCountParStored,memorized,InBlockCheck,movePending,controlButtonPressed;
+struct { struct {int x,y;} begin,end,pending; } playermove;
+int mockPenX,mockPenY,mockHasSolution=1,mockAlertResult,nextLevelCalls,popupCalls,alertCalls;
+char stringSolution[512];
+void EvtGetPen(Int16 *x,Int16 *y,Boolean *state) { *x=mockPenX;*y=mockPenY;*state=0; }
+int EvtFlushKeyQueue(void) {return 0;} int EvtFlushPenQueue(void) {return 0;}
+void RedrawLevel(void) {} void DoTitleSelect(void) {} void clearMovePending(void) {movePending=0;}
+void NextLevel(void) {nextLevelCalls++;}
+int GetLevelProperty(int n,char *key,char *out,int size) {strcpy(out,"fF");return mockHasSolution;}
+int FrmAlert(int id) {alertCalls++;return mockAlertResult;}
+void FrmPopupForm(int id) {popupCalls++;} void FrmReturnToForm(int id) {}
+'''
+wrappers = ('void HandleRelease(void) { int handled=0,err=0; Int8 dist=0; Int16 penx=0,peny=0; Boolean bstate=0; do {'+release+'} while(0); }\n'
+    +'void HandleUndo(void) { int handled=0; RectangleType r; do {'+undo+'} while(0); }\n'
+    +'void HandleSolution(void) { int handled=0; do {'+solution+'} while(0); }\n'
+    +function(vexed,'ExitSolution'))
+harness=shim+'\n'+handler_shim+'\n'+'\n'.join(function(code,n) for n in functions)+'\n'+wrappers+'\n'+(ROOT/'scripts/reference_handler_cases.c').read_text()+r'''
+int main(int argc,char **argv) {
+ if(argc>1) {handlerCases();return 0;}
  for(int y=0;y<8;y++) for(int x=0;x<10;x++) if(scanf("%d",&current[y][x])!=1) return 2;
  int x,y,d,dist;
  while(scanf("%d %d %d %d",&x,&y,&d,&dist)==4) {
@@ -116,6 +155,8 @@ fixtures=[]; reports=[]
 with tempfile.TemporaryDirectory() as tmp:
     c=Path(tmp)/'oracle.c'; exe=Path(tmp)/'oracle'; c.write_text(harness)
     subprocess.run(['cc','-std=c99','-O0',str(c),'-o',str(exe)],check=True)
+    handler_result=subprocess.run([str(exe),'handlers'],text=True,capture_output=True,check=True)
+    handler_fixtures=[json.loads(line) for line in handler_result.stdout.splitlines()]
     def run(rows,commands):
         numbers=['9' if ch=='#' else '0' if ch=='.' else str(ord(ch)-96) for row in rows for ch in row]
         data=' '.join(numbers)+'\n'+'\n'.join(' '.join(map(str,m)) for m in commands)+'\n'
@@ -158,13 +199,13 @@ assert synthetic[1]['expected']['rows']==synthetic[1]['initialRows']
 assert synthetic[2]['expected']['rows'][6]=='#.a......#'
 assert synthetic[3]['expected']['won']
 report={'method':'Original C gameplay functions compiled with no-op Palm presentation and state-only MoveAnimation; not a Palm emulator or UI test.','packs':reports,'totals':{'iniPacks':sum(p['file'].endswith('.ini') for p in reports),'pdbPacks':sum(p['file'].endswith('.pdb') for p in reports),'levels':sum(p['levels'] for p in reports),'replays':sum(p['replays'] for p in reports),'failures':sum(len(p['failures']) for p in reports)}}
-for path,data in [('tests/fixtures/reference/classic.json',fixtures),('tests/fixtures/reference/gestures.json',synthetic),('docs/compatibility/pack-audit.json',report)]:
+for path,data in [('tests/fixtures/reference/handlers.json',handler_fixtures),('tests/fixtures/reference/classic.json',fixtures),('tests/fixtures/reference/gestures.json',synthetic),('docs/compatibility/pack-audit.json',report)]:
     dest=ROOT/path; dest.parent.mkdir(parents=True,exist_ok=True); expected=json.dumps(data,indent=2)+'\n'
     if CHECK:
         assert dest.read_text()==expected, f'Reference output changed: {dest}'
     else:
         dest.write_text(expected)
-print(json.dumps(report['totals']))
+print(json.dumps({**report['totals'],'handlerCases':len(handler_fixtures)}))
 for p in reports:
     if p['failures']: print(p['file'],p['failures'])
 

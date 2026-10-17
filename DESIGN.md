@@ -4,7 +4,7 @@
 
 ## Phase 0 audit update
 
-The original 2.2 sources have now been acquired and the core has been exercised through a native reference harness. See [REFERENCE.md](docs/compatibility/REFERENCE.md), [RULES.md](docs/compatibility/RULES.md), and [LICENSING.md](docs/compatibility/LICENSING.md). The rules contract supersedes earlier assumptions below, especially undo grouping, blocked-step counting, scoring, and solution penalties. Original Palm UI behavior and public pack redistribution remain open verification items.
+The original 2.2 sources have now been acquired and the core has been exercised through a native reference harness. See [REFERENCE.md](docs/compatibility/REFERENCE.md), [RULES.md](docs/compatibility/RULES.md), and [LICENSING.md](docs/compatibility/LICENSING.md). The rules contract supersedes earlier assumptions below, especially undo grouping, blocked-step counting, scoring, and solution penalties. Representative Palm UI behavior is now verified in CloudpilotEmu, and all 59 Classic board layouts are traced to explicitly GPL-covered 1.3 source. Later pack metadata/contributor-pack distribution and exhaustive device validation remain open items.
 
 ## Objective
 
@@ -216,3 +216,5 @@ This document provides the high-level design. The accompanying [TypeScript/Vite 
 The implementation plan is the original supplied blueprint. Source inspection and a native reference harness have since been completed as documented in the Phase 0 report; the web application has not been implemented. Its proposed types, settling order, scoring details, and solution codec remain subject to the Phase 0 source audit. Where scope differs, follow its release cuts: one verified pack for MVP; validated redistributable packs, themes, scoring, replay/solutions, and PWA for v1; editor, user pack import, progressive hints, and solver afterward. No implementation work is initiated by adding these planning documents.
 
 The GitHub Pages and tablet requirements in this design supersede Firebase-only deployment wording in the accompanying implementation plan.
+
+Phase 0 follow-up: visible level labels use one-based numbering as confirmed by the original 2.2 binary; stable IDs remain zero-based. The initial public MVP content policy is GPL-covered Classic board layouts with generic labels and newly recorded/derived solutions, pending separate clearance of later metadata and contributor packs. See the audit report for 23 handler tests and emulator screenshots.
