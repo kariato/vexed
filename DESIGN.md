@@ -218,3 +218,7 @@ The implementation plan is the original supplied blueprint. Source inspection an
 The GitHub Pages and tablet requirements in this design supersede Firebase-only deployment wording in the accompanying implementation plan.
 
 Phase 0 follow-up: visible level labels use one-based numbering as confirmed by the original 2.2 binary; stable IDs remain zero-based. The initial public MVP content policy is GPL-covered Classic board layouts with generic labels and newly recorded/derived solutions, pending separate clearance of later metadata and contributor packs. See the audit report for 23 handler tests and emulator screenshots.
+
+## Phase 1 implementation status
+
+The strict Vite/React scaffold and DOM-free TypeScript engine are implemented. Movement, settling, matching, cascades, gesture-level undo, restart, checkpoints, the solution codec and pure pack scoring are covered by unit and frozen-reference tests. The browser shell is an authored engine demonstration; full pack conversion, tablet input, persistence and deployment remain later phases. See [implementation notes](docs/development/PHASE-1.md).
