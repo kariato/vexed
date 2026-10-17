@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "exceptions": [
+    {
+      "levelId": "classic-ii:3",
+      "iniSourceSha256": "fca763f3bd315fcfe13d8bf8ccf8e498044743e8624ccf449b36b7fd791b5fac",
+      "pdbSourceSha256": "d65438e27c39e6c1c0299a389255be933d18fbb99f79a2e9f707eba8be70d7c9",
+      "iniSolutionSha256": "8c9615e5055fc37ad49c797fdbba24f0a5ec537bcf909129d2832b60721590f9",
+      "pdbSolutionSha256": "88aac3f93c182c6b2f706f2711b42472f0283e724b1cd24ab880ee687573c7af",
+      "iniPar": 64,
+      "pdbPar": 36,
+      "reason": "Same board/title; packaged PDB stores a shorter reference solution. Retain both raw sources and replay both; canonical catalogue uses release PDB metadata."
+    }
+  ],
+  "replayExceptions": [
+    {
+      "levelId": "classic-ii:20",
+      "step": 36,
+      "from": {
+        "x": 7,
+        "y": 6
+      },
+      "direction": -1,
+      "sourceSha256": [
+        "fca763f3bd315fcfe13d8bf8ccf8e498044743e8624ccf449b36b7fd791b5fac",
+        "d65438e27c39e6c1c0299a389255be933d18fbb99f79a2e9f707eba8be70d7c9"
+      ],
+      "beforeBoardSha256": "411d40f6bb6db0c0a7ba2466424918cce8e6a1ccd7463f2f56898aca3d6c8911",
+      "reason": "Original C counts pair Hg from an empty square as one unchanged-board step; verified against frozen original-C trace."
+    }
+  ]
+}

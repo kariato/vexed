@@ -8,11 +8,14 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "typecheck": "tsc -b && tsc -p tsconfig.domain.json && tsc -p tsconfig.tests.json",
+    "typecheck": "tsc -b && tsc -p tsconfig.domain.json && tsc -p tsconfig.tests.json && tsc -p tsconfig.tools.json",
     "test": "vitest run",
     "test:unit": "vitest run tests/unit",
     "test:reference": "vitest run tests/regression",
-    "check": "npm run lint && npm run typecheck && npm test && npm run build"
+    "check": "npm run lint && npm run typecheck && npm test && npm run packs:check && npm run build",
+    "packs:convert": "tsx scripts/convert-packs.ts",
+    "packs:audit": "tsx scripts/audit-packs.ts",
+    "packs:check": "npm run packs:convert -- --check && npm run packs:audit -- --check"
   },
   "dependencies": {
     "react": "^19.2.8",
@@ -24,6 +27,7 @@
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
+    "tsx": "^4.23.15",
     "typescript": "~6.0.2",
     "vite": "^8.3.0",
     "vitest": "^5.0.5"

@@ -94,3 +94,9 @@ python3 scripts/audit_classic_provenance.py .reference/vexed13 .reference/source
 Original 1.3 source URL and archive/file hashes are in `classic-provenance.json`. All 59 boards match exactly; this is a scoped provenance comparison, not a license inference about unrelated metadata.
 
 Requires Python 3 and `cc`; no third-party Python packages or historical executables are needed. Every source-tree file is checked against the source manifest before compiling. `--check` compares generated fixture/report bytes to committed outputs; without it, the tool regenerates them. Failed replays produce a nonzero exit status.
+
+## Phase 2 follow-up
+
+The TypeScript engine now passes every original source solution replay: 4,016 sequences and 74,589 counted steps across overlapping INI/PDB datasets. Conversion and replay reports are committed alongside this audit. The full comparison identified one Classic II alternative-solution/par variant and one empty-origin step appearing in both formats. Both are explicitly pinned and documented rather than ignored.
+
+Selected raw INI/PDB inputs are now committed as private development fixtures so CI can reproduce conversion without ignored downloads. Archives, original game executables and the emulator session remain ignored. Runtime output is limited to the scoped 59-board Classic pack with generic labels and par counts.

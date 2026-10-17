@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "classic.json",
+      "levels": 59,
+      "sha256": "580a1214bb39792b4afc8bf5c87a116d2b89aac4b8615fc5651d56525e836cad"
+    }
+  ]
+}

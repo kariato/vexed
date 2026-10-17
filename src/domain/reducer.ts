@@ -18,10 +18,10 @@ export function createSession(level: LevelDefinition): GameSession {
   return { ...state, status: status(state) }
 }
 /** Logical request, including Palm's counted blocked attempt. UI uses applyGesture. */
-function move(state: GameSession, request: MoveRequest): StepResult {
+function move(state: GameSession, request: MoveRequest, allowEmptyReference = false): StepResult {
   if (state.status === 'won') return reject(state, 'already-won')
   if (!isInside(request.from)) return reject(state, 'out-of-bounds')
-  if (!isBlock(tileAt(state.board, request.from))) return reject(state, 'not-a-block')
+  if (!isBlock(tileAt(state.board, request.from)) && !(allowEmptyReference && tileAt(state.board, request.from) === '.')) return reject(state, 'not-a-block')
   if ((request.direction !== -1 && request.direction !== 1) || !Number.isInteger(request.distance)
     || request.distance < 1 || request.distance > 9) return reject(state, 'invalid-move')
   let board = state.board, moveCount = state.moveCount
@@ -43,6 +43,13 @@ function move(state: GameSession, request: MoveRequest): StepResult {
     ...state, board, moveCount, status: won ? 'won' : 'playing',
     history: [...state.history, snapshot(state)].slice(-UNDO_LIMIT), commands: [...state.commands, command],
   } }
+}
+/** Original solution playback only: one encoded pair may point at air.
+ * Callers must pin/allowlist known legacy data; player commands remain strict.
+ */
+export function applyReferenceMove(state: GameSession, request: MoveRequest): StepResult {
+  if (request.distance !== 1) return reject(state, 'invalid-move')
+  return move(state, request, true)
 }
 export function applyGesture(state: GameSession, intent: GestureIntent): StepResult {
   if (!isInside(intent.from) || !isInside(intent.target)) return reject(state, 'out-of-bounds')

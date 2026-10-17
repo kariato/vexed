@@ -1,0 +1,11 @@
+# Keep original pack bytes (including CRLF) identical to the pinned archive.
+tests/fixtures/source/packs/* -text -whitespace
+public/packs/*.json text eol=lf
+tests/fixtures/packs/*.json text eol=lf
+docs/compatibility/*.json text eol=lf
+# Collapse reproducible generated data in GitHub review.
+tests/fixtures/packs/*.json linguist-generated=true
+tests/fixtures/source/packs/* linguist-vendored=true
+public/packs/*.json linguist-generated=true
+docs/compatibility/conversion-report.json linguist-generated=true
+docs/compatibility/typescript-pack-audit.json linguist-generated=true

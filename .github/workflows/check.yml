@@ -1,7 +1,7 @@
 name: Engine and build checks
 on:
   push:
-    branches: [main, phase-1-engine]
+    branches: [main, phase-1-engine, phase-2-packs]
   pull_request:
 permissions:
   contents: read

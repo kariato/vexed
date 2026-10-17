@@ -1,6 +1,6 @@
 # Vexed Web
 
-A planned touch-first TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 1 includes a pure TypeScript engine, strict Vite/React scaffold, CI and an authored engine preview. Full pack conversion and tablet play follow in later phases.
+A planned touch-first TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 1 includes a pure TypeScript engine, strict Vite/React scaffold, CI and an authored engine preview. Phase 2 adds validated pack conversion, complete original-solution audits and a 59-level Classic runtime asset; tablet controls follow in Phase 3.
 
 - [Design](DESIGN.md)
 - [Implementation plan](Vexed_Web_TypeScript_Vite_Implementation_Plan.md)
@@ -48,4 +48,17 @@ python3 scripts/audit_classic_provenance.py .reference/vexed13 .reference/source
 
 All 59 Classic layouts exactly match arrays with an explicit GPL notice. Later titles, encoded solutions and contributor packs remain separate content decisions.
 
-Next: Phase 2 converts real packs into validated, versioned data and expands the TypeScript replay suite beyond the frozen initial reference set. The full tablet interaction controller follows that.
+Next: Phase 3 connects the Classic runtime pack to a playable board with Pointer Events drag/tap and keyboard controls.
+
+
+## Pack conversion and complete replay
+
+```sh
+npm run packs:convert
+npm run packs:audit
+npm run packs:check
+```
+
+Phase 2 validates 67 original INI/PDB inputs and replays all 4,016 solution sequences (overlapping formats). The canonical research catalogue contains 48 packs / 2,878 level entries. The runtime bundle contains 59 GPL-traced Classic layouts with generic labels and par counts; original titles/solution strings remain research fixtures.
+
+See [Phase 2 notes](docs/development/PHASE-2.md) for reproducibility, reports, the Classic II par variant and its original-C-verified empty move.

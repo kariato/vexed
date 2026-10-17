@@ -32,3 +32,9 @@ The [official project history](https://vexed.sourceforge.net/page7/vexedproject.
 ## Emulator research assets
 
 The official Cloudpilot example session is used locally as a test environment only. Its availability is not treated as permission to redistribute a Palm ROM/session; neither is committed or shipped. EMULATOR.md records its hash and origin. Screenshots document the original app in this private research repository.
+
+## Phase 2 development data and runtime output
+
+For reproducible private CI, the original 67 INI/PDB pack files and normalized research catalogue are now development fixtures. This does not expand the runtime content policy or establish blanket contributor-pack licensing. They remain outside public and application imports.
+
+The generated Classic runtime JSON includes the 59 GPL-traced layouts, author attribution, generic numbered labels, provenance and scalar par counts. It excludes original later titles and encoded solution strings. All source variants remain preserved only in development data.
