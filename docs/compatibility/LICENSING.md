@@ -10,11 +10,13 @@ Decision: use a source-informed port and GPL-2.0-or-later for derived reference 
 
 ## Level packs
 
+**Follow-up:** [Additional pack license review](PACK-LICENSE-REVIEW.md) finds explicit upstream GPL evidence for Classic II’s 59 layouts. The remaining 46 non-Classic packs have unresolved adaptation terms. This supersedes the earlier blanket statement that all additional layouts lack specific evidence; the runtime remains Classic-only until implementation.
+
 Classic INI credits **James A. McCombe**; other authors and exact file hashes are in `pack-audit.json`. General metadata is attribution, not an explicit license grant. The source archive bundles INI/PDB packs alongside the GPL game, but the audited pack files do not themselves establish a separate unambiguous pack-specific redistribution grant.
 
 Follow-up evidence resolves the **Classic board layouts**: the original Vexed 1.3 `globals.c` explicitly carries James McCombe's GPL-2.0-or-later notice above its embedded board array. All 59 boards match the 2.2 Classic INI exactly, as verified by `scripts/audit_classic_provenance.py` and [classic-provenance.json](classic-provenance.json). This supports using those layouts under GPL-2.0-or-later with their notices; it does not automatically cover later level titles, encoded solutions or contributor packs.
 
-Decision: the MVP may use the 59 GPL-covered Classic layouts, generic numbered titles and newly recorded/derived solutions. Keep later metadata and contributor packs out of a public build until their applicable terms are established. Existing private reference fixtures contain original titles/solution strings and are research evidence, not automatically cleared runtime assets. Retain original archives locally in ignored `.reference/`.
+Decision: the MVP may use the 59 GPL-covered Classic layouts, generic numbered titles and newly recorded/derived solutions. Keep later metadata and contributor packs out of a public build until their applicable terms are established. Existing reference fixtures contain original titles/solution strings and are research evidence, not automatically cleared runtime assets. Retain original archives locally in ignored `.reference/`.
 
 The [official project history](https://vexed.sourceforge.net/page7/vexedproject.html) corroborates the GPL release of 1.3. The [official FAQ](https://vexed.sourceforge.net/page3/page5/faq.html) expressly describes sharing Vexed together with a level pack by beaming, but does not specify terms for modified web data. The [level-pack page](https://vexed.sourceforge.net/page3/page6/levelpacks.html) is unfinished. Searches of the pinned pack INI/text files did not find a separate license notice. These observations support provenance research, not a blanket license assertion.
 
@@ -31,17 +33,25 @@ The [official project history](https://vexed.sourceforge.net/page7/vexedproject.
 
 ## Emulator research assets
 
-The official Cloudpilot example session is used locally as a test environment only. Its availability is not treated as permission to redistribute a Palm ROM/session; neither is committed or shipped. EMULATOR.md records its hash and origin. Screenshots document the original app in this private research repository.
+The official Cloudpilot example session is used locally as a test environment only. Its availability is not treated as permission to redistribute a Palm ROM/session; neither is committed or shipped. EMULATOR.md records its hash and origin. Screenshots document the original app in this repository, which is now public.
 
 ## Phase 2 development data and runtime output
 
-For reproducible private CI, the original 67 INI/PDB pack files and normalized research catalogue are now development fixtures. This does not expand the runtime content policy or establish blanket contributor-pack licensing. They remain outside public and application imports.
+For reproducible CI, the original 67 INI/PDB pack files and normalized research catalogue are now development fixtures. This does not expand the runtime content policy or establish blanket contributor-pack licensing. They remain outside the public/ asset directory and application imports, but are publicly accessible in Git.
 
 The generated Classic runtime JSON includes the 59 GPL-traced layouts, author attribution, generic numbered labels, provenance and scalar par counts. It excludes original later titles and encoded solution strings. All source variants remain preserved only in development data.
 
 
 ## Phase 4 newly derived solutions and artwork
 
-The runtime now includes `public/packs/classic-solutions.json`: 59 newly computed paths over the GPL-traced Classic layouts. `npm run solutions:derive` compiles the newly authored bounded search in `scripts/native/derive-solution.cpp`; its only puzzle input is `public/packs/classic.json`. The TypeScript wrapper replays every candidate through the strict player engine before writing the full asset and records the runtime pack SHA-256. The search reads no historical encoded solutions, titles or research catalogue. The new paths and search code are offered under GPL-2.0-or-later; they are valid completions, not claims to reproduce historical paths or optimum par. CI verifies full coverage, source-pack hash and strict replay. Original solution strings remain private development fixtures.
+The runtime now includes `public/packs/classic-solutions.json`: 59 newly computed paths over the GPL-traced Classic layouts. `npm run solutions:derive` compiles the newly authored bounded search in `scripts/native/derive-solution.cpp`; its only puzzle input is `public/packs/classic.json`. The TypeScript wrapper replays every candidate through the strict player engine before writing the full asset and records the runtime pack SHA-256. The search reads no historical encoded solutions, titles or research catalogue. The new paths and search code are offered under GPL-2.0-or-later; they are valid completions, not claims to reproduce historical paths or optimum par. CI verifies full coverage, source-pack hash and strict replay. Original solution strings remain development fixtures, publicly accessible in Git. See the follow-up review for their unresolved distribution scope.
 
 Classic patterns, Modern styling and animated blocks use newly authored CSS and text glyphs. No upstream bitmap, sound, Palm executable or emulator session has been added to the web bundle.
+
+## Public repository status
+
+The repository is public following the user’s request after Phase 5. Historical references to private research describe its previous state. Unresolved pack terms apply to publicly committed fixtures as well as potential runtime assets; see [the review](PACK-LICENSE-REVIEW.md#public-research-fixtures).
+
+## Owner-directed archive inclusion
+
+The later explicit request to include all packs without a reproduction denial supersedes the earlier runtime exclusion decision. All 48 canonical packs are included, with unresolved terms preserved rather than assigned a GPL license. See [implementation and scope](../development/ARCHIVED-PACKS.md) and [runtime notices](../../public/PACK_NOTICES.txt).

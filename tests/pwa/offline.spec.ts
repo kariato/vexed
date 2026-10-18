@@ -4,7 +4,7 @@ async function ready(page: Page) {
   await page.goto('./')
   await expect(page.getByRole('grid')).toBeVisible()
   await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
-  await expect(page.getByText(/All 59 puzzles and solutions ready offline/)).toBeVisible({ timeout: 20000 })
+  await expect(page.getByText(/All 2,878 puzzles and solutions ready offline/)).toBeVisible({ timeout: 20000 })
   await page.evaluate(() => navigator.serviceWorker.ready)
 }
 async function firstMove(page: Page) {
@@ -137,7 +137,34 @@ test('online recovery repairs evicted caches without resetting the saved attempt
   await page.evaluate(async()=>{for(const name of await caches.keys())if(name.startsWith('vexed:/vexed/:'))await caches.delete(name)})
   await page.reload()
   await expect(page.locator('.stats dd').first()).toHaveText('1')
-  await expect(page.getByText(/All 59 puzzles and solutions ready offline/)).toBeVisible({timeout:20000})
+  await expect(page.getByText(/All 2,878 puzzles and solutions ready offline/)).toBeVisible({timeout:20000})
   await context.setOffline(true);await page.reload()
   await expect(page.locator('.stats dd').first()).toHaveText('1')
+})
+
+test('all packs are cached and other-pack selection, solutions and reload work offline', async ({ page, context }) => {
+  await ready(page)
+  const paths = await page.evaluate(async () => {
+    const keys = await caches.keys(); const cache = await caches.open(keys.find(key => key.startsWith('vexed:/vexed/:'))!)
+    return (await cache.keys()).map(request => new URL(request.url).pathname)
+  })
+  for (const id of ['classic-ii', 'variety-41-pack', 'childrens-pack']) {
+    expect(paths).toContain('/vexed/packs/' + id + '.json')
+    expect(paths).toContain('/vexed/packs/' + id + '-solutions.json')
+  }
+  await context.setOffline(true)
+  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('variety-41-pack')
+  await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
+  page.once('dialog', dialog => dialog.accept())
+  await page.getByRole('button', {name:'View solution',exact:true}).click()
+  await expect(page.getByRole('dialog')).toBeVisible()
+  await page.getByRole('button', {name:'Return to game',exact:true}).click()
+  await expect(page.getByLabel('Pack score')).toHaveText('+5')
+  await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
+  await page.reload()
+  await expect(page.getByLabel('Puzzle pack', { exact: true })).toHaveValue('variety-41-pack')
+  await expect(page.getByLabel('Pack score')).toHaveText('+5')
+  await expect(page.getByLabel('Puzzle pack', { exact: true })).toBeEnabled()
+  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('classic')
+  await expect(page.getByLabel('Pack score')).toHaveText('0')
 })

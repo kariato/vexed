@@ -5,6 +5,9 @@ import { fileURLToPath } from 'node:url'
 import { importPack, sha256 } from './import'
 import type { ReferencePack } from './import'
 import { validatePack } from '../../src/data/validatePack'
+import { applyCommand, boardRows, createBoard, createSession, decodeReferenceSolution } from '../../src/domain'
+import { validateSolutions } from '../../src/ui/replayData'
+import type { EmptyMoveException } from './replay'
 import type { RuntimePack } from '../../src/data/types'
 
 export const root = fileURLToPath(new URL('../../', import.meta.url))
@@ -79,20 +82,63 @@ export function classicRuntime(packs: readonly ReferencePack[]): RuntimePack {
     levels: classic.levels.map(level => ({ id: level.id, index: level.index, title: 'Level ' + (level.index + 1), rows: level.rows, par: level.par })),
   })
 }
+export function archivedRuntime(pack: ReferencePack): RuntimePack {
+  return validatePack({
+    schemaVersion: 1, id: pack.id, name: pack.name, author: pack.general.author,
+    license: pack.id === 'classic-ii' ? 'LicenseRef-Upstream-GPL' : 'NOASSERTION',
+    licenseNote: pack.id === 'classic-ii'
+      ? 'Official release history states Steve Haynal’s 59 levels were released under the GNU GPL; that statement does not specify a version. Later metadata and solution terms are not separately established.'
+      : 'Upstream pack-specific adaptation terms are unresolved. Included at the project owner’s direction because no explicit reproduction restriction was found; this is not an affirmative license grant.',
+    boardSource: { file: pack.source.filename, sha256: pack.source.sha256 },
+    levels: pack.levels.map(level => ({ id: level.id, index: level.index, title: 'Level ' + (level.index + 1), rows: level.rows, par: level.par })),
+  })
+}
+export function archivedSolutions(pack: ReferencePack, runtime: RuntimePack) {
+  const exceptions = (JSON.parse(readFileSync(resolve(root, 'docs/compatibility/source-variants.json'), 'utf8')) as { replayExceptions: EmptyMoveException[] }).replayExceptions
+  const omitted: { levelId: string; step: number }[] = []
+  const levels = pack.levels.map(level => {
+    if (!level.encodedSolution) throw new Error('Missing archived solution: ' + level.id)
+    let state = createSession({ id: level.id, packId: pack.id, index: level.index, par: level.par, initialBoard: createBoard(level.rows) })
+    const commands = []
+    for (const [step, command] of decodeReferenceSolution(level.encodedSolution).entries()) {
+      const result = applyCommand(state, { type: 'move', ...command })
+      if (!result.accepted) {
+        const known = exceptions.find(item => item.levelId === level.id && item.step === step
+          && item.sourceSha256.includes(pack.source.sha256) && item.from.x === command.from.x && item.from.y === command.from.y
+          && item.direction === command.direction && item.beforeBoardSha256 === sha256(JSON.stringify(boardRows(state.board))))
+        if (!known || result.rejectionReason !== 'not-a-block') throw new Error('Rejected archived solution step: ' + level.id + ':' + step)
+        omitted.push({ levelId: level.id, step }); continue
+      }
+      commands.push(command); state = result.state
+    }
+    if (state.status !== 'won') throw new Error('Archived solution failed: ' + level.id)
+    return { levelId: level.id, commands }
+  })
+  const solutions = { schemaVersion: 1, rulesVersion: 1, packId: pack.id, license: 'NOASSERTION',
+    origin: 'Converted historical PDB solution paths; separate adaptation terms unresolved. Known unchanged-board empty-origin step omitted; historical par preserved.',
+    sourceSha256: pack.source.sha256, packSha256: sha256(json(runtime)), omitted, levels }
+  validateSolutions(solutions, runtime)
+  return solutions
+}
 export function generate(check: boolean, sourceDir?: string): void {
   const packs = readPinnedPacks(sourceDir), canonical = canonicalPacks(packs), runtime = classicRuntime(packs)
   const runtimeText = json(runtime)
+  const runtimePacks = [runtime, ...canonical.filter(pack => pack.id !== 'classic').map(archivedRuntime)]
   artifact('tests/fixtures/packs/reference-catalogue.json', { schemaVersion: 1, usage: 'development-only original reference data; not a runtime asset', packs: canonical }, check)
   artifact('public/packs/classic.json', runtime, check)
-  artifact('public/packs/manifest.json', { schemaVersion: 1, packs: [{
-    id: runtime.id, name: runtime.name, file: 'classic.json', levels: runtime.levels.length, sha256: sha256(runtimeText),
-  }] }, check)
+  for (const value of runtimePacks.filter(pack => pack.id !== 'classic')) {
+    artifact('public/packs/' + value.id + '.json', value, check)
+    artifact('public/packs/' + value.id + '-solutions.json', archivedSolutions(canonical.find(pack => pack.id === value.id)!, value), check)
+  }
+  artifact('public/packs/manifest.json', { schemaVersion: 1, packs: runtimePacks.map(value => ({
+    id: value.id, name: value.name, file: value.id + '.json', levels: value.levels.length, sha256: sha256(json(value)),
+  })) }, check)
   const report = {
     schemaVersion: 1,
     totals: { sourceFiles: packs.length, iniPacks: packs.filter(pack => pack.source.format === 'ini').length,
       pdbPacks: canonical.length, sourceLevelEntries: packs.reduce((sum, pack) => sum + pack.levels.length, 0),
       canonicalPacks: canonical.length, canonicalLevelEntries: canonical.reduce((sum, pack) => sum + pack.levels.length, 0),
-      equivalentIniPdbPairs: packs.length - canonical.length - new Set(sourceVariants().map(item => item.levelId.split(':')[0])).size, documentedSourceVariants: sourceVariants().length, runtimePacks: 1, runtimeLevels: runtime.levels.length },
+      equivalentIniPdbPairs: packs.length - canonical.length - new Set(sourceVariants().map(item => item.levelId.split(':')[0])).size, documentedSourceVariants: sourceVariants().length, runtimePacks: runtimePacks.length, runtimeLevels: runtimePacks.reduce((sum, pack) => sum + pack.levels.length, 0) },
     sources: packs.map(pack => ({ ...pack.source, id: pack.id, levels: pack.levels.length })),
     documentedSourceVariants: sourceVariants(),
     generated: { runtimeSha256: sha256(runtimeText), referenceCatalogueSha256: sha256(json({ schemaVersion: 1, usage: 'development-only original reference data; not a runtime asset', packs: canonical })) },

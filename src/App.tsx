@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { applyCommand, applyGesture, calculatePackScore, createBoard, createSession, emptyProgress, isBlock, openSolution, recordCompletion, tileAt } from './domain'
 import type { GameCommand, GameSession, MoveRequest, PackProgress, Position, StepResult } from './domain'
-import { loadPack } from './data/packLoader'
-import type { RuntimePack } from './data/types'
+import { loadManifest, loadPack } from './data/packLoader'
+import type { PackManifest, RuntimePack } from './data/types'
 import { Board } from './ui/Board'
 import { Animation } from './ui/Animation'
 import { animationFrames } from './ui/presentation'
@@ -19,6 +19,29 @@ function session(pack: RuntimePack, index: number) {
 }
 interface Viewer { title: string; states: readonly GameSession[] }
 export default function App() {
+  const [manifest, setManifest] = useState<PackManifest | null>(null)
+  const [packId, setPackId] = useState('classic')
+  const [error, setError] = useState(false)
+  const [attempt, setAttempt] = useState(0)
+  useEffect(() => {
+    let active = true
+    loadManifest().then(value => {
+      if (!active) return
+      const requested = new URLSearchParams(location.search).get('pack')
+      setPackId(value.packs.some(pack => pack.id === requested) ? requested! : 'classic')
+      setManifest(value); setError(false)
+    }).catch(() => { if (active) setError(true) })
+    return () => { active = false }
+  }, [attempt])
+  if (!manifest) return <main><h1>Vexed</h1><p role="status">{error ? 'Could not load puzzle packs.' : 'Loading puzzle packs…'}</p>{error && <button onClick={() => { setError(false); setAttempt(value => value + 1) }}>Retry</button>}</main>
+  return <PackGame key={packId} packId={packId} manifest={manifest} changePack={id => {
+    const url = new URL(location.href)
+    if (id === 'classic') url.searchParams.delete('pack'); else url.searchParams.set('pack', id)
+    history.replaceState(null, '', url)
+    setPackId(id)
+  }}/>
+}
+function PackGame({ packId, manifest, changePack }: { packId: string; manifest: PackManifest; changePack: (id: string) => void }) {
   const [pack, setPack] = useState<RuntimePack | null>(null)
   const [game, setGame] = useState<GameSession | null>(null)
   const [error, setError] = useState(false)
@@ -42,15 +65,15 @@ export default function App() {
   const [epoch, setEpoch] = useState(0)
   const finishAnimation = useCallback(() => setFrames(null), [])
   const busy = frames !== null || loadingSolution || viewer !== null
-  const unlocked = Math.min(58, Math.max(-1, ...Object.keys(progress.completions).map(Number)) + 1)
+  const unlocked = Math.min((pack?.levels.length ?? 1) - 1, Math.max(-1, ...Object.keys(progress.completions).map(Number)) + 1)
   const payload = useMemo(() => game && pack ? encodeSave(pack.id, game, previous, progress, { theme, motion, practice }) : null, [pack, game, previous, progress, theme, motion, practice])
   const saving = loaded && storageOK && !recovery && payload !== savedPayload
   useEffect(() => {
     let active = true
-    loadPack('classic').then(async value => {
+    loadPack(packId).then(async value => {
       let restored = null
       try {
-        const saved = await readSave(import.meta.env.BASE_URL + 'classic')
+        const saved = await readSave(import.meta.env.BASE_URL + packId)
         if (saved !== undefined) {
           try { restored = decodeSave(saved, value) }
           catch { if (active) { setRecovery(true); setSaveStatus('Saved data could not be read. It has been kept for recovery. Autosave is paused.') } }
@@ -62,13 +85,13 @@ export default function App() {
       setLoaded(true)
     }).catch(() => { if (active) setError(true) })
     return () => { active = false }
-  }, [attempt])
+  }, [attempt, packId])
   useEffect(() => {
     if (!loaded || !payload || !storageOK || recovery) return
     let active = true
-    writeSave(import.meta.env.BASE_URL + 'classic', payload).then(() => { if (active) { setSavedPayload(payload); setSaveStatus('Saved on this device') } }).catch(() => { if (active) { setStorageOK(false); setSaveStatus('Could not save on this device. Keep this tab open to retain your progress.') } })
+    writeSave(import.meta.env.BASE_URL + packId, payload).then(() => { if (active) { setSavedPayload(payload); setSaveStatus('Saved on this device') } }).catch(() => { if (active) { setStorageOK(false); setSaveStatus('Could not save on this device. Keep this tab open to retain your progress.') } })
     return () => { active = false }
-  }, [loaded, payload, storageOK, recovery])
+  }, [loaded, payload, storageOK, recovery, packId])
   const accept = (result: StepResult, feedback?: string, interrupt = false) => {
     if (busy && !interrupt) return
     setSelected(null)
@@ -118,7 +141,7 @@ export default function App() {
     viewerOpener.current = opener
     setSelected(null); setLoadingSolution(true)
     try {
-      const response = await fetch(import.meta.env.BASE_URL + 'packs/classic-solutions.json')
+      const response = await fetch(import.meta.env.BASE_URL + 'packs/' + pack.id + '-solutions.json')
       if (!response.ok) throw new Error('Unavailable')
       const commands: readonly MoveRequest[] | undefined = validateSolutions(await response.json(), pack).get(game.level.id)
       if (!commands) throw new Error('Unavailable')
@@ -142,10 +165,14 @@ export default function App() {
   const score = game ? calculatePackScore(progress, { index: game.level.index, moves: game.moveCount, par: game.level.par }) : 0
   return <main className={'theme-' + theme}>
     <header><div><p className="eyebrow">THE PALM CLASSIC · REBUILT FOR TOUCH</p><h1>Vexed <span>Think sideways.</span></h1></div><p className="intro">Slide. Match. Clear the board.</p></header>
-    {!game || !pack ? <section className="game"><h2>{error ? 'Could not load the Classic puzzles' : 'Loading Classic puzzles…'}</h2>{error && <><p>Check your connection, then try again.</p><button onClick={() => { setError(false); setAttempt(value => value + 1) }}>Retry</button></>}</section> : <>
-      <section className="game" aria-label="Classic puzzle">
-        <div className="game-heading"><div><p className="eyebrow">CLASSIC · {practice ? 'PRACTICE' : 'PROGRESSION'}</p><h2>Level {game.level.index + 1}</h2></div><label className="level-picker">Go to level<select aria-label="Go to level" disabled={busy} value={game.level.index} onChange={event => changeLevel(Number(event.target.value))}>{pack.levels.map(level => <option key={level.id} value={level.index} disabled={!practice && level.index > unlocked}>{level.index + 1}{progress.completions[level.index] ? ' ✓' : !practice && level.index > unlocked ? ' · locked' : ''}</option>)}</select></label></div>
-        <dl className="stats"><div><dt>Moves</dt><dd>{game.moveCount}</dd></div><div><dt>Par</dt><dd>{game.level.par ?? '—'}</dd></div><div><dt>Score</dt><dd aria-label="Pack score">{score > 0 ? '+' : ''}{score}</dd></div><div><dt>Cleared</dt><dd>{Object.keys(progress.completions).length}<small> / 59</small></dd></div></dl>
+    {!game || !pack ? <section className="game"><h2>{error ? 'Could not load the puzzles' : 'Loading puzzles…'}</h2>{error && <><p>Check your connection, then try again.</p><button onClick={() => { setError(false); setAttempt(value => value + 1) }}>Retry</button>{packId !== 'classic' && <button onClick={() => changePack('classic')}>Return to Classic</button>}</>}</section> : <>
+      <section className="game" aria-label={pack.name + ' puzzle'}>
+        <label className="level-picker">Puzzle pack<select aria-label="Puzzle pack" disabled={busy || saving} value={packId} onChange={event => {
+          if (!storageOK && payload !== savedPayload && !window.confirm('This attempt could not be saved. Switch packs and leave this attempt?')) return
+          changePack(event.target.value)
+        }}>{manifest.packs.map(entry => <option key={entry.id} value={entry.id}>{entry.name} · {entry.levels} levels</option>)}</select></label>
+        <div className="game-heading"><div><p className="eyebrow">{pack.name.toUpperCase()} · {practice ? 'PRACTICE' : 'PROGRESSION'}</p><h2>Level {game.level.index + 1}</h2></div><label className="level-picker">Go to level<select aria-label="Go to level" disabled={busy} value={game.level.index} onChange={event => changeLevel(Number(event.target.value))}>{pack.levels.map(level => <option key={level.id} value={level.index} disabled={!practice && level.index > unlocked}>{level.index + 1}{progress.completions[level.index] ? ' ✓' : !practice && level.index > unlocked ? ' · locked' : ''}</option>)}</select></label></div>
+        <dl className="stats"><div><dt>Moves</dt><dd>{game.moveCount}</dd></div><div><dt>Par</dt><dd>{game.level.par ?? '—'}</dd></div><div><dt>Score</dt><dd aria-label="Pack score">{score > 0 ? '+' : ''}{score}</dd></div><div><dt>Cleared</dt><dd>{Object.keys(progress.completions).length}<small> / {pack.levels.length}</small></dd></div></dl>
         <div className="board-frame"><Board key={game.level.id + ':' + theme + ':' + motion + ':' + epoch + ':' + Boolean(viewer)} board={game.board} selected={selected} disabled={game.status === 'won' || busy} onTap={tap}
           overlay={frames ? <Animation frames={frames} speed={motion === 'fast' ? 2 : 1} done={finishAnimation}/> : undefined}
           onDrag={(from, target) => accept(applyGesture(game, { from, target, method: 'drag' }))} onCancel={() => setSelected(null)} onUndo={() => command({ type: 'undo' })} onRestart={restart}/></div>
@@ -154,12 +181,12 @@ export default function App() {
           <div className="move-controls" aria-label="Move selected block"><button aria-label="Move selected block left" disabled={busy || !selected} onClick={() => selected && accept(applyGesture(game, { from: selected, target: { x: selected.x - 1, y: selected.y }, method: 'tap' }))}>←</button><button aria-label="Move selected block right" disabled={busy || !selected} onClick={() => selected && accept(applyGesture(game, { from: selected, target: { x: selected.x + 1, y: selected.y }, method: 'tap' }))}>→</button></div></div>
         {game.status === 'won' && <div className="completion">{game.level.index < pack.levels.length - 1 ? <button disabled={busy} onClick={() => changeLevel(game.level.index + 1)}>Next puzzle →</button> : <p>Final puzzle cleared. Choose a level to play again.</p>}</div>}
       </section>
-      <aside><span className="guide-number" aria-hidden="true">01—59</span><h2>A little space.<br/>A lot to untangle.</h2>
+      <aside><span className="guide-number" aria-hidden="true">01—{pack.levels.length}</span><h2>A little space.<br/>A lot to untangle.</h2>
         <div className="tools"><h3>Your toolkit</h3><div className="tool-buttons"><button className="secondary" disabled={busy} onClick={() => command({ type: 'memorize' }, 'Position memorized. Recall will restore this board and move count.')}>Memorize</button><button className="secondary" disabled={busy || !game.checkpoint} onClick={() => command({ type: 'recall' }, 'Memorized position recalled. Undo history cleared.')}>Recall</button><button className="secondary" disabled={busy || !game.commands.length} onClick={event => replay(game, event.currentTarget)}>Replay moves</button><button className="secondary" disabled={busy || !previous} onClick={event => previous && replay(previous, event.currentTarget)}>Replay previous</button><button className="secondary" disabled={busy} onClick={event => void reveal(event.currentTarget)}>View solution</button></div><p className="session-note">Best: {progress.completions[game.level.index]?.moves ?? '—'} moves · Unlocked through: {unlocked + 1}{practice ? ' · Practice enabled' : ''}</p></div>
         <details className="settings" onToggle={settingsChanged}><summary>Settings</summary><label>Appearance<select aria-label="Appearance" disabled={loadingSolution} value={theme} onChange={event => { setTheme(event.target.value as 'classic' | 'modern'); settingsChanged() }}><option value="classic">Classic Palm</option><option value="modern">Modern</option></select></label><label>Animations<select aria-label="Animations" disabled={loadingSolution} value={motion} onChange={event => { setMotion(event.target.value as 'normal' | 'fast' | 'off'); settingsChanged() }}><option value="normal">Normal</option><option value="fast">Fast</option><option value="off">Off</option></select></label><label className="check"><input type="checkbox" disabled={loadingSolution} checked={practice} onChange={event => changePractice(event.target.checked)}/>Practice: unlock all levels</label><p>Reduced-motion preferences automatically disable movement animation. Settings and progress are saved on this device when browser storage is available.</p></details>
-        <details className="help"><summary>How to play & scoring</summary><p>Drag blocks sideways or tap a block, then an empty destination, even on a different row. Gravity pulls blocks down; matching edges disappear. Arrow buttons move selected blocks one space. Undo remembers 15 gestures.</p><p>Tab to the board. Arrows move the cursor; Enter/Space selects or commits, Escape clears, Z undoes and R restarts.</p><p>Lower pack scores are better. Best completed moves minus par are added across levels, with active excess moves and solution penalties following the audited Palm rules. Every confirmed solution viewing costs 5 points unless this level was already cleared at or below par. Replays are free.</p><p>Memorize stores one checkpoint; Recall restores its board and move count and clears undo history. Restart clears the checkpoint. Completing a puzzle unlocks the next; Practice opens all 59.</p></details>
-        <details className="help"><summary>About Vexed</summary><p>Version {import.meta.env.VEXED_VERSION} · release candidate</p><p>A source-informed port of Palm Vexed by James McCombe and the Vexed project team. The Classic pack contains 59 verified original layouts. Artwork and solution paths are newly authored.</p><p><a href={import.meta.env.BASE_URL + 'LICENSE.txt'}>GPL-2.0-or-later license</a> · <a href={import.meta.env.BASE_URL + 'NOTICE.txt'}>Credits and modifications</a> · <a href={import.meta.env.BASE_URL + 'THIRD_PARTY_NOTICES.txt'}>Dependency notices</a></p></details>
-        <div className="device-status"><p className="session-note" aria-live="polite">{saving ? 'Saving…' : saveStatus}</p>{recovery && <button className="secondary" onClick={() => { if (window.confirm('Replace the unreadable saved game with this attempt?')) setRecovery(false) }}>Start a new save</button>}{!storageOK && <button className="secondary" onClick={() => { setStorageOK(true); setSaveStatus('Retrying save…') }}>Retry saving</button>}<Offline canUpdate={!saving && saveStatus === 'Saved on this device' && !busy}/></div><p className="license">Original game: James McCombe and the Vexed project team.<br/>New CSS artwork and solution paths · GPL-2.0-or-later · <a href="https://github.com/kariato/vexed">Source & documentation</a></p>
+        <details className="help"><summary>How to play & scoring</summary><p>Drag blocks sideways or tap a block, then an empty destination, even on a different row. Gravity pulls blocks down; matching edges disappear. Arrow buttons move selected blocks one space. Undo remembers 15 gestures.</p><p>Tab to the board. Arrows move the cursor; Enter/Space selects or commits, Escape clears, Z undoes and R restarts.</p><p>Lower pack scores are better. Best completed moves minus par are added across levels, with active excess moves and solution penalties following the audited Palm rules. Every confirmed solution viewing costs 5 points unless this level was already cleared at or below par. Replays are free.</p><p>Memorize stores one checkpoint; Recall restores its board and move count and clears undo history. Restart clears the checkpoint. Completing a puzzle unlocks the next; Practice opens all levels in the selected pack.</p></details>
+        <details className="help"><summary>About Vexed</summary><p>Version {import.meta.env.VEXED_VERSION} · release candidate</p><p>A source-informed port of Palm Vexed by James McCombe and the Vexed project team. The archive contains 48 packs and 2,878 puzzle entries. Classic has newly derived solutions; other packs use converted historical paths. Artwork is newly authored.</p><p>Current pack: {pack.author}. {pack.licenseNote ?? 'Classic board layouts: GPL-2.0-or-later.'} <a href={import.meta.env.BASE_URL + 'PACK_NOTICES.txt'}>Pack attribution and terms</a></p><p><a href={import.meta.env.BASE_URL + 'LICENSE.txt'}>GPL-2.0-or-later license</a> · <a href={import.meta.env.BASE_URL + 'NOTICE.txt'}>Credits and modifications</a> · <a href={import.meta.env.BASE_URL + 'THIRD_PARTY_NOTICES.txt'}>Dependency notices</a></p></details>
+        <div className="device-status"><p className="session-note" aria-live="polite">{saving ? 'Saving…' : saveStatus}</p>{recovery && <button className="secondary" onClick={() => { if (window.confirm('Replace the unreadable saved game with this attempt?')) setRecovery(false) }}>Start a new save</button>}{!storageOK && <button className="secondary" onClick={() => { setStorageOK(true); setSaveStatus('Retrying save…') }}>Retry saving</button>}<Offline totalPuzzles={manifest.packs.reduce((sum, entry) => sum + entry.levels, 0)} canUpdate={!saving && saveStatus === 'Saved on this device' && !busy}/></div><p className="license">Original game: James McCombe and the Vexed project team.<br/>New CSS artwork and Classic paths · GPL-2.0-or-later · <a href="https://github.com/kariato/vexed">Source & documentation</a></p>
       </aside>
       {viewer && <Replay states={viewer.states} title={viewer.title} close={() => { setViewer(null); requestAnimationFrame(() => viewerOpener.current?.focus({ preventScroll: true })) }}/>}
     </>}

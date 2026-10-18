@@ -1,0 +1,266 @@
+Vexed archived level packs — attribution and content terms
+
+Application code and newly authored CSS: GPL-2.0-or-later. This application license
+is not a blanket license grant for every historical pack or solution.
+
+Classic: James A. McCombe. Board layouts traced to GPL-2.0-or-later Vexed 1.3
+source. Classic solution paths are newly derived and GPL-2.0-or-later.
+Classic II: Steve Haynal. The official project release history states his 59
+additional levels were released under the GNU GPL; the statement does not name
+a version. Separate terms for later metadata and historical paths are unresolved.
+Other packs: Vexed Development Team. Pack-specific adaptation terms unresolved.
+No explicit reproduction restriction was found in the audited archived metadata.
+Included by express project-owner direction, not by inferring a license grant
+from the absence of a restriction. NOASSERTION means no pack license asserted.
+
+Source archive: https://palmdb.net/content/files/games-puzzle/vexed/vexed22_src.zip
+Official history: https://vexed.sourceforge.net/page7/page8/releasehistory.html
+Detailed evidence: https://github.com/kariato/vexed/blob/main/docs/compatibility/PACK-LICENSE-REVIEW.md
+
+All levels use generic numbered labels; historical themed titles are not shipped.
+Outside Classic, solution paths are converted historical PDB paths. One known
+Classic II unchanged-board empty-origin step is omitted for strict playback;
+historical par is preserved. Original Palm binaries and raw research fixtures
+are not included in the application/source-download archive.
+
+Pack inventory (entry counts do not imply unique puzzles):
+
+Classic — James A. McCombe — 59 entries
+  License evidence: GPL-2.0-or-later
+  Board source: Vexed 1.3 globals.c
+  SHA-256: e2e9bf95d226ecd5944875ce3785ceef3013086f2d68c7f50b9f72379d126460
+
+Children's Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Children's Pack.pdb
+  SHA-256: 3068d96399a5c25715205080824b9d1597c432648f8b9a80081fa22519e1b3ed
+
+Classic II Levels — Steve Haynal — 59 entries
+  License evidence: LicenseRef-Upstream-GPL
+  Board source: Classic II Levels.pdb
+  SHA-256: d65438e27c39e6c1c0299a389255be933d18fbb99f79a2e9f707eba8be70d7c9
+
+Confusion Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Confusion Pack.pdb
+  SHA-256: b8e049cb0610a042c1dadd4bd060b51319708893847ff15a36998a8098d7eb01
+
+Impossible Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Impossible Pack.pdb
+  SHA-256: 8220aa8ffbf6c327252e1a3ca0e3f0934f6d07afd40759b73adc8f667538409d
+
+Panic Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Panic Pack.pdb
+  SHA-256: 47ee8ff61a3aa170528cd79550dc339d21b3df9de3955d606af028c162eb2e86
+
+Twister Levels — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Twister Levels.pdb
+  SHA-256: 58dbd9949ec56d343b7467a90bfab63f0d358482f2dc632eef2a3818c648fb5d
+
+Variety 10 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 10 Pack.pdb
+  SHA-256: d1cd4e020b48ca1dff9d2ba259af0b841bf1ec926feeb99cb19394742b661360
+
+Variety 11 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 11 Pack.pdb
+  SHA-256: 7fbaae0e4e70c3504be90172e1213789134621d2d490a7593cc533da7542a4bd
+
+Variety 12 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 12 Pack.pdb
+  SHA-256: e473180063c96ac8ab2d0f1eacb1adb88c4fe8d7c476034dd77b748e71fb3369
+
+Variety 13 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 13 Pack.pdb
+  SHA-256: 51c99603d3b7feeff8f7ac812f0207ca100c1c410e3fb94af64651c4e377b252
+
+Variety 14 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 14 Pack.pdb
+  SHA-256: 068c8d664063e0894ef33074bcd2102327c4c5746eef25ef13b995a87f092503
+
+Variety 15 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 15 Pack.pdb
+  SHA-256: 9f9152b578c4b64f78845f7f5a01b6063c62cdbcd2fc9470f5ae7e20b31f7c96
+
+Variety 16 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 16 Pack.pdb
+  SHA-256: c233edad1b019efacdb0162213a13933b74cb99debd0a2bd9625a9a693b9840d
+
+Variety 17 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 17 Pack.pdb
+  SHA-256: 2781ad9e46acfb413651aeef313f484a3f0cfe739ab66b7afc999f1ae50e7aed
+
+Variety 18 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 18 Pack.pdb
+  SHA-256: 86cd6fc384ed57adaf749bd70bedde16c3698951b6951782ffaafdd2800e69e3
+
+Variety 19 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 19 Pack.pdb
+  SHA-256: 581a3f99d4d77b5061a76f2935e59c1132c776114da7f8a1ef790f2990534458
+
+Variety 20 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 20 Pack.pdb
+  SHA-256: f27b76035843f67091c7a6ade07566606d9af95297a433ad1d85725a5dfd9022
+
+Variety 21 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 21 Pack.pdb
+  SHA-256: 3ce04e5947f3a8b5216302b9db66ba94cd9cf418c479619ee99ad2e685417d8f
+
+Variety 22 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 22 Pack.pdb
+  SHA-256: 048daae5668f5e23fc54bfe59d47716ead7143cb28ae63c1f35ece6a12c9ef82
+
+Variety 23 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 23 Pack.pdb
+  SHA-256: 38f4d69661f4523de95cdef3014c939ad78d8c46b4bd9289dbd4310997039858
+
+Variety 24 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 24 Pack.pdb
+  SHA-256: d91bf6fa9a4e53eb16bb78054e76e00b54f1c6f55c9a1a59a8500f14ddbf0689
+
+Variety 25 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 25 Pack.pdb
+  SHA-256: 0e46a7a5a2e4d3c413159d031f190458f7852af32c588b2e45a801b06df15cea
+
+Variety 26 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 26 Pack.pdb
+  SHA-256: 056e88f99201d71a1c596d7a57d3f05b16e3b2ca63ca1bd131c37ba5ee3df474
+
+Variety 27 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 27 Pack.pdb
+  SHA-256: c62e0c9f6547741e8b030da632c329da3d416e8f8fdaec11f04b0f015fd82c0d
+
+Variety 28 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 28 Pack.pdb
+  SHA-256: c92125f12cce04020536ec30d45eddea353e9c2bf73275455d5e748fc2f14ebc
+
+Variety 29 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 29 Pack.pdb
+  SHA-256: 138181f79dbb5186d646c276e036d1fc4845a69d64260814ad7e5fb7ab985335
+
+Variety 3 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 3 Pack.pdb
+  SHA-256: 87bee7cd7eb25ecce25f76091f3085333316462fa81b0623425c43d24ddb3edc
+
+Variety 30 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 30 Pack.pdb
+  SHA-256: b63448af34371b753777f17e387df92b1ca4108e58ce0df857ae86c5fc33bac6
+
+Variety 31 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 31 Pack.pdb
+  SHA-256: 6216cdd65c4a1f557c65819f5fdf377c9b6edf1594a2d415c5adcacd61b1c8ed
+
+Variety 32 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 32 Pack.pdb
+  SHA-256: 22d15182ca7bb766e3badca9f3cc420839df10c05896a5e02a1c983ddf0cf268
+
+Variety 33 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 33 Pack.pdb
+  SHA-256: 4365332f98f2dd84fd0e4440a19a7f9902f04285179844e8b4e44d3afd27c9f5
+
+Variety 34 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 34 Pack.pdb
+  SHA-256: 776779ec95f291f59cc0b055abd377d49b791a8a585933a35b91b090bd3c6ac9
+
+Variety 35 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 35 Pack.pdb
+  SHA-256: 1630e9f44d10e676b95e085b4894345a1e4ff950671e1906f7427018715d3500
+
+Variety 36 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 36 Pack.pdb
+  SHA-256: 12fe1bb160829f7822e47ee0d5c5548f81b0b1791151ccd8dc32470771591fc4
+
+Variety 37 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 37 Pack.pdb
+  SHA-256: 2a1cc9a08454f87888e7acf28327993d6bbdca4d3373367841125ef42f830a44
+
+Variety 38 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 38 Pack.pdb
+  SHA-256: 9457fa824fb74a834f62a926eb01e3a76b7786fc72e0b18634db6f268e10e748
+
+Variety 39 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 39 Pack.pdb
+  SHA-256: 800e8d6ea8f27dfd10acf86f2aa075e91a235cd66a4445536ea7720b7ed7261a
+
+Variety 4 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 4 Pack.pdb
+  SHA-256: 4d056f8660e44328a3e36f4a2504bf2359f76a7920700a2364e1455f86ec677e
+
+Variety 40 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 40 Pack.pdb
+  SHA-256: c1b22d86a90cb16e1cef11d2ccdb1f2995d20c9b112149c2fed43d35f889f050
+
+Variety 41 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 41 Pack.pdb
+  SHA-256: 5d656670ebb937e04609055fc3302a74572e0ac00b32e9adf010103dce2bbe80
+
+Variety 5 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 5 Pack.pdb
+  SHA-256: d21893831f2ec6adc51c8cd40a5a9b84cc477db4c3a8114e6465d5f786069e6c
+
+Variety 6 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 6 Pack.pdb
+  SHA-256: a397327afb988cba7ff82f9592bcbd17eb1f0cc4c206f89b55eae2f93b951a9b
+
+Variety 7 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 7 Pack.pdb
+  SHA-256: d43bb4aec30753a79ae3b926d0af2c2f462eb0b79b62e790ac94e4d394dc578f
+
+Variety 8 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 8 Pack.pdb
+  SHA-256: bd39141632f49f30a4d682a4014c6475fcd3153edbf1042725a47c75a5923358
+
+Variety 9 Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety 9 Pack.pdb
+  SHA-256: 4f48b98214007245623a2bc64d215521cc0c501489876997e42794d2d5085c18
+
+Variety II Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety II Pack.pdb
+  SHA-256: 096a9dad438552c6f9369c3668b791dac4bec7f7f9cfaacf6a1492886f02d421
+
+Variety Pack — Vexed Development Team — 60 entries
+  License evidence: NOASSERTION
+  Board source: Variety Pack.pdb
+  SHA-256: bf05d6db02a62d2c1e059a226e6285cff8456914f2e353f420873793c51de671

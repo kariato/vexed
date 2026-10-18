@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 interface InstallEvent extends Event { prompt(): Promise<void>; userChoice: Promise<{ outcome: string }> }
-export function Offline({ canUpdate }: { canUpdate: boolean }) {
+export function Offline({ canUpdate, totalPuzzles }: { canUpdate: boolean; totalPuzzles: number }) {
   const [offline, setOffline] = useState(!navigator.onLine)
   const [ready, setReady] = useState(false)
   const [failed, setFailed] = useState(false)
@@ -43,7 +43,7 @@ export function Offline({ canUpdate }: { canUpdate: boolean }) {
     navigator.serviceWorker.addEventListener('controllerchange', () => location.reload(), { once: true })
     waiting.postMessage({ type: 'ACTIVATE_UPDATE' })
   }
-  return <div className="offline-status"><p>{offline ? 'Offline' : 'Online'} · {ready ? 'All 59 puzzles and solutions ready offline' : failed ? 'Offline download unavailable; online play still works' : import.meta.env.PROD ? 'Preparing offline play…' : 'Offline caching is enabled in the production build'}</p>
+  return <div className="offline-status"><p>{offline ? 'Offline' : 'Online'} · {ready ? 'All ' + totalPuzzles.toLocaleString('en-US') + ' puzzles and solutions ready offline' : failed ? 'Offline download unavailable; online play still works' : import.meta.env.PROD ? 'Preparing offline play…' : 'Offline caching is enabled in the production build'}</p>
     {waiting && <button className="secondary" disabled={!canUpdate} onClick={update}>Update available · Reload saved game</button>}
     {install ? <button className="secondary" onClick={async () => { await install.prompt(); await install.userChoice; setInstall(null) }}>Install Vexed</button> : <details><summary>Install on your tablet</summary><p>On iPad or iPhone, use Safari’s Share menu → Add to Home Screen. On Android, use your browser’s Install app or Add to Home screen menu. You can also play here without installing.</p></details>}
     {failed && <button className="secondary" onClick={() => location.reload()}>Retry offline download</button>}

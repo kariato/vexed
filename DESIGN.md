@@ -241,3 +241,7 @@ Versioned IndexedDB saves now preserve the current attempt, exact undo boundary,
 ## Phase 6 release candidate — October 2026
 
 The automated hardening pass adds Chromium/WebKit/Firefox gameplay and production offline coverage, accessibility scans/focus and enlarged-text checks, production CSP, save-bound enforcement and cache-eviction recovery. The repository is now public at the user's request; deployment artifacts retain the cleared Classic-only content boundary. Candidate 1.0.0-rc.1 and its unresolved physical-device/manual accessibility gates are recorded in [Phase 6](docs/development/PHASE-6.md). This is not a final release certification.
+
+## Archived pack expansion (release candidate 2)
+
+The owner directed inclusion of packs without an explicit reproduction denial. The app now exposes all 48 canonical PDB packs / 2,878 puzzle entries through a touch-friendly selector. Each pack has independent saves, scores, progression and preferences, with ?pack=<id> links and offline availability for the entire collection. Classic retains its previously shipped data and save key. Historical paths for other packs are converted and strict-engine verified, preserving par while omitting the single documented empty-origin no-op. Generic labels replace historical titles. Attribution and unresolved data terms are retained in PACK_NOTICES.txt; see docs/development/ARCHIVED-PACKS.md for the current content decision and compatibility details.

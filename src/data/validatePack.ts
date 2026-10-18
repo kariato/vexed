@@ -11,7 +11,8 @@ const hash = (value: unknown): boolean => typeof value === 'string' && /^[a-f0-9
 export function validatePack(input: unknown): RuntimePack {
   const pack = record(input)
   if (pack.schemaVersion !== 1) throw new Error('Unsupported pack schemaVersion')
-  if (!validPackId(pack.id) || !nonempty(pack.name) || !nonempty(pack.author) || pack.license !== 'GPL-2.0-or-later') throw new Error('Invalid pack metadata')
+  if (!validPackId(pack.id) || !nonempty(pack.name) || !nonempty(pack.author) || !['GPL-2.0-or-later', 'LicenseRef-Upstream-GPL', 'NOASSERTION'].includes(pack.license as string)) throw new Error('Invalid pack metadata')
+  if (pack.license !== 'GPL-2.0-or-later' && !nonempty(pack.licenseNote)) throw new Error('Missing pack license context')
   const source = record(pack.boardSource)
   if (!nonempty(source.file) || !hash(source.sha256)) throw new Error('Invalid board provenance')
   if (!Array.isArray(pack.levels) || !pack.levels.length || pack.levels.length > 10000) throw new Error('Invalid pack levels')

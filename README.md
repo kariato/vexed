@@ -1,6 +1,6 @@
 # Vexed Web
 
-An installable, offline-capable TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 4 adds Classic Palm/Modern themes, event animations, original pack scoring, progression, checkpoints, player replays and full solution playback to the 59 touch-playable Classic puzzles. The pure engine is checked against the original Palm implementation and solutions.
+An installable, offline-capable TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 4 adds Classic Palm/Modern themes, event animations, original pack scoring, progression, checkpoints, player replays and full solution playback to 48 touch-playable archived packs containing 2,878 puzzle entries. The pure engine is checked against the original Palm implementation and solutions.
 
 - [Design](DESIGN.md)
 - [Implementation plan](Vexed_Web_TypeScript_Vite_Implementation_Plan.md)
@@ -19,7 +19,7 @@ npm run check
 npm run dev
 ```
 
-The preview plays the Classic pack. Solve to unlock the next level, or enable Practice for all 59. Undo the last 15 gestures, memorize/recall a position, replay an attempt, or view a full solution with the original scoring penalty. Progress, settings, undo and checkpoints are saved on this device when browser storage is available.
+The preview starts with Classic. Use Puzzle pack to choose among 48 packs / 2,878 puzzle entries. Solve to unlock the next level, or enable Practice for every level in that pack. Each pack retains its own attempt, scores, settings, checkpoint and undo history. Pack links use ?pack=<id> and reopen the same pack on reload. Undo the last 15 gestures, memorize/recall a position, replay an attempt, or view a full solution with the original scoring penalty. Progress, settings, undo and checkpoints are saved on this device when browser storage is available.
 `npm run check` runs lint, strict app/domain/test typechecks, unit/reference tests and a production build.
 
 ```sh
@@ -46,7 +46,7 @@ Classic board provenance can be reproduced after extracting the pinned 1.3 sourc
 python3 scripts/audit_classic_provenance.py .reference/vexed13 .reference/source/vexed --check
 ```
 
-All 59 Classic layouts exactly match arrays with an explicit GPL notice. Later titles, encoded solutions and contributor packs remain separate content decisions.
+All 59 Classic layouts exactly match arrays with an explicit GPL notice. Later titles, encoded solutions and contributor packs have separate evidence and terms; see the current [content decision](docs/development/ARCHIVED-PACKS.md).
 
 ## Browser interaction tests
 
@@ -57,7 +57,7 @@ npm run test:e2e
 
 Browser checks use Chromium desktop/tablet/360px phone, WebKit tablet and Firefox configurations, with the `/vexed/` GitHub Pages base path. CI installs Chromium, WebKit and Firefox and runs these alongside the Node checks. See [Phase 3 notes](docs/development/PHASE-3.md) for controls, input cancellation and remaining device validation.
 
-See [Phase 4 notes](docs/development/PHASE-4.md) for animation boundaries, scoring, progression and solution provenance. All 59 shipped solution paths are newly derived from cleared boards and replay-verified; historical reference strings remain development-only.
+See [Phase 4 notes](docs/development/PHASE-4.md) for animation boundaries, scoring, progression and solution provenance. Classic’s 59 paths are newly derived and replay-verified; the other packs use strict-engine-verified converted historical paths. See [pack notices](public/PACK_NOTICES.txt) for attribution and unresolved data terms.
 
 To regenerate solution content locally (requires a C++17 compiler named `c++`):
 
@@ -69,7 +69,7 @@ This offline authoring tool reads only the cleared runtime boards, performs boun
 
 ## Play and install
 
-Open https://kariato.github.io/vexed/ on a tablet or desktop browser. After Ready offline appears, all 59 puzzles and solutions work without a network connection. Installation is optional; use Install Vexed when offered, Safari Share → Add to Home Screen, or the Android browser menu.
+Open https://kariato.github.io/vexed/ on a tablet or desktop browser. After Ready offline appears, all 2,878 puzzles and solutions work without a network connection. Installation is optional; use Install Vexed when offered, Safari Share → Add to Home Screen, or the Android browser menu.
 
 The Saved on this device indicator confirms the latest transaction. Unknown/corrupt saves are kept for recovery and pause autosave. Updates wait for a saved, idle game and require your reload action. See [Phase 5 notes](docs/development/PHASE-5.md).
 
@@ -94,6 +94,6 @@ npm run packs:audit
 npm run packs:check
 ```
 
-Phase 2 validates 67 original INI/PDB inputs and replays all 4,016 solution sequences (overlapping formats). The canonical research catalogue contains 48 packs / 2,878 level entries. The runtime bundle contains 59 GPL-traced Classic layouts with generic labels and par counts; original titles/solution strings remain research fixtures.
+Phase 2 validates 67 original INI/PDB inputs and replays all 4,016 solution sequences (overlapping formats). The canonical research catalogue contains 48 packs / 2,878 level entries. The runtime bundle now includes all 48 packs / 2,878 entries, generic labels, historical par and verified solutions. The project owner explicitly requested inclusion of packs without an explicit reproduction restriction; absence of restrictions is not an affirmative license grant. [The license review](docs/compatibility/PACK-LICENSE-REVIEW.md) retains the unresolved terms.
 
 See [Phase 2 notes](docs/development/PHASE-2.md) for reproducibility, reports, the Classic II par variant and its original-C-verified empty move.

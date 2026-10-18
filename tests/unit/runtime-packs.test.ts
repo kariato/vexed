@@ -10,9 +10,9 @@ const text = readFileSync(resolve(root, 'public/packs/classic.json'), 'utf8')
 const pack = validatePack(JSON.parse(text))
 const manifest = validateManifest(JSON.parse(readFileSync(resolve(root, 'public/packs/manifest.json'), 'utf8')))
 describe('runtime schema and release boundary', () => {
-  it('contains only the 59 provenance-covered Classic layouts, generic labels and numeric par', () => {
+  it('preserves the 59 provenance-covered Classic layouts, generic labels and numeric par', () => {
     expect(pack.levels).toHaveLength(59)
-    expect(manifest.packs).toHaveLength(1)
+    expect(manifest.packs).toHaveLength(48)
     expect(manifest.packs[0]?.sha256).toBe(sha256(text))
     expect(pack.boardSource.sha256).toBe('e2e9bf95d226ecd5944875ce3785ceef3013086f2d68c7f50b9f72379d126460')
     for (const [i, level] of pack.levels.entries()) {

@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 1,
+  "id": "impossible-pack",
+  "name": "Impossible Pack",
+  "author": "Vexed Development Team",
+  "license": "NOASSERTION",
+  "licenseNote": "Upstream pack-specific adaptation terms are unresolved. Included at the project owner’s direction because no explicit reproduction restriction was found; this is not an affirmative license grant.",
+  "boardSource": {
+    "file": "Impossible Pack.pdb",
+    "sha256": "8220aa8ffbf6c327252e1a3ca0e3f0934f6d07afd40759b73adc8f667538409d"
+  },
+  "levels": [
+    {
+      "id": "impossible-pack:0",
+      "index": 0,
+      "title": "Level 1",
+      "rows": [
+        "##########",
+        "#.g#c.g###",
+        "#.##d.d###",
+        "#h#hg.####",
+        "#deah.c###",
+        "#gh#fd#ca#",
+        "#bebdhcfd#",
+        "##########"
+      ],
+      "par": 42
+    },
+    {
+      "id": "impossible-pack:1",
+      "index": 1,
+      "title": "Level 2",
+      "rows": [
+        "##########",
+        "####a#####",
+        "##..e#####",
+        "#a.db.fh##",
+        "#d.a#cea##",
+        "##.gh#cd.#",
+        "#cfcbgdac#",
+        "##########"
+      ],
+      "par": 42
+    },
+    {
+      "id": "impossible-pack:2",
+      "index": 2,
+      "title": "Level 3",
+      "rows": [
+        "##########",
+        "#hg..ecge#",
+        "#eh..fbdg#",
+        "##a..b#bd#",
+        "#hf.e#ah##",
+        "##d.b.hgc#",
+        "#ceg#ec#d#",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:3",
+      "index": 3,
+      "title": "Level 4",
+      "rows": [
+        "##########",
+        "###e##.hf#",
+        "#g.b#.a###",
+        "#dhe#ghc##",
+        "#edbcag###",
+        "#a#agc#h.#",
+        "#ehdbhefe#",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:4",
+      "index": 4,
+      "title": "Level 5",
+      "rows": [
+        "##########",
+        "###c###.a#",
+        "###d.g#.##",
+        "#e.eca..##",
+        "#gfbgf..h#",
+        "#heahbad##",
+        "##gh#cfac#",
+        "##########"
+      ],
+      "par": 39
+    },
+    {
+      "id": "impossible-pack:5",
+      "index": 5,
+      "title": "Level 6",
+      "rows": [
+        "##########",
+        "#gc#g#####",
+        "##g#e#####",
+        "##fhf.#.c#",
+        "#h#agfhed#",
+        "#d.#begdh#",
+        "#bdfefda##",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:6",
+      "index": 6,
+      "title": "Level 7",
+      "rows": [
+        "##########",
+        "###c##h.##",
+        "###ea##.##",
+        "#.fdh.#h.#",
+        "#.d##cea.#",
+        "#gc#ad#dh#",
+        "#dh.dgahf#",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:7",
+      "index": 7,
+      "title": "Level 8",
+      "rows": [
+        "##########",
+        "######f###",
+        "####h.bc.#",
+        "#e.ef.gfh#",
+        "#afdbhcgc#",
+        "#fgbhd#ag#",
+        "#hdcbad#a#",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:8",
+      "index": 8,
+      "title": "Level 9",
+      "rows": [
+        "##########",
+        "#dba.##b##",
+        "#he#.a#h##",
+        "#agc.c.f.#",
+        "#c#afg.#.#",
+        "#ha#bfef.#",
+        "#dcbdghad#",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:9",
+      "index": 9,
+      "title": "Level 10",
+      "rows": [
+        "##########",
+        "##b..gb###",
+        "#f#..ch###",
+        "#eca.ef.##",
+        "#hd#.##.##",
+        "#bagfca.c#",
+        "#fhf#hfhd#",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:10",
+      "index": 10,
+      "title": "Level 11",
+      "rows": [
+        "##########",
+        "#ad.###fe#",
+        "##e.###eh#",
+        "##hc#b.gb#",
+        "###ged.eh#",
+        "#fgegahfc#",
+        "#cbdfceh##",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:11",
+      "index": 11,
+      "title": "Level 12",
+      "rows": [
+        "##########",
+        "##d#d#a.##",
+        "#.edh.#b##",
+        "#h#af.fd.#",
+        "#c###.ga.#",
+        "#fagfe#gd#",
+        "##ebgcda##",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:12",
+      "index": 12,
+      "title": "Level 13",
+      "rows": [
+        "##########",
+        "#d.d####a#",
+        "#g.#.bheb#",
+        "#ch..dfdc#",
+        "##bg.aeaf#",
+        "#egcecd#c#",
+        "###agac###",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:13",
+      "index": 13,
+      "title": "Level 14",
+      "rows": [
+        "##########",
+        "####g.####",
+        "###eh.#a##",
+        "#.efb..hg#",
+        "#daed.ech#",
+        "#e###.be##",
+        "#fdbfcfhd#",
+        "##########"
+      ],
+      "par": 43
+    },
+    {
+      "id": "impossible-pack:14",
+      "index": 14,
+      "title": "Level 15",
+      "rows": [
+        "##########",
+        "#a.g.###f#",
+        "#b.d.d..c#",
+        "#dcf.h.eb#",
+        "#cgc.#.ha#",
+        "##adb.dge#",
+        "#afgfhgfh#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:15",
+      "index": 15,
+      "title": "Level 16",
+      "rows": [
+        "##########",
+        "#ha####d##",
+        "#dh.#.dch#",
+        "###h.hefb#",
+        "###acgba##",
+        "#e.hgd##g#",
+        "##bg#efba#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:16",
+      "index": 16,
+      "title": "Level 17",
+      "rows": [
+        "##########",
+        "#d########",
+        "#ec.##g.h#",
+        "#dg..edga#",
+        "##ef.agcb#",
+        "#b#abfa#f#",
+        "#hfghgdeg#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:17",
+      "index": 17,
+      "title": "Level 18",
+      "rows": [
+        "##########",
+        "#.ed.hg#c#",
+        "#.gh.#e.b#",
+        "#.#c.#d.##",
+        "#aehf#f.b#",
+        "#eagdhehd#",
+        "#be#efhbg#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:18",
+      "index": 18,
+      "title": "Level 19",
+      "rows": [
+        "##########",
+        "#a.####h##",
+        "#ca..b.ad#",
+        "###..fa#a#",
+        "##hbf#eae#",
+        "#cfdchb#c#",
+        "##eagfhag#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:19",
+      "index": 19,
+      "title": "Level 20",
+      "rows": [
+        "##########",
+        "#####.ea##",
+        "###..ea###",
+        "###.fgb#g#",
+        "###.e###b#",
+        "#ha.dbhfd#",
+        "#bg.bhdha#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:20",
+      "index": 20,
+      "title": "Level 21",
+      "rows": [
+        "##########",
+        "####b.#.a#",
+        "#####d#he#",
+        "#df..b.ac#",
+        "###e.chfb#",
+        "#gab.dce##",
+        "#ebh.gfac#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:21",
+      "index": 21,
+      "title": "Level 22",
+      "rows": [
+        "##########",
+        "##b##a.a##",
+        "#.gb#c.e.#",
+        "#g#h.g.cg#",
+        "#fc#he.fe#",
+        "#da.fb.db#",
+        "#ghbgadbc#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:22",
+      "index": 22,
+      "title": "Level 23",
+      "rows": [
+        "##########",
+        "######egf#",
+        "#a#h.fh###",
+        "#d.f.c####",
+        "#cdb.e#ab#",
+        "#fce.hdhg#",
+        "###fg#hfd#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:23",
+      "index": 23,
+      "title": "Level 24",
+      "rows": [
+        "##########",
+        "#a.####.e#",
+        "##.####e##",
+        "#gbfae.g##",
+        "#chchd.e##",
+        "#fcdaheag#",
+        "#h#cbedce#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:24",
+      "index": 24,
+      "title": "Level 25",
+      "rows": [
+        "##########",
+        "##a##.g###",
+        "#.ha#.####",
+        "#cah.edb##",
+        "#aegfc#ge#",
+        "#fdhahbhd#",
+        "###afdgea#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:25",
+      "index": 25,
+      "title": "Level 26",
+      "rows": [
+        "##########",
+        "#c#gcfh.##",
+        "#h.bfe#ga#",
+        "#ea###.d##",
+        "#b#g##.hb#",
+        "#f.hca.bh#",
+        "#hdcdfdga#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:26",
+      "index": 26,
+      "title": "Level 27",
+      "rows": [
+        "##########",
+        "##########",
+        "####a##.h#",
+        "####gd..##",
+        "#..geb..##",
+        "#a.bh#hdc#",
+        "##chafgef#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:27",
+      "index": 27,
+      "title": "Level 28",
+      "rows": [
+        "##########",
+        "#dfagd####",
+        "###gcfb.b#",
+        "###ce#d.##",
+        "#.ha#eh.e#",
+        "#fdchg#.g#",
+        "#ehfdfghf#",
+        "##########"
+      ],
+      "par": 44
+    },
+    {
+      "id": "impossible-pack:28",
+      "index": 28,
+      "title": "Level 29",
+      "rows": [
+        "##########",
+        "#ha##.b#f#",
+        "##g.bge.a#",
+        "#gd.fhb.##",
+        "#dfbed#.##",
+        "#acf#b..##",
+        "#efcghefa#",
+        "##########"
+      ],
+      "par": 45
+    },
+    {
+      "id": "impossible-pack:29",
+      "index": 29,
+      "title": "Level 30",
+      "rows": [
+        "##########",
+        "##e.e.#.c#",
+        "#a#.c.#.##",
+        "#c.h#..c##",
+        "##bdhe.g##",
+        "#gcfcdcec#",
+        "#cahbeafa#",
+        "##########"
+      ],
+      "par": 45
+    },
+    {
+      "id": "impossible-pack:30",
+      "index": 30,
+      "title": "Level 31",
+      "rows": [
+        "##########",
+        "#g.h.#bch#",
+        "#e.#..hgf#",
+        "##.#dhc###",
+        "#cbgha#a##",
+        "#dgc#gfgb#",
+        "#hchebaf##",
+        "##########"
+      ],
+      "par": 45
+    },
+    {
+      "id": "impossible-pack:31",
+      "index": 31,
+      "title": "Level 32",
+      "rows": [
+        "##########",
+        "#a.#dg.gh#",
+        "#gf.#f.###",
+        "##befe..a#",
+        "#beac#a.##",
+        "#hgbgfdec#",
+        "#g#afcef##",
+        "##########"
+      ],
+      "par": 45
+    },
+    {
+      "id": "impossible-pack:32",
+      "index": 32,
+      "title": "Level 33",
+      "rows": [
+        "##########",
+        "#a.h.f#c.#",
+        "#gcd.#ehc#",
+        "#hef..fbh#",
+        "##d#a.hdb#",
+        "##hbf.ghc#",
+        "#.ecgac###",
+        "##########"
+      ],
+      "par": 45
+    },
+    {
+      "id": "impossible-pack:33",
+      "index": 33,
+      "title": "Level 34",
+      "rows": [
+        "##########",
+        "#####.c#d#",
+        "####..bce#",
+        "#chd.g#e##",
+        "#adfhedcf#",
+        "#bcbebcba#",
+        "#d#gbef#d#",
+        "##########"
+      ],
+      "par": 45
+    },
+    {
+      "id": "impossible-pack:34",
+      "index": 34,
+      "title": "Level 35",
+      "rows": [
+        "##########",
+        "###a.e#h.#",
+        "####.###.#",
+        "#c.f...#h#",
+        "#ghgab.be#",
+        "#bd#bc.cf#",
+        "#efefad###",
+        "##########"
+      ],
+      "par": 45
+    },
+    {
+      "id": "impossible-pack:35",
+      "index": 35,
+      "title": "Level 36",
+      "rows": [
+        "##########",
+        "##h#######",
+        "#df.g###b#",
+        "##h.hagfd#",
+        "#fg.##eac#",
+        "##d.edhgf#",
+        "#bfh#efca#",
+        "##########"
+      ],
+      "par": 45
+    },
+    {
+      "id": "impossible-pack:36",
+      "index": 36,
+      "title": "Level 37",
+      "rows": [
+        "##########",
+        "#b##.hf.d#",
+        "#gh..#c.e#",
+        "###...g.b#",
+        "#g#e.e#.h#",
+        "#bhghbdcg#",
+        "##faehgac#",
+        "##########"
+      ],
+      "par": 45
+    },
+    {
+      "id": "impossible-pack:37",
+      "index": 37,
+      "title": "Level 38",
+      "rows": [
+        "##########",
+        "##g.fh.gc#",
+        "###.ce.###",
+        "##c.#b.###",
+        "#hg.a#.#g#",
+        "##dcehagd#",
+        "#ecbgfhe##",
+        "##########"
+      ],
+      "par": 46
+    },
+    {
+      "id": "impossible-pack:38",
+      "index": 38,
+      "title": "Level 39",
+      "rows": [
+        "##########",
+        "##########",
+        "####ac####",
+        "#.h.bfe.c#",
+        "#hgea#gae#",
+        "#cd#febfc#",
+        "#eaeadfag#",
+        "##########"
+      ],
+      "par": 46
+    },
+    {
+      "id": "impossible-pack:39",
+      "index": 39,
+      "title": "Level 40",
+      "rows": [
+        "##########",
+        "#.da###a##",
+        "#.aehc.ch#",
+        "#.#bde.#a#",
+        "#gdc##.he#",
+        "#ahaebhd##",
+        "#cecdcg###",
+        "##########"
+      ],
+      "par": 46
+    },
+    {
+      "id": "impossible-pack:40",
+      "index": 40,
+      "title": "Level 41",
+      "rows": [
+        "##########",
+        "#f##hb.dh#",
+        "#b.cgh.###",
+        "#g.bec.fa#",
+        "##.gb#.be#",
+        "#dedhga#c#",
+        "##cbfbede#",
+        "##########"
+      ],
+      "par": 46
+    },
+    {
+      "id": "impossible-pack:41",
+      "index": 41,
+      "title": "Level 42",
+      "rows": [
+        "##########",
+        "#gde###a##",
+        "#be#d.#c##",
+        "##fbc..e##",
+        "###hfadad#",
+        "#cbc#dedh#",
+        "#adegfbfe#",
+        "##########"
+      ],
+      "par": 46
+    },
+    {
+      "id": "impossible-pack:42",
+      "index": 42,
+      "title": "Level 43",
+      "rows": [
+        "##########",
+        "#fa.#d.###",
+        "###..h..a#",
+        "#c..g#h.e#",
+        "#ebabcdgc#",
+        "#fdcf#ecd#",
+        "#ecbahcf##",
+        "##########"
+      ],
+      "par": 46
+    },
+    {
+      "id": "impossible-pack:43",
+      "index": 43,
+      "title": "Level 44",
+      "rows": [
+        "##########",
+        "#cfb#c.a.#",
+        "#e##gf.g.#",
+        "#d##ab.#.#",
+        "#e.hb##f.#",
+        "#dgehg.hd#",
+        "#hcgafbda#",
+        "##########"
+      ],
+      "par": 47
+    },
+    {
+      "id": "impossible-pack:44",
+      "index": 44,
+      "title": "Level 45",
+      "rows": [
+        "##########",
+        "##d##.b###",
+        "#ba.e.#.f#",
+        "#a#ca..hd#",
+        "#g.b#.cae#",
+        "#defeb#ba#",
+        "#hgbdgagd#",
+        "##########"
+      ],
+      "par": 47
+    },
+    {
+      "id": "impossible-pack:45",
+      "index": 45,
+      "title": "Level 46",
+      "rows": [
+        "##########",
+        "##########",
+        "#gb.######",
+        "##c.######",
+        "###.h.##h#",
+        "#.fcb.a.e#",
+        "#adegfgdc#",
+        "##########"
+      ],
+      "par": 47
+    },
+    {
+      "id": "impossible-pack:46",
+      "index": 46,
+      "title": "Level 47",
+      "rows": [
+        "##########",
+        "##af.a####",
+        "##dg.#####",
+        "#.hce#e.c#",
+        "#c#dca#.g#",
+        "#gbegbada#",
+        "#hgfedhch#",
+        "##########"
+      ],
+      "par": 47
+    },
+    {
+      "id": "impossible-pack:47",
+      "index": 47,
+      "title": "Level 48",
+      "rows": [
+        "##########",
+        "#bfc##.bd#",
+        "#eah.f.f##",
+        "####.dhea#",
+        "#fd#.abcd#",
+        "#hef.cgeh#",
+        "##dbgbed##",
+        "##########"
+      ],
+      "par": 48
+    },
+    {
+      "id": "impossible-pack:48",
+      "index": 48,
+      "title": "Level 49",
+      "rows": [
+        "##########",
+        "##########",
+        "##########",
+        "#h.#######",
+        "#db.....##",
+        "#ae..b.fa#",
+        "#e#f#d.h##",
+        "##########"
+      ],
+      "par": 48
+    },
+    {
+      "id": "impossible-pack:49",
+      "index": 49,
+      "title": "Level 50",
+      "rows": [
+        "##########",
+        "#####.ecg#",
+        "#####.g###",
+        "#####.e###",
+        "#ce.h.hdf#",
+        "#bcgbcfcb#",
+        "##faedhaf#",
+        "##########"
+      ],
+      "par": 49
+    },
+    {
+      "id": "impossible-pack:50",
+      "index": 50,
+      "title": "Level 51",
+      "rows": [
+        "##########",
+        "######.hb#",
+        "####g..c##",
+        "#d#ca..bg#",
+        "#edh#g.#h#",
+        "#fedgefdg#",
+        "#dbhd#dba#",
+        "##########"
+      ],
+      "par": 49
+    },
+    {
+      "id": "impossible-pack:51",
+      "index": 51,
+      "title": "Level 52",
+      "rows": [
+        "##########",
+        "#h.#.a####",
+        "#eh.he####",
+        "#a#da##g.#",
+        "#h#ghecab#",
+        "#bab#hbhc#",
+        "#hgedceca#",
+        "##########"
+      ],
+      "par": 50
+    },
+    {
+      "id": "impossible-pack:52",
+      "index": 52,
+      "title": "Level 53",
+      "rows": [
+        "##########",
+        "##b.#f.###",
+        "#.dh##.a##",
+        "#dfgcg.###",
+        "##gcedbh.#",
+        "#f#gfah#b#",
+        "#aghcegda#",
+        "##########"
+      ],
+      "par": 50
+    },
+    {
+      "id": "impossible-pack:53",
+      "index": 53,
+      "title": "Level 54",
+      "rows": [
+        "##########",
+        "#.e#e.hdg#",
+        "#.a#f.####",
+        "#.b#c.fb##",
+        "#.ahge#ga#",
+        "#abghfgc##",
+        "#cgf#dcad#",
+        "##########"
+      ],
+      "par": 52
+    },
+    {
+      "id": "impossible-pack:54",
+      "index": 54,
+      "title": "Level 55",
+      "rows": [
+        "##########",
+        "##dfd.ed##",
+        "#.cba.g#e#",
+        "#age#.c.h#",
+        "#gfhc.#gf#",
+        "#####.fba#",
+        "##gahbged#",
+        "##########"
+      ],
+      "par": 52
+    },
+    {
+      "id": "impossible-pack:55",
+      "index": 55,
+      "title": "Level 56",
+      "rows": [
+        "##########",
+        "##.gc.h###",
+        "##.becb.##",
+        "#.hdhb#h.#",
+        "#.feah#gh#",
+        "#dagbcaea#",
+        "#abf##gbe#",
+        "##########"
+      ],
+      "par": 52
+    },
+    {
+      "id": "impossible-pack:56",
+      "index": 56,
+      "title": "Level 57",
+      "rows": [
+        "##########",
+        "#.f###cd.#",
+        "#dg#.d##.#",
+        "#bh.de#db#",
+        "#dcehcagd#",
+        "#c#db#gag#",
+        "#bdahfad##",
+        "##########"
+      ],
+      "par": 53
+    },
+    {
+      "id": "impossible-pack:57",
+      "index": 57,
+      "title": "Level 58",
+      "rows": [
+        "##########",
+        "###.ae#ef#",
+        "#.e.dbc#c#",
+        "#.ahg##cf#",
+        "#gcb#cda##",
+        "#a#defefa#",
+        "#fcafdhe##",
+        "##########"
+      ],
+      "par": 56
+    },
+    {
+      "id": "impossible-pack:58",
+      "index": 58,
+      "title": "Level 59",
+      "rows": [
+        "##########",
+        "####bg.f##",
+        "#.dgc#ae.#",
+        "#dec#bfb.#",
+        "#ebfaed#f#",
+        "#dca###he#",
+        "#fefehda##",
+        "##########"
+      ],
+      "par": 58
+    },
+    {
+      "id": "impossible-pack:59",
+      "index": 59,
+      "title": "Level 60",
+      "rows": [
+        "##########",
+        "#h##g##d##",
+        "#g.ca.ce##",
+        "#h.##dagc#",
+        "#ebgdfh###",
+        "#achece#b#",
+        "#e#dfeacg#",
+        "##########"
+      ],
+      "par": 84
+    }
+  ]
+}

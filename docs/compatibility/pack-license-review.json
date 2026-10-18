@@ -1,0 +1,768 @@
+{
+  "reviewDate": "2026-10-17",
+  "scope": "48 PDB packs and all 67 pinned INI/PDB variants; findings about evidence, not a blanket legal clearance",
+  "sources": {
+    "releaseHistory": "https://vexed.sourceforge.net/page7/page8/releasehistory.html",
+    "projectHistory": "https://vexed.sourceforge.net/page7/vexedproject.html",
+    "faq": "https://vexed.sourceforge.net/page3/page5/faq.html",
+    "levelPackPage": "https://vexed.sourceforge.net/page3/page6/levelpacks.html",
+    "archive": "https://palmdb.net/content/files/games-puzzle/vexed/vexed22_src.zip"
+  },
+  "classicIIComparison": {
+    "file": "vexgen/14a.txt",
+    "sha256": "25ea85c598574a0a78dad714617e8753429d27e1c5e5b0d46c6ffc04804c9964",
+    "iniSha256": "fca763f3bd315fcfe13d8bf8ccf8e498044743e8624ccf449b36b7fd791b5fac",
+    "matchedBoards": 59,
+    "scope": "Exact ordered encoded boards, not titles or solutions"
+  },
+  "packs": [
+    {
+      "file": "Children's Pack.pdb",
+      "sha256": "3068d96399a5c25715205080824b9d1597c432648f8b9a80081fa22519e1b3ed",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Children's Pack.ini",
+          "sha256": "22cc312c2cedc471bd73b693ccd0d2e57b443d34cdbfec3d1e79fc6ad7222fc7"
+        },
+        {
+          "file": "Children's Pack.pdb",
+          "sha256": "3068d96399a5c25715205080824b9d1597c432648f8b9a80081fa22519e1b3ed"
+        }
+      ]
+    },
+    {
+      "file": "Classic II Levels.pdb",
+      "sha256": "d65438e27c39e6c1c0299a389255be933d18fbb99f79a2e9f707eba8be70d7c9",
+      "author": "Steve Haynal",
+      "levels": 59,
+      "status": "explicit-upstream-gpl-statement",
+      "decision": "GPL evidence supports board-only conversion; version not specified by web statement",
+      "variants": [
+        {
+          "file": "Classic II Levels.ini",
+          "sha256": "fca763f3bd315fcfe13d8bf8ccf8e498044743e8624ccf449b36b7fd791b5fac"
+        },
+        {
+          "file": "Classic II Levels.pdb",
+          "sha256": "d65438e27c39e6c1c0299a389255be933d18fbb99f79a2e9f707eba8be70d7c9"
+        }
+      ]
+    },
+    {
+      "file": "Classic Levels.pdb",
+      "sha256": "76719649bcdae93b2945e0a1385f2a3b0743b9ed8a38f71eac3bc413299bd836",
+      "author": "James A. McCombe",
+      "levels": 59,
+      "status": "existing-board-provenance",
+      "decision": "Existing Classic board-only scope",
+      "variants": [
+        {
+          "file": "Classic Levels.ini",
+          "sha256": "b1fb1aad0c6e57f2f746213bc0c850e79abf0e1706d4c8eefb866807a8b09c28"
+        },
+        {
+          "file": "Classic Levels.pdb",
+          "sha256": "76719649bcdae93b2945e0a1385f2a3b0743b9ed8a38f71eac3bc413299bd836"
+        }
+      ]
+    },
+    {
+      "file": "Confusion Pack.pdb",
+      "sha256": "b8e049cb0610a042c1dadd4bd060b51319708893847ff15a36998a8098d7eb01",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Confusion Pack.ini",
+          "sha256": "0356e351d29d754fa2d3b5226802ec7452bba56f7194872e6184cb9fabe6531b"
+        },
+        {
+          "file": "Confusion Pack.pdb",
+          "sha256": "b8e049cb0610a042c1dadd4bd060b51319708893847ff15a36998a8098d7eb01"
+        }
+      ]
+    },
+    {
+      "file": "Impossible Pack.pdb",
+      "sha256": "8220aa8ffbf6c327252e1a3ca0e3f0934f6d07afd40759b73adc8f667538409d",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Impossible Pack.ini",
+          "sha256": "f7fdd770961fc925b94abee301ab2fa6dea6d2fa01c55556154593641010aacd"
+        },
+        {
+          "file": "Impossible Pack.pdb",
+          "sha256": "8220aa8ffbf6c327252e1a3ca0e3f0934f6d07afd40759b73adc8f667538409d"
+        }
+      ]
+    },
+    {
+      "file": "Panic Pack.pdb",
+      "sha256": "47ee8ff61a3aa170528cd79550dc339d21b3df9de3955d606af028c162eb2e86",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Panic Pack.ini",
+          "sha256": "fa33b33ec34af91f7d6fc7155faabb6d63229a7bcb6efc64386cae68b98aec83"
+        },
+        {
+          "file": "Panic Pack.pdb",
+          "sha256": "47ee8ff61a3aa170528cd79550dc339d21b3df9de3955d606af028c162eb2e86"
+        }
+      ]
+    },
+    {
+      "file": "Twister Levels.pdb",
+      "sha256": "58dbd9949ec56d343b7467a90bfab63f0d358482f2dc632eef2a3818c648fb5d",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Twister Levels.ini",
+          "sha256": "888932910b69bbfc452f22e703c4f0a70634ed4565aa2fdf0b1a8cf61911f7d5"
+        },
+        {
+          "file": "Twister Levels.pdb",
+          "sha256": "58dbd9949ec56d343b7467a90bfab63f0d358482f2dc632eef2a3818c648fb5d"
+        }
+      ]
+    },
+    {
+      "file": "Variety 10 Pack.pdb",
+      "sha256": "d1cd4e020b48ca1dff9d2ba259af0b841bf1ec926feeb99cb19394742b661360",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 10 Pack.ini",
+          "sha256": "a090e22a5d5710d02af4d81984c35c81679d6169c107ac30dd917876203baa1e"
+        },
+        {
+          "file": "Variety 10 Pack.pdb",
+          "sha256": "d1cd4e020b48ca1dff9d2ba259af0b841bf1ec926feeb99cb19394742b661360"
+        }
+      ]
+    },
+    {
+      "file": "Variety 11 Pack.pdb",
+      "sha256": "7fbaae0e4e70c3504be90172e1213789134621d2d490a7593cc533da7542a4bd",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 11 Pack.ini",
+          "sha256": "7415400c462a99c2466a7e36690295c784feacf0e13428b041319b1d7f0c15da"
+        },
+        {
+          "file": "Variety 11 Pack.pdb",
+          "sha256": "7fbaae0e4e70c3504be90172e1213789134621d2d490a7593cc533da7542a4bd"
+        }
+      ]
+    },
+    {
+      "file": "Variety 12 Pack.pdb",
+      "sha256": "e473180063c96ac8ab2d0f1eacb1adb88c4fe8d7c476034dd77b748e71fb3369",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 12 Pack.ini",
+          "sha256": "91ccda7114977c6972f8e33386177aa731b67a7299aadecb10d4a32196e56053"
+        },
+        {
+          "file": "Variety 12 Pack.pdb",
+          "sha256": "e473180063c96ac8ab2d0f1eacb1adb88c4fe8d7c476034dd77b748e71fb3369"
+        }
+      ]
+    },
+    {
+      "file": "Variety 13 Pack.pdb",
+      "sha256": "51c99603d3b7feeff8f7ac812f0207ca100c1c410e3fb94af64651c4e377b252",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 13 Pack.pdb",
+          "sha256": "51c99603d3b7feeff8f7ac812f0207ca100c1c410e3fb94af64651c4e377b252"
+        }
+      ]
+    },
+    {
+      "file": "Variety 14 Pack.pdb",
+      "sha256": "068c8d664063e0894ef33074bcd2102327c4c5746eef25ef13b995a87f092503",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 14 Pack.pdb",
+          "sha256": "068c8d664063e0894ef33074bcd2102327c4c5746eef25ef13b995a87f092503"
+        }
+      ]
+    },
+    {
+      "file": "Variety 15 Pack.pdb",
+      "sha256": "9f9152b578c4b64f78845f7f5a01b6063c62cdbcd2fc9470f5ae7e20b31f7c96",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 15 Pack.pdb",
+          "sha256": "9f9152b578c4b64f78845f7f5a01b6063c62cdbcd2fc9470f5ae7e20b31f7c96"
+        }
+      ]
+    },
+    {
+      "file": "Variety 16 Pack.pdb",
+      "sha256": "c233edad1b019efacdb0162213a13933b74cb99debd0a2bd9625a9a693b9840d",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 16 Pack.pdb",
+          "sha256": "c233edad1b019efacdb0162213a13933b74cb99debd0a2bd9625a9a693b9840d"
+        }
+      ]
+    },
+    {
+      "file": "Variety 17 Pack.pdb",
+      "sha256": "2781ad9e46acfb413651aeef313f484a3f0cfe739ab66b7afc999f1ae50e7aed",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 17 Pack.pdb",
+          "sha256": "2781ad9e46acfb413651aeef313f484a3f0cfe739ab66b7afc999f1ae50e7aed"
+        }
+      ]
+    },
+    {
+      "file": "Variety 18 Pack.pdb",
+      "sha256": "86cd6fc384ed57adaf749bd70bedde16c3698951b6951782ffaafdd2800e69e3",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 18 Pack.pdb",
+          "sha256": "86cd6fc384ed57adaf749bd70bedde16c3698951b6951782ffaafdd2800e69e3"
+        }
+      ]
+    },
+    {
+      "file": "Variety 19 Pack.pdb",
+      "sha256": "581a3f99d4d77b5061a76f2935e59c1132c776114da7f8a1ef790f2990534458",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 19 Pack.pdb",
+          "sha256": "581a3f99d4d77b5061a76f2935e59c1132c776114da7f8a1ef790f2990534458"
+        }
+      ]
+    },
+    {
+      "file": "Variety 20 Pack.pdb",
+      "sha256": "f27b76035843f67091c7a6ade07566606d9af95297a433ad1d85725a5dfd9022",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 20 Pack.pdb",
+          "sha256": "f27b76035843f67091c7a6ade07566606d9af95297a433ad1d85725a5dfd9022"
+        }
+      ]
+    },
+    {
+      "file": "Variety 21 Pack.pdb",
+      "sha256": "3ce04e5947f3a8b5216302b9db66ba94cd9cf418c479619ee99ad2e685417d8f",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 21 Pack.pdb",
+          "sha256": "3ce04e5947f3a8b5216302b9db66ba94cd9cf418c479619ee99ad2e685417d8f"
+        }
+      ]
+    },
+    {
+      "file": "Variety 22 Pack.pdb",
+      "sha256": "048daae5668f5e23fc54bfe59d47716ead7143cb28ae63c1f35ece6a12c9ef82",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 22 Pack.pdb",
+          "sha256": "048daae5668f5e23fc54bfe59d47716ead7143cb28ae63c1f35ece6a12c9ef82"
+        }
+      ]
+    },
+    {
+      "file": "Variety 23 Pack.pdb",
+      "sha256": "38f4d69661f4523de95cdef3014c939ad78d8c46b4bd9289dbd4310997039858",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 23 Pack.pdb",
+          "sha256": "38f4d69661f4523de95cdef3014c939ad78d8c46b4bd9289dbd4310997039858"
+        }
+      ]
+    },
+    {
+      "file": "Variety 24 Pack.pdb",
+      "sha256": "d91bf6fa9a4e53eb16bb78054e76e00b54f1c6f55c9a1a59a8500f14ddbf0689",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 24 Pack.pdb",
+          "sha256": "d91bf6fa9a4e53eb16bb78054e76e00b54f1c6f55c9a1a59a8500f14ddbf0689"
+        }
+      ]
+    },
+    {
+      "file": "Variety 25 Pack.pdb",
+      "sha256": "0e46a7a5a2e4d3c413159d031f190458f7852af32c588b2e45a801b06df15cea",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 25 Pack.pdb",
+          "sha256": "0e46a7a5a2e4d3c413159d031f190458f7852af32c588b2e45a801b06df15cea"
+        }
+      ]
+    },
+    {
+      "file": "Variety 26 Pack.pdb",
+      "sha256": "056e88f99201d71a1c596d7a57d3f05b16e3b2ca63ca1bd131c37ba5ee3df474",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 26 Pack.pdb",
+          "sha256": "056e88f99201d71a1c596d7a57d3f05b16e3b2ca63ca1bd131c37ba5ee3df474"
+        }
+      ]
+    },
+    {
+      "file": "Variety 27 Pack.pdb",
+      "sha256": "c62e0c9f6547741e8b030da632c329da3d416e8f8fdaec11f04b0f015fd82c0d",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 27 Pack.pdb",
+          "sha256": "c62e0c9f6547741e8b030da632c329da3d416e8f8fdaec11f04b0f015fd82c0d"
+        }
+      ]
+    },
+    {
+      "file": "Variety 28 Pack.pdb",
+      "sha256": "c92125f12cce04020536ec30d45eddea353e9c2bf73275455d5e748fc2f14ebc",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 28 Pack.pdb",
+          "sha256": "c92125f12cce04020536ec30d45eddea353e9c2bf73275455d5e748fc2f14ebc"
+        }
+      ]
+    },
+    {
+      "file": "Variety 29 Pack.pdb",
+      "sha256": "138181f79dbb5186d646c276e036d1fc4845a69d64260814ad7e5fb7ab985335",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 29 Pack.pdb",
+          "sha256": "138181f79dbb5186d646c276e036d1fc4845a69d64260814ad7e5fb7ab985335"
+        }
+      ]
+    },
+    {
+      "file": "Variety 3 Pack.pdb",
+      "sha256": "87bee7cd7eb25ecce25f76091f3085333316462fa81b0623425c43d24ddb3edc",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 3 Pack.ini",
+          "sha256": "82c766b830873e8ac8cda5f3f37d1216417d9a15194f5c16eb60f8199004ef1a"
+        },
+        {
+          "file": "Variety 3 Pack.pdb",
+          "sha256": "87bee7cd7eb25ecce25f76091f3085333316462fa81b0623425c43d24ddb3edc"
+        }
+      ]
+    },
+    {
+      "file": "Variety 30 Pack.pdb",
+      "sha256": "b63448af34371b753777f17e387df92b1ca4108e58ce0df857ae86c5fc33bac6",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 30 Pack.pdb",
+          "sha256": "b63448af34371b753777f17e387df92b1ca4108e58ce0df857ae86c5fc33bac6"
+        }
+      ]
+    },
+    {
+      "file": "Variety 31 Pack.pdb",
+      "sha256": "6216cdd65c4a1f557c65819f5fdf377c9b6edf1594a2d415c5adcacd61b1c8ed",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 31 Pack.pdb",
+          "sha256": "6216cdd65c4a1f557c65819f5fdf377c9b6edf1594a2d415c5adcacd61b1c8ed"
+        }
+      ]
+    },
+    {
+      "file": "Variety 32 Pack.pdb",
+      "sha256": "22d15182ca7bb766e3badca9f3cc420839df10c05896a5e02a1c983ddf0cf268",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 32 Pack.pdb",
+          "sha256": "22d15182ca7bb766e3badca9f3cc420839df10c05896a5e02a1c983ddf0cf268"
+        }
+      ]
+    },
+    {
+      "file": "Variety 33 Pack.pdb",
+      "sha256": "4365332f98f2dd84fd0e4440a19a7f9902f04285179844e8b4e44d3afd27c9f5",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 33 Pack.pdb",
+          "sha256": "4365332f98f2dd84fd0e4440a19a7f9902f04285179844e8b4e44d3afd27c9f5"
+        }
+      ]
+    },
+    {
+      "file": "Variety 34 Pack.pdb",
+      "sha256": "776779ec95f291f59cc0b055abd377d49b791a8a585933a35b91b090bd3c6ac9",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 34 Pack.pdb",
+          "sha256": "776779ec95f291f59cc0b055abd377d49b791a8a585933a35b91b090bd3c6ac9"
+        }
+      ]
+    },
+    {
+      "file": "Variety 35 Pack.pdb",
+      "sha256": "1630e9f44d10e676b95e085b4894345a1e4ff950671e1906f7427018715d3500",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 35 Pack.pdb",
+          "sha256": "1630e9f44d10e676b95e085b4894345a1e4ff950671e1906f7427018715d3500"
+        }
+      ]
+    },
+    {
+      "file": "Variety 36 Pack.pdb",
+      "sha256": "12fe1bb160829f7822e47ee0d5c5548f81b0b1791151ccd8dc32470771591fc4",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 36 Pack.pdb",
+          "sha256": "12fe1bb160829f7822e47ee0d5c5548f81b0b1791151ccd8dc32470771591fc4"
+        }
+      ]
+    },
+    {
+      "file": "Variety 37 Pack.pdb",
+      "sha256": "2a1cc9a08454f87888e7acf28327993d6bbdca4d3373367841125ef42f830a44",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 37 Pack.pdb",
+          "sha256": "2a1cc9a08454f87888e7acf28327993d6bbdca4d3373367841125ef42f830a44"
+        }
+      ]
+    },
+    {
+      "file": "Variety 38 Pack.pdb",
+      "sha256": "9457fa824fb74a834f62a926eb01e3a76b7786fc72e0b18634db6f268e10e748",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 38 Pack.pdb",
+          "sha256": "9457fa824fb74a834f62a926eb01e3a76b7786fc72e0b18634db6f268e10e748"
+        }
+      ]
+    },
+    {
+      "file": "Variety 39 Pack.pdb",
+      "sha256": "800e8d6ea8f27dfd10acf86f2aa075e91a235cd66a4445536ea7720b7ed7261a",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 39 Pack.pdb",
+          "sha256": "800e8d6ea8f27dfd10acf86f2aa075e91a235cd66a4445536ea7720b7ed7261a"
+        }
+      ]
+    },
+    {
+      "file": "Variety 4 Pack.pdb",
+      "sha256": "4d056f8660e44328a3e36f4a2504bf2359f76a7920700a2364e1455f86ec677e",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 4 Pack.ini",
+          "sha256": "926fa08e935e22a9904b94cad6e33c5d6d26661b483297b1804b0ebb86bdf883"
+        },
+        {
+          "file": "Variety 4 Pack.pdb",
+          "sha256": "4d056f8660e44328a3e36f4a2504bf2359f76a7920700a2364e1455f86ec677e"
+        }
+      ]
+    },
+    {
+      "file": "Variety 40 Pack.pdb",
+      "sha256": "c1b22d86a90cb16e1cef11d2ccdb1f2995d20c9b112149c2fed43d35f889f050",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 40 Pack.pdb",
+          "sha256": "c1b22d86a90cb16e1cef11d2ccdb1f2995d20c9b112149c2fed43d35f889f050"
+        }
+      ]
+    },
+    {
+      "file": "Variety 41 Pack.pdb",
+      "sha256": "5d656670ebb937e04609055fc3302a74572e0ac00b32e9adf010103dce2bbe80",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 41 Pack.pdb",
+          "sha256": "5d656670ebb937e04609055fc3302a74572e0ac00b32e9adf010103dce2bbe80"
+        }
+      ]
+    },
+    {
+      "file": "Variety 5 Pack.pdb",
+      "sha256": "d21893831f2ec6adc51c8cd40a5a9b84cc477db4c3a8114e6465d5f786069e6c",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 5 Pack.ini",
+          "sha256": "ec6e411717ec4b940a9bfe1a11fa3d48b9e7d78fe2a544d836359daada3abec6"
+        },
+        {
+          "file": "Variety 5 Pack.pdb",
+          "sha256": "d21893831f2ec6adc51c8cd40a5a9b84cc477db4c3a8114e6465d5f786069e6c"
+        }
+      ]
+    },
+    {
+      "file": "Variety 6 Pack.pdb",
+      "sha256": "a397327afb988cba7ff82f9592bcbd17eb1f0cc4c206f89b55eae2f93b951a9b",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 6 Pack.ini",
+          "sha256": "5ee91ac7c7c0495734cca8699976120717ada6eef33d49b37ccccedc6018bdd5"
+        },
+        {
+          "file": "Variety 6 Pack.pdb",
+          "sha256": "a397327afb988cba7ff82f9592bcbd17eb1f0cc4c206f89b55eae2f93b951a9b"
+        }
+      ]
+    },
+    {
+      "file": "Variety 7 Pack.pdb",
+      "sha256": "d43bb4aec30753a79ae3b926d0af2c2f462eb0b79b62e790ac94e4d394dc578f",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 7 Pack.ini",
+          "sha256": "c37d03e60392bc34b31e0c14d2ae31ab43a8924ac66175f16cae01640c1de3a1"
+        },
+        {
+          "file": "Variety 7 Pack.pdb",
+          "sha256": "d43bb4aec30753a79ae3b926d0af2c2f462eb0b79b62e790ac94e4d394dc578f"
+        }
+      ]
+    },
+    {
+      "file": "Variety 8 Pack.pdb",
+      "sha256": "bd39141632f49f30a4d682a4014c6475fcd3153edbf1042725a47c75a5923358",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 8 Pack.ini",
+          "sha256": "ea253cd2677dd94c0c82689dcebc8cf631dc45ef9ae85d076824cbfaa3f18be7"
+        },
+        {
+          "file": "Variety 8 Pack.pdb",
+          "sha256": "bd39141632f49f30a4d682a4014c6475fcd3153edbf1042725a47c75a5923358"
+        }
+      ]
+    },
+    {
+      "file": "Variety 9 Pack.pdb",
+      "sha256": "4f48b98214007245623a2bc64d215521cc0c501489876997e42794d2d5085c18",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety 9 Pack.ini",
+          "sha256": "6a71409ae6943f4ea8260bb3fad4224974e5a58bc8afb7df5190edd5cb2baad6"
+        },
+        {
+          "file": "Variety 9 Pack.pdb",
+          "sha256": "4f48b98214007245623a2bc64d215521cc0c501489876997e42794d2d5085c18"
+        }
+      ]
+    },
+    {
+      "file": "Variety II Pack.pdb",
+      "sha256": "096a9dad438552c6f9369c3668b791dac4bec7f7f9cfaacf6a1492886f02d421",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety II Pack.ini",
+          "sha256": "eb75dc98de0d0135a9696266880c650a761b18a8c3a4a191d15b155951c63824"
+        },
+        {
+          "file": "Variety II Pack.pdb",
+          "sha256": "096a9dad438552c6f9369c3668b791dac4bec7f7f9cfaacf6a1492886f02d421"
+        }
+      ]
+    },
+    {
+      "file": "Variety Pack.pdb",
+      "sha256": "bf05d6db02a62d2c1e059a226e6285cff8456914f2e353f420873793c51de671",
+      "author": "Vexed Development Team",
+      "levels": 60,
+      "status": "scope-unresolved",
+      "decision": "Keep out of runtime pending pack-specific terms or maintainer confirmation",
+      "variants": [
+        {
+          "file": "Variety Pack.ini",
+          "sha256": "6ac488aa6673675d604ea689e38312f502d78d20b44aa94fd80fb68d62b45b5b"
+        },
+        {
+          "file": "Variety Pack.pdb",
+          "sha256": "bf05d6db02a62d2c1e059a226e6285cff8456914f2e353f420873793c51de671"
+        }
+      ]
+    }
+  ]
+}
