@@ -121,3 +121,23 @@ test('public source contains the build inputs and no research fixtures', async (
   for (const name of ['src/domain/reducer.ts','src/storage/save.ts','scripts/build-pwa.ts','scripts/derive-solutions.ts','scripts/native/derive-solution.cpp','tsconfig.node.json','LICENSE','BUILD.txt']) expect(names).toContain(name)
   expect(names.some(name=>/reference|fixtures|catalogue|\.git\/|\.pdb$|\.ini$|\.prc$/.test(name))).toBe(false)
 })
+test('production CSP permits the game but blocks injected inline scripts', async ({ page }) => {
+  const errors: string[]=[]
+  page.on('pageerror',error=>errors.push(error.message))
+  await ready(page)
+  const policy=await page.locator('meta[http-equiv="Content-Security-Policy"]').getAttribute('content')
+  expect(policy).toContain("script-src 'self'"); expect(policy).not.toContain("'unsafe-eval'")
+  const ran=await page.evaluate(()=>{const script=document.createElement('script');script.textContent="document.body.dataset.injected = 'yes'";document.head.appendChild(script);return document.body.dataset.injected??null})
+  expect(ran).toBeNull()
+  await firstMove(page)
+  expect(errors).toEqual([])
+})
+test('online recovery repairs evicted caches without resetting the saved attempt', async ({ page, context }) => {
+  await ready(page); await firstMove(page)
+  await page.evaluate(async()=>{for(const name of await caches.keys())if(name.startsWith('vexed:/vexed/:'))await caches.delete(name)})
+  await page.reload()
+  await expect(page.locator('.stats dd').first()).toHaveText('1')
+  await expect(page.getByText(/All 59 puzzles and solutions ready offline/)).toBeVisible({timeout:20000})
+  await context.setOffline(true);await page.reload()
+  await expect(page.locator('.stats dd').first()).toHaveText('1')
+})

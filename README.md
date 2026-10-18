@@ -51,11 +51,11 @@ All 59 Classic layouts exactly match arrays with an explicit GPL notice. Later t
 ## Browser interaction tests
 
 ```sh
-npx playwright install chromium
+npx playwright install chromium webkit firefox
 npm run test:e2e
 ```
 
-Browser checks use desktop, tablet and 360px phone configurations, with the `/vexed/` GitHub Pages base path. CI installs Chromium and runs these alongside the Node checks. See [Phase 3 notes](docs/development/PHASE-3.md) for controls, input cancellation and remaining device validation.
+Browser checks use Chromium desktop/tablet/360px phone, WebKit tablet and Firefox configurations, with the `/vexed/` GitHub Pages base path. CI installs Chromium, WebKit and Firefox and runs these alongside the Node checks. See [Phase 3 notes](docs/development/PHASE-3.md) for controls, input cancellation and remaining device validation.
 
 See [Phase 4 notes](docs/development/PHASE-4.md) for animation boundaries, scoring, progression and solution provenance. All 59 shipped solution paths are newly derived from cleared boards and replay-verified; historical reference strings remain development-only.
 
@@ -77,9 +77,13 @@ The Saved on this device indicator confirms the latest transaction. Unknown/corr
 npm run test:pwa
 ```
 
-The Pages workflow publishes only the verified dist artifact. The repository/research fixtures stay private; the published site includes a GPL application-source download that rebuilds without those fixtures.
+The Pages workflow publishes only the verified dist artifact. The repository is now public at the user's request; release artifacts exclude historical research fixtures, and the published site includes a GPL application-source download that rebuilds without those fixtures.
 
-Next: Phase 6 covers compatibility, real tablets and release accessibility checks.
+## Release candidate
+
+Version 1.0.0-rc.1 has cross-engine gameplay/offline checks, automated accessibility audits and release hardening. Run `npm run release:check` after installing the three Playwright browsers. See [release notes](CHANGELOG.md) and [Phase 6 evidence and remaining device checks](docs/development/PHASE-6.md).
+
+Physical tablet/phone installation, offline/update behavior and manual screen-reader checks remain required before final release promotion. Basic phone play has been confirmed by the user.
 
 
 ## Pack conversion and complete replay

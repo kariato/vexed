@@ -1,12 +1,18 @@
 import { describe, expect, it } from 'vitest'
 import { applyCommand, applyGesture, createBoard, createSession, emptyProgress } from '../../src/domain'
-import { decodeSave, encodeSave } from '../../src/storage/save'
+import { assertSaveBounds, decodeSave, encodeSave } from '../../src/storage/save'
 import type { RuntimePack } from '../../src/data/types'
 const rows=['##########','#........#','#........#','#........#','#........#','#........#','#a.a.....#','##########']
 const pack: RuntimePack={schemaVersion:1,id:'classic',name:'Classic',author:'Test',license:'GPL-2.0-or-later',boardSource:{file:'test',sha256:'a'.repeat(64)},levels:[{id:'classic:0',index:0,title:'Level 1',rows,par:1}]}
 const fresh=()=>createSession({id:'classic:0',packId:'classic',index:0,par:1,initialBoard:createBoard(rows)})
 const preferences={theme:'modern' as const,motion:'off' as const,practice:false}
 describe('versioned game storage',()=>{
+  it('refuses writes that could not be safely restored instead of claiming durability',()=>{
+    const saved=encodeSave('classic',fresh(),null,emptyProgress(),preferences)
+    expect(()=>assertSaveBounds(saved)).not.toThrow()
+    const move={from:{x:1,y:6},direction:1 as const,distance:1}
+    expect(()=>assertSaveBounds({...saved,game:{...saved.game,commands:Array(5001).fill(move)}})).toThrow()
+  })
   it('restores board, moves, undo, checkpoint, previous replay and preferences through engine replay',()=>{
     let game=applyCommand(fresh(),{type:'memorize'}).state
     game=applyGesture(game,{from:{x:1,y:6},target:{x:2,y:6},method:'tap'}).state

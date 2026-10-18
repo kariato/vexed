@@ -1,7 +1,7 @@
 {
   "name": "vexed-web",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0-rc.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -18,13 +18,15 @@
     "packs:check": "npm run packs:convert -- --check && npm run packs:audit -- --check",
     "test:e2e": "playwright test",
     "solutions:derive": "tsx scripts/derive-solutions.ts",
-    "test:pwa": "playwright test --config playwright.pwa.config.ts"
+    "test:pwa": "playwright test --config playwright.pwa.config.ts",
+    "release:check": "npm run check && npm run test:e2e && npm run test:pwa"
   },
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "^1.64.1",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",

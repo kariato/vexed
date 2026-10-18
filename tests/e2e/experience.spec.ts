@@ -4,7 +4,7 @@ const grid = (page: Page) => page.locator('.game .board')
 async function tap(page: Page, x: number, y: number) {
   await expect(grid(page)).toHaveAttribute('aria-busy', 'false')
   const cell = page.locator('#cell-' + x + '-' + y)
-  if (test.info().project.name === 'desktop') await cell.click(); else await cell.tap()
+  if (!test.info().project.use.hasTouch) await cell.click(); else await cell.tap()
 }
 async function move(page: Page) { await tap(page, 4, 2); await tap(page, 5, 2); await expect(grid(page)).toHaveAttribute('aria-busy', 'false') }
 async function board(page: Page) { return grid(page).getByRole('gridcell').evaluateAll(cells => cells.map(cell => cell.getAttribute('aria-label'))) }
