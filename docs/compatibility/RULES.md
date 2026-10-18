@@ -71,3 +71,7 @@ Level access is up to one past highest solved. Replay/memorize interactions use 
 ## Visible level labels
 
 IDs and indices remain zero-based. The running 2.2 binary and `game/gfx.c:396–398` use `nLevelCurrent + 1` for visible labels. Classic presentation should therefore show level 1 for `classic:0`, superseding the instructions/blueprint claim that this UI begins at zero.
+
+## Phase 2 reference-data findings
+
+The full TypeScript audit now replays all 4,016 source sequences. Classic II index 3 has different valid INI/PDB solutions (par 64/36). Classic II index 20 contains an empty-origin pair Hg at step 36. The native engine counts it without moving a block. Player commands still reject empty origins; reference playback has a separately named one-step adapter, used only for the exact registered source/board pins in the audit. The new native intermediate trace confirms the behavior. See source-variants.json and the Phase 2 notes for details.

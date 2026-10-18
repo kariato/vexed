@@ -2,7 +2,8 @@
   "extends": "./tsconfig.app.json",
   "compilerOptions": {
     "types": [
-      "node"
+      "node",
+      "vite/client"
     ],
     "resolveJsonModule": true
   },

@@ -10,7 +10,9 @@ The port separates deterministic state from Palm drawing, sound and event APIs.
 Original notices and GPLv2 text are retained under LICENSES and LICENSE.
 
 The browser preview contains an authored demonstration board and new CSS artwork.
-Frozen original puzzle/solution fixtures are used only in development tests.
+Original titles, solution strings and contributor packs are development fixtures only.
+The runtime Classic pack contains 59 GPL-traced layouts, generic labels and par counts.
+See docs/development/PHASE-2.md for conversion/provenance and compatibility changes.
 The supplied planning documents keep their original status; this notice does not
 retroactively assign licensing terms to their text.
 

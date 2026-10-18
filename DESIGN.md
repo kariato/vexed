@@ -222,3 +222,7 @@ Phase 0 follow-up: visible level labels use one-based numbering as confirmed by 
 ## Phase 1 implementation status
 
 The strict Vite/React scaffold and DOM-free TypeScript engine are implemented. Movement, settling, matching, cascades, gesture-level undo, restart, checkpoints, the solution codec and pure pack scoring are covered by unit and frozen-reference tests. The browser shell is an authored engine demonstration; full pack conversion, tablet input, persistence and deployment remain later phases. See [implementation notes](docs/development/PHASE-1.md).
+
+## Phase 2 implementation status
+
+Both original formats are now converted with pinned source hashes, stable IDs and strict validation. All 4,016 source solution sequences pass through the TypeScript replay audit, including a documented reference-only empty move; the two datasets overlap. Classic has all 59 final-solution regression tests and a generated runtime pack using generic labels and par counts. The canonical private research catalogue has 48 PDB packs and 2,878 entries. See [Phase 2 notes](docs/development/PHASE-2.md). Full touchscreen play remains Phase 3.
