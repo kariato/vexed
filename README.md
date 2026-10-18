@@ -1,6 +1,6 @@
 # Vexed Web
 
-A planned touch-first TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 1 includes a pure TypeScript engine, strict Vite/React scaffold, CI and an authored engine preview. Phase 2 adds validated pack conversion, complete original-solution audits and a 59-level Classic runtime asset; tablet controls follow in Phase 3.
+A touch-first TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 3 makes all 59 original Classic puzzles playable with dragging, tap-to-move, large arrow controls and keyboard navigation. The pure engine is checked against the original Palm implementation and solutions.
 
 - [Design](DESIGN.md)
 - [Implementation plan](Vexed_Web_TypeScript_Vite_Implementation_Plan.md)
@@ -19,7 +19,7 @@ npm run check
 npm run dev
 ```
 
-The preview demonstrates a match, undo and reset. It is not yet a full playable pack.
+The preview plays the Classic pack. Choose any level, undo the last 15 gestures, restart, or advance after solving. Progress currently lasts for the open tab.
 `npm run check` runs lint, strict app/domain/test typechecks, unit/reference tests and a production build.
 
 ```sh
@@ -48,7 +48,16 @@ python3 scripts/audit_classic_provenance.py .reference/vexed13 .reference/source
 
 All 59 Classic layouts exactly match arrays with an explicit GPL notice. Later titles, encoded solutions and contributor packs remain separate content decisions.
 
-Next: Phase 3 connects the Classic runtime pack to a playable board with Pointer Events drag/tap and keyboard controls.
+## Browser interaction tests
+
+```sh
+npx playwright install chromium
+npm run test:e2e
+```
+
+Browser checks use desktop, tablet and 360px phone configurations, with the `/vexed/` GitHub Pages base path. CI installs Chromium and runs these alongside the Node checks. See [Phase 3 notes](docs/development/PHASE-3.md) for controls, input cancellation and remaining device validation.
+
+Next: Phase 4 adds the full presentation and gameplay experience; persistent saves, offline installation and deployment follow later.
 
 
 ## Pack conversion and complete replay
