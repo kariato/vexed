@@ -8,21 +8,35 @@ export function Offline({ canUpdate }: { canUpdate: boolean }) {
   const [waiting, setWaiting] = useState<ServiceWorker | null>(null)
   const [install, setInstall] = useState<InstallEvent | null>(null)
   useEffect(() => {
-    const online = () => setOffline(!navigator.onLine)
+    let active = true
+    let verification = 0
+    let current: ServiceWorkerRegistration | null = null
+    const verify = async (worker: ServiceWorker) => {
+      const request = ++verification
+      const available = await new Promise<boolean>(resolve => {
+        const channel = new MessageChannel()
+        const timer = setTimeout(() => { channel.port1.close(); resolve(false) }, 4000)
+        channel.port1.onmessage = event => { clearTimeout(timer); channel.port1.close(); resolve(event.data?.ready === true) }
+        worker.postMessage({ type: 'CHECK_OFFLINE', repair: navigator.onLine }, [channel.port2])
+      }).catch(() => false)
+      if (active && request === verification) { setReady(available); setFailed(!available) }
+    }
+    const online = () => { setOffline(!navigator.onLine); if (current?.active) void verify(current.active) }
+    const visible = () => { if (!document.hidden) online() }
+    document.addEventListener('visibilitychange', visible)
     const prompt = (event: Event) => { event.preventDefault(); setInstall(event as InstallEvent) }
     window.addEventListener('online', online); window.addEventListener('offline', online); window.addEventListener('beforeinstallprompt', prompt)
-    let active = true
     if (import.meta.env.PROD && 'serviceWorker' in navigator) {
       navigator.serviceWorker.register(import.meta.env.BASE_URL + 'sw.js', { scope: import.meta.env.BASE_URL, updateViaCache: 'none' }).then(reg => {
         if (!active) return
-        setRegistration(reg)
+        current = reg; setRegistration(reg)
         const check = () => { if (active) setWaiting(reg.waiting) }
         const watch = () => { const worker = reg.installing; worker?.addEventListener('statechange', () => { check(); if (worker.state === 'redundant' && active) setFailed(true) }) }
         check(); watch(); reg.addEventListener('updatefound', watch)
-        navigator.serviceWorker.ready.then(() => { if (active) setReady(true) })
+        navigator.serviceWorker.ready.then(registration => { if (active && registration.active) void verify(registration.active) })
       }).catch(() => { if (active) setFailed(true) })
     }
-    return () => { active = false; window.removeEventListener('online', online); window.removeEventListener('offline', online); window.removeEventListener('beforeinstallprompt', prompt) }
+    return () => { active = false; document.removeEventListener('visibilitychange', visible); window.removeEventListener('online', online); window.removeEventListener('offline', online); window.removeEventListener('beforeinstallprompt', prompt) }
   }, [])
   const update = () => {
     if (!canUpdate || !waiting) return

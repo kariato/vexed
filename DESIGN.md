@@ -236,3 +236,8 @@ Classic's 59 puzzles now support tablet drag/tap input, keyboard navigation and 
 ## Phase 5 implementation status — October 2026
 
 Versioned IndexedDB saves now preserve the current attempt, exact undo boundary, checkpoint, previous replay, original score/progression records and settings. Restoration replays strict engine commands; invalid/unsupported saves pause autosave without overwriting data. The production PWA caches the full Classic game and newly derived solutions, uses explicit saved-state update activation and supports optional tablet installation. GitHub Pages publishes only the verified dist artifact, with a whitelisted GPL application-source download; private research fixtures remain unpublished. See [Phase 5 notes](docs/development/PHASE-5.md).
+
+
+## Phase 6 release candidate — October 2026
+
+The automated hardening pass adds Chromium/WebKit/Firefox gameplay and production offline coverage, accessibility scans/focus and enlarged-text checks, production CSP, save-bound enforcement and cache-eviction recovery. The repository is now public at the user's request; deployment artifacts retain the cleared Classic-only content boundary. Candidate 1.0.0-rc.1 and its unresolved physical-device/manual accessibility gates are recorded in [Phase 6](docs/development/PHASE-6.md). This is not a final release certification.

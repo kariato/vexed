@@ -4,7 +4,7 @@ const cell = (page: Page, x: number, y: number) => page.locator('#cell-' + x + '
 async function tap(page: Page, x: number, y: number) {
   await expect(page.getByRole('grid')).toHaveAttribute('aria-busy', 'false')
   const target = cell(page, x, y)
-  if (test.info().project.name === 'desktop') await target.click()
+  if (!test.info().project.use.hasTouch) await target.click()
   else await target.tap()
 }
 test.beforeEach(async ({ page }) => { await page.goto('./'); await expect(page.getByRole('grid')).toBeVisible() })
@@ -78,7 +78,7 @@ test('captured mouse drag commits once; release outside and resize cancel', asyn
   await expect(page.locator('.stats dd').first()).toHaveText('0')
 })
 test('touch drags commit once and touch cancellation commits nothing', async ({ page }) => {
-  test.skip(test.info().project.name === 'desktop', 'Touch device coverage')
+  test.skip(!test.info().project.use.hasTouch || test.info().project.use.browserName !== 'chromium', 'Chromium touch protocol coverage; all engines have tap/drag coverage')
   const from = (await cell(page, 4, 2).boundingBox())!
   const to = (await cell(page, 5, 2).boundingBox())!
   const start = { x: from.x + from.width / 2, y: from.y + from.height / 2, id: 1 }
@@ -101,7 +101,7 @@ test('tablet landscape keeps board and controls in view', async ({ page }) => {
   await expect(page.getByRole('grid')).toBeInViewport({ ratio: 1 })
 })
 test('a second touch ending does not cancel the primary gesture', async ({ page }) => {
-  test.skip(test.info().project.name === 'desktop', 'Touch device coverage')
+  test.skip(!test.info().project.use.hasTouch || test.info().project.use.browserName !== 'chromium', 'Chromium touch protocol coverage; all engines have tap/drag coverage')
   const from = (await cell(page, 4, 2).boundingBox())!
   const to = (await cell(page, 5, 2).boundingBox())!
   const start = { x: from.x + from.width / 2, y: from.y + from.height / 2, id: 1 }

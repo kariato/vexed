@@ -6,6 +6,10 @@ export interface Preferences { theme: 'classic' | 'modern'; motion: 'normal' | '
 interface SavedSession { levelId: string; commands: readonly MoveRequest[]; history: number[]; checkpoint: readonly MoveRequest[] | null }
 export interface SavedGame { schemaVersion: 1; rulesVersion: 1; packId: string; game: SavedSession; previous: SavedSession | null; progress: PackProgress; preferences: Preferences }
 export interface RestoredGame { game: GameSession; previous: GameSession | null; progress: PackProgress; preferences: Preferences }
+export function assertSaveBounds(value: SavedGame): void {
+  for (const session of [value.game, value.previous]) if (session && (session.commands.length > 5000 || (session.checkpoint?.length ?? 0) > 5000)) throw new Error('Attempt exceeds restore limits')
+  if (JSON.stringify(value).length > 2_000_000) throw new Error('Save exceeds size limit')
+}
 function serialize(game: GameSession): SavedSession {
   return { levelId: game.level.id, commands: game.commands, history: game.history.map(snapshot => snapshot.commands.length), checkpoint: game.checkpoint?.commands ?? null }
 }

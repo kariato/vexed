@@ -1,7 +1,7 @@
 name: Engine and build checks
 on:
   push:
-    branches: [main, phase-1-engine, phase-2-packs, phase-3-touch, phase-4-experience, phase-5-pwa]
+    branches: [main, phase-1-engine, phase-2-packs, phase-3-touch, phase-4-experience, phase-5-pwa, phase-6-release]
   pull_request:
 permissions:
   contents: read
@@ -31,6 +31,13 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - run: npx playwright install --with-deps chromium webkit firefox
       - run: npm run test:e2e
       - run: npm run test:pwa
+
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: browser-release-evidence
+          path: test-results
+          retention-days: 14

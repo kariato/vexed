@@ -1,4 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
+import { assertSaveBounds } from './save'
+import type { SavedGame } from './save'
 const DATABASE = 'vexed-web-v1'
 const STORE = 'saves'
 let opening: Promise<IDBDatabase> | null = null
@@ -28,8 +30,9 @@ export async function readSave(key: string): Promise<unknown> {
   })
 }
 let writes: Promise<void> = Promise.resolve()
-export function writeSave(key: string, value: unknown): Promise<void> {
+export function writeSave(key: string, value: SavedGame): Promise<void> {
   const write = async () => {
+    assertSaveBounds(value)
     const db = await database()
     await new Promise<void>((resolve, reject) => {
       const transaction = db.transaction(STORE, 'readwrite')
