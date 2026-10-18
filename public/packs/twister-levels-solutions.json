@@ -1,0 +1,10520 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": 1,
+  "packId": "twister-levels",
+  "license": "NOASSERTION",
+  "origin": "Converted historical PDB solution paths; separate adaptation terms unresolved. Known unchanged-board empty-origin step omitted; historical par preserved.",
+  "sourceSha256": "58dbd9949ec56d343b7467a90bfab63f0d358482f2dc632eef2a3818c648fb5d",
+  "packSha256": "edcef81ddefd1893b0b22554a9e2fa02ae8c624e7607a200af1de6a5e1ce9b02",
+  "omitted": [],
+  "levels": [
+    {
+      "levelId": "twister-levels:0",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:1",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:2",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:3",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:4",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:5",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:6",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:7",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:8",
+      "commands": [
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:9",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:10",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:11",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:12",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:13",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:14",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:15",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:16",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:17",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:18",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:19",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:20",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:21",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:22",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:23",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:24",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:25",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:26",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:27",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:28",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:29",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:30",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:31",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:32",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:33",
+      "commands": [
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:34",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:35",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:36",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:37",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:38",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:39",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:40",
+      "commands": [
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:41",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:42",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:43",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:44",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:45",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:46",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:47",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:48",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:49",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:50",
+      "commands": [
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:51",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:52",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:53",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:54",
+      "commands": [
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:55",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:56",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:57",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:58",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "twister-levels:59",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    }
+  ]
+}

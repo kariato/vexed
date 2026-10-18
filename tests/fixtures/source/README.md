@@ -7,8 +7,9 @@ The repository is now public. These research fixtures are publicly accessible in
 See docs/compatibility/PACK-LICENSE-REVIEW.md for the current evidence and scope.
 
 Do not put this directory or the normalized reference catalogue in public or a
-service-worker precache. The distributable runtime content is generated separately
-at public/packs/classic.json under the scoped Classic layout policy.
+service-worker precache. Runtime JSON and solutions are generated separately under public/packs/.
+The owner-directed archive inclusion and unresolved terms are recorded in
+docs/development/ARCHIVED-PACKS.md and public/PACK_NOTICES.txt.
 
 Raw file line endings must not be normalized. .gitattributes preserves the original
 bytes. There are no host executables in this fixture directory.

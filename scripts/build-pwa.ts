@@ -21,7 +21,7 @@ for (const path of source.sort()) {
   header.write(checksum.toString(8).padStart(6,'0')+'\0 ',148)
   chunks.push(header, data, Buffer.alloc((512 - data.length % 512) % 512))
 }
-const instructions = Buffer.from('Vexed application source — GPL-2.0-or-later.\nInstall Node 24 and npm 11. Run npm ci, then VITE_BASE_PATH=/vexed/ npm run build.\nThe public directory contains cleared Classic boards and newly derived solutions.\nPrivate research fixtures are not needed to build the application. Development audit/test commands require the private research checkout.\n')
+const instructions = Buffer.from('Vexed application source — GPL-2.0-or-later.\nInstall Node 24 and npm 11. Run npm ci, then VITE_BASE_PATH=/vexed/ npm run build.\nThe public directory contains 48 archived packs. See public/PACK_NOTICES.txt for attribution and unresolved pack terms. Only Classic solutions are newly derived.\nResearch fixtures are not needed to build the application. Development audit/test commands require the full repository.\n')
 const readmeHeader = Buffer.alloc(512); readmeHeader.write('BUILD.txt'); readmeHeader.write('0000644\0',100); readmeHeader.write('0000000\0',108); readmeHeader.write('0000000\0',116); readmeHeader.write(instructions.length.toString(8).padStart(11,'0')+'\0',124); readmeHeader.write('00000000000\0',136); readmeHeader.fill(32,148,156); readmeHeader.write('0',156); readmeHeader.write('ustar\0',257); readmeHeader.write('00',263); readmeHeader.write(readmeHeader.reduce((s,n)=>s+n,0).toString(8).padStart(6,'0')+'\0 ',148)
 chunks.push(readmeHeader,instructions,Buffer.alloc((512-instructions.length%512)%512),Buffer.alloc(1024))
 writeFileSync('dist/vexed-source.tar.gz',gzipSync(Buffer.concat(chunks),{level:9}))
@@ -39,7 +39,7 @@ for (const size of [192,512]) {
   const header=Buffer.alloc(13);header.writeUInt32BE(size);header.writeUInt32BE(size,4);header[8]=8;header[9]=2
   writeFileSync('dist/icons/icon-'+size+'.png',Buffer.concat([Buffer.from([137,80,78,71,13,10,26,10]),pngChunk('IHDR',header),pngChunk('IDAT',deflateSync(pixels)),pngChunk('IEND',Buffer.alloc(0))]))
 }
-writeFileSync('dist/manifest.webmanifest',JSON.stringify({id:base,name:'Vexed — Classic puzzles',short_name:'Vexed',description:'59 Classic puzzles. Slide, match and clear the board.',lang:'en',start_url:base,scope:base,display:'standalone',background_color:'#f4f5ef',theme_color:'#274a39',icons:[192,512].map(size=>({src:base+'icons/icon-'+size+'.png',sizes:size+'x'+size,type:'image/png',purpose:'any maskable'}))},null,2))
+writeFileSync('dist/manifest.webmanifest',JSON.stringify({id:base,name:'Vexed — Puzzle packs',short_name:'Vexed',description:'48 packs and 2,878 puzzles. Slide, match and clear the board.',lang:'en',start_url:base,scope:base,display:'standalone',background_color:'#f4f5ef',theme_color:'#274a39',icons:[192,512].map(size=>({src:base+'icons/icon-'+size+'.png',sizes:size+'x'+size,type:'image/png',purpose:'any maskable'}))},null,2))
 writeFileSync('dist/.nojekyll','')
 const assets=files('dist').filter(file=>!file.endsWith('/sw.js')).sort()
 const version=createHash('sha256').update(assets.map(file=>file+createHash('sha256').update(readFileSync(file)).digest('hex')).join('\n')).digest('hex').slice(0,16)

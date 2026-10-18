@@ -51,3 +51,7 @@ Classic patterns, Modern styling and animated blocks use newly authored CSS and 
 ## Public repository status
 
 The repository is public following the user’s request after Phase 5. Historical references to private research describe its previous state. Unresolved pack terms apply to publicly committed fixtures as well as potential runtime assets; see [the review](PACK-LICENSE-REVIEW.md#public-research-fixtures).
+
+## Owner-directed archive inclusion
+
+The later explicit request to include all packs without a reproduction denial supersedes the earlier runtime exclusion decision. All 48 canonical packs are included, with unresolved terms preserved rather than assigned a GPL license. See [implementation and scope](../development/ARCHIVED-PACKS.md) and [runtime notices](../../public/PACK_NOTICES.txt).

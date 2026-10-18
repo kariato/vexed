@@ -1,0 +1,7952 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": 1,
+  "packId": "variety-18-pack",
+  "license": "NOASSERTION",
+  "origin": "Converted historical PDB solution paths; separate adaptation terms unresolved. Known unchanged-board empty-origin step omitted; historical par preserved.",
+  "sourceSha256": "86cd6fc384ed57adaf749bd70bedde16c3698951b6951782ffaafdd2800e69e3",
+  "packSha256": "35e37a668e7c9a8a727caef23fbdda1e2104df0f0a956decc4c5d5d66ab7bebc",
+  "omitted": [],
+  "levels": [
+    {
+      "levelId": "variety-18-pack:0",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:1",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:2",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:3",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:4",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:5",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:6",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:7",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:8",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:9",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:10",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:11",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:12",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:13",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:14",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:15",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:16",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:17",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:18",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:19",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:20",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:21",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:22",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:23",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:24",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:25",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:26",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:27",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:28",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:29",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:30",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:31",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:32",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:33",
+      "commands": [
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:34",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:35",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:36",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:37",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:38",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:39",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:40",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:41",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:42",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:43",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:44",
+      "commands": [
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:45",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:46",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:47",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:48",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:49",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:50",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:51",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:52",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:53",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:54",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:55",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:56",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:57",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:58",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "variety-18-pack:59",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    }
+  ]
+}

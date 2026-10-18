@@ -7,6 +7,335 @@
       "file": "classic.json",
       "levels": 59,
       "sha256": "580a1214bb39792b4afc8bf5c87a116d2b89aac4b8615fc5651d56525e836cad"
+    },
+    {
+      "id": "childrens-pack",
+      "name": "Children's Pack",
+      "file": "childrens-pack.json",
+      "levels": 60,
+      "sha256": "eb1c0dd87ec122396dd1daad9629d18bc148515ede7179bafc046cc6aa452cec"
+    },
+    {
+      "id": "classic-ii",
+      "name": "Classic II Levels",
+      "file": "classic-ii.json",
+      "levels": 59,
+      "sha256": "00ac875279e69c0ad7cf1bffffb70c9ae629b5141a68167599c099e62ea406a2"
+    },
+    {
+      "id": "confusion-pack",
+      "name": "Confusion Pack",
+      "file": "confusion-pack.json",
+      "levels": 60,
+      "sha256": "ec0e78d7d8a3ec59a748d3fc97ff05f3f957245085bb846ca4e9e8acc9f88b39"
+    },
+    {
+      "id": "impossible-pack",
+      "name": "Impossible Pack",
+      "file": "impossible-pack.json",
+      "levels": 60,
+      "sha256": "b23da9d39fdbfa9accba2d740276d93b1ede0645105afbdfd32813e191e8ac75"
+    },
+    {
+      "id": "panic-pack",
+      "name": "Panic Pack",
+      "file": "panic-pack.json",
+      "levels": 60,
+      "sha256": "7e46f2587cba0e81cef2fb1d441ca3e51e558e1c3a074782b89c8aa0edb39adb"
+    },
+    {
+      "id": "twister-levels",
+      "name": "Twister Levels",
+      "file": "twister-levels.json",
+      "levels": 60,
+      "sha256": "edcef81ddefd1893b0b22554a9e2fa02ae8c624e7607a200af1de6a5e1ce9b02"
+    },
+    {
+      "id": "variety-10-pack",
+      "name": "Variety 10 Pack",
+      "file": "variety-10-pack.json",
+      "levels": 60,
+      "sha256": "c91b06e873e78ec62ed51104b6b0011e9434318aadf719c78091485fd3b09bed"
+    },
+    {
+      "id": "variety-11-pack",
+      "name": "Variety 11 Pack",
+      "file": "variety-11-pack.json",
+      "levels": 60,
+      "sha256": "8e34fcfe754721dc00f20d58fbe311ac21a0f56d2240909a59bd506e5fa4d834"
+    },
+    {
+      "id": "variety-12-pack",
+      "name": "Variety 12 Pack",
+      "file": "variety-12-pack.json",
+      "levels": 60,
+      "sha256": "96470468be22bd4f0e03a7e41802f50ecad5803415626672802241a24098ec6a"
+    },
+    {
+      "id": "variety-13-pack",
+      "name": "Variety 13 Pack",
+      "file": "variety-13-pack.json",
+      "levels": 60,
+      "sha256": "79c1133ec8f69c59d59190ed9718e1ada8ee7f4b78aee86677a2d865659db175"
+    },
+    {
+      "id": "variety-14-pack",
+      "name": "Variety 14 Pack",
+      "file": "variety-14-pack.json",
+      "levels": 60,
+      "sha256": "bb0aa736e288c9b9e675b2e75e59cc101ba57d083c827db3ba840f7d3cb44403"
+    },
+    {
+      "id": "variety-15-pack",
+      "name": "Variety 15 Pack",
+      "file": "variety-15-pack.json",
+      "levels": 60,
+      "sha256": "3adb35dc49451bd46ad700e58b3d38389811ec51e1bb6da3817b7dcb7813c00f"
+    },
+    {
+      "id": "variety-16-pack",
+      "name": "Variety 16 Pack",
+      "file": "variety-16-pack.json",
+      "levels": 60,
+      "sha256": "4f53ce35f58df68e43257fda100af3f67f3d1637851182b2a32041e5999e9e5c"
+    },
+    {
+      "id": "variety-17-pack",
+      "name": "Variety 17 Pack",
+      "file": "variety-17-pack.json",
+      "levels": 60,
+      "sha256": "d854927d021e4cc9de1b334413426248fe9527bea1cb578d41044b4080c91c58"
+    },
+    {
+      "id": "variety-18-pack",
+      "name": "Variety 18 Pack",
+      "file": "variety-18-pack.json",
+      "levels": 60,
+      "sha256": "35e37a668e7c9a8a727caef23fbdda1e2104df0f0a956decc4c5d5d66ab7bebc"
+    },
+    {
+      "id": "variety-19-pack",
+      "name": "Variety 19 Pack",
+      "file": "variety-19-pack.json",
+      "levels": 60,
+      "sha256": "de93c609de726cb8b8ed71162c3ed9b7e274bbf8da057450a5e3ab9bccf4a3d3"
+    },
+    {
+      "id": "variety-20-pack",
+      "name": "Variety 20 Pack",
+      "file": "variety-20-pack.json",
+      "levels": 60,
+      "sha256": "c4d5291c94f5262cbdcedb98d5993af2428569b06557ec798d1dc0a4f88ebf56"
+    },
+    {
+      "id": "variety-21-pack",
+      "name": "Variety 21 Pack",
+      "file": "variety-21-pack.json",
+      "levels": 60,
+      "sha256": "64aa0c3122a2be46f53050da197a0f9e896b21e0b53b43e05c6572bab15906f9"
+    },
+    {
+      "id": "variety-22-pack",
+      "name": "Variety 22 Pack",
+      "file": "variety-22-pack.json",
+      "levels": 60,
+      "sha256": "42813ba31b1162481f149b48dd952946fff7fe54e6772ce605488980f37710e7"
+    },
+    {
+      "id": "variety-23-pack",
+      "name": "Variety 23 Pack",
+      "file": "variety-23-pack.json",
+      "levels": 60,
+      "sha256": "9d422df978fcbbbbfbec8d4deba815ecbd0a7ff339f34f488f90efa0cf447e66"
+    },
+    {
+      "id": "variety-24-pack",
+      "name": "Variety 24 Pack",
+      "file": "variety-24-pack.json",
+      "levels": 60,
+      "sha256": "c815d97bd1ca0473713ded449e2a015f8de3d45aec44bed59bba6a2d6f645bba"
+    },
+    {
+      "id": "variety-25-pack",
+      "name": "Variety 25 Pack",
+      "file": "variety-25-pack.json",
+      "levels": 60,
+      "sha256": "21e8edade88ba6de91d21562ff3b3bb9b65575a9530034d168ae2f43ce71f5e7"
+    },
+    {
+      "id": "variety-26-pack",
+      "name": "Variety 26 Pack",
+      "file": "variety-26-pack.json",
+      "levels": 60,
+      "sha256": "ea5433b43bebd9a74fa2a88abb5ef8fde4274afc8e18b2ddb328c80dd21515f6"
+    },
+    {
+      "id": "variety-27-pack",
+      "name": "Variety 27 Pack",
+      "file": "variety-27-pack.json",
+      "levels": 60,
+      "sha256": "89ac86463546fb2bc624f9438fde539325f184f6b9643e624f5ea1f56846abd1"
+    },
+    {
+      "id": "variety-28-pack",
+      "name": "Variety 28 Pack",
+      "file": "variety-28-pack.json",
+      "levels": 60,
+      "sha256": "415e7a50fad308823a506b3495594dba2e275da9b75a3d6d9fbe1246270a573f"
+    },
+    {
+      "id": "variety-29-pack",
+      "name": "Variety 29 Pack",
+      "file": "variety-29-pack.json",
+      "levels": 60,
+      "sha256": "8ed9c6ccdd2d1c2bca8f2c1ae25a12ec3562839d34a5f8832511fe5654e0e076"
+    },
+    {
+      "id": "variety-3-pack",
+      "name": "Variety 3 Pack",
+      "file": "variety-3-pack.json",
+      "levels": 60,
+      "sha256": "f740f98bc15f95dbeb847ec6a23aa2e1d935b01dd2b59c324a88ea79b52208c8"
+    },
+    {
+      "id": "variety-30-pack",
+      "name": "Variety 30 Pack",
+      "file": "variety-30-pack.json",
+      "levels": 60,
+      "sha256": "33e53873e07abafc2fe08568827274ff1b7da22e3053811d38b60ef6ae23062b"
+    },
+    {
+      "id": "variety-31-pack",
+      "name": "Variety 31 Pack",
+      "file": "variety-31-pack.json",
+      "levels": 60,
+      "sha256": "fc79f45e48900a8cdde36f2863fe23754442500929fe4312e519a7a227a90897"
+    },
+    {
+      "id": "variety-32-pack",
+      "name": "Variety 32 Pack",
+      "file": "variety-32-pack.json",
+      "levels": 60,
+      "sha256": "c92c54070f208ceee9ff291d552bf6717e7487e2004610e0b56883d60a9429bb"
+    },
+    {
+      "id": "variety-33-pack",
+      "name": "Variety 33 Pack",
+      "file": "variety-33-pack.json",
+      "levels": 60,
+      "sha256": "fc49384e4f18f07cd16eb4491a712681b61f61833ce0d4af1e61fbfe637e661a"
+    },
+    {
+      "id": "variety-34-pack",
+      "name": "Variety 34 Pack",
+      "file": "variety-34-pack.json",
+      "levels": 60,
+      "sha256": "d56bf1d78e5597e746d8f965ed81be9e9e660df5c72c10ccf567088d0e562306"
+    },
+    {
+      "id": "variety-35-pack",
+      "name": "Variety 35 Pack",
+      "file": "variety-35-pack.json",
+      "levels": 60,
+      "sha256": "5d61be627cfcabb52607bbab561fd0f5135707e6b9f3bb4b0ad30d8200350d5d"
+    },
+    {
+      "id": "variety-36-pack",
+      "name": "Variety 36 Pack",
+      "file": "variety-36-pack.json",
+      "levels": 60,
+      "sha256": "470c214a10fe99d504b8c87e9c8ce84ecd119fab940ac24677583bdc6fd7190c"
+    },
+    {
+      "id": "variety-37-pack",
+      "name": "Variety 37 Pack",
+      "file": "variety-37-pack.json",
+      "levels": 60,
+      "sha256": "9ea300788d762963679610303daa7fc4b48ff26e2d0edde6f7f242191a6bd37d"
+    },
+    {
+      "id": "variety-38-pack",
+      "name": "Variety 38 Pack",
+      "file": "variety-38-pack.json",
+      "levels": 60,
+      "sha256": "765c3a0ee0e94846bf605b00b87084ccd16cec122ef226b5406f0688c166d28c"
+    },
+    {
+      "id": "variety-39-pack",
+      "name": "Variety 39 Pack",
+      "file": "variety-39-pack.json",
+      "levels": 60,
+      "sha256": "12dc07c61af0c6e7d1d897ab70edcc9b9ef0222251e7fa48b57f89583b311c4e"
+    },
+    {
+      "id": "variety-4-pack",
+      "name": "Variety 4 Pack",
+      "file": "variety-4-pack.json",
+      "levels": 60,
+      "sha256": "73447d3a7cce642a8b75bc969c96658a0809d004f9f8125674dca0f05d8f5a13"
+    },
+    {
+      "id": "variety-40-pack",
+      "name": "Variety 40 Pack",
+      "file": "variety-40-pack.json",
+      "levels": 60,
+      "sha256": "97f06e1daf93dae545afb9540d5d1c5f857b10eaee6849bca4b8232c5bd6d4fd"
+    },
+    {
+      "id": "variety-41-pack",
+      "name": "Variety 41 Pack",
+      "file": "variety-41-pack.json",
+      "levels": 60,
+      "sha256": "5e0442b4900bc59aa16dddfb3ffcb72316fee53b6b3af566163e1fac0b7ec4ed"
+    },
+    {
+      "id": "variety-5-pack",
+      "name": "Variety 5 Pack",
+      "file": "variety-5-pack.json",
+      "levels": 60,
+      "sha256": "b0fb0eba9e1ba9dd00a0de93cf3da63c641595cc3042753ec2efeefe6b1506e6"
+    },
+    {
+      "id": "variety-6-pack",
+      "name": "Variety 6 Pack",
+      "file": "variety-6-pack.json",
+      "levels": 60,
+      "sha256": "31c4cad4c5fda3e7c3c85e6123767f8039296754c6eca52bddc66c9c97c52b79"
+    },
+    {
+      "id": "variety-7-pack",
+      "name": "Variety 7 Pack",
+      "file": "variety-7-pack.json",
+      "levels": 60,
+      "sha256": "c370567c2866b9c2a3ad0a01881e7767fec5c8b1fc192ac509761679d4810d5e"
+    },
+    {
+      "id": "variety-8-pack",
+      "name": "Variety 8 Pack",
+      "file": "variety-8-pack.json",
+      "levels": 60,
+      "sha256": "10d3667d816f300da25ee87d14981d7a99dd245f151a1cc21361a8729f49c3ce"
+    },
+    {
+      "id": "variety-9-pack",
+      "name": "Variety 9 Pack",
+      "file": "variety-9-pack.json",
+      "levels": 60,
+      "sha256": "643314581feadf44b741dbf562d804945524152d9c279f24ea1cb97568b9c265"
+    },
+    {
+      "id": "variety-ii-pack",
+      "name": "Variety II Pack",
+      "file": "variety-ii-pack.json",
+      "levels": 60,
+      "sha256": "9f2b900c915235edb00193df7b1639d2728c0ff9072b92bb2af26b38a3eb7e9e"
+    },
+    {
+      "id": "variety-pack",
+      "name": "Variety Pack",
+      "file": "variety-pack.json",
+      "levels": 60,
+      "sha256": "56061db970f5882db4858cfa349213d6d19f51f3825005090bc7a353695bea3a"
     }
   ]
 }

@@ -119,7 +119,7 @@ test('a second touch ending does not cancel the primary gesture', async ({ page 
 test('a failed pack request offers a working retry', async ({ page }) => {
   await page.route('**/packs/classic.json', route => route.fulfill({ status: 503, body: 'Unavailable' }))
   await page.reload()
-  await expect(page.getByRole('heading', { name: 'Could not load the Classic puzzles' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Could not load the puzzles' })).toBeVisible()
   await page.unroute('**/packs/classic.json')
   await page.getByRole('button', { name: 'Retry', exact: true }).click()
   await expect(page.getByRole('grid')).toBeVisible()

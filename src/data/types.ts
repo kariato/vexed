@@ -6,7 +6,8 @@ export interface RuntimeLevel {
 export interface RuntimePack {
   readonly schemaVersion: 1
   readonly id: string; readonly name: string; readonly author: string
-  readonly license: 'GPL-2.0-or-later'
+  readonly license: 'GPL-2.0-or-later' | 'LicenseRef-Upstream-GPL' | 'NOASSERTION'
+  readonly licenseNote?: string
   readonly boardSource: { readonly file: string; readonly sha256: string }
   readonly levels: readonly RuntimeLevel[]
 }

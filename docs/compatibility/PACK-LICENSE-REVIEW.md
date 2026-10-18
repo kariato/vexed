@@ -2,6 +2,10 @@
 
 Review date: 2026-10-17. This records the evidence found and a content decision; it does not assert that missing permission means redistribution is forbidden.
 
+## Subsequent content decision
+
+The owner subsequently directed inclusion of all packs without an explicit reproduction restriction. [The implementation record](../development/ARCHIVED-PACKS.md) supersedes this review’s exclusion recommendations. The evidence and unresolved terms below remain unchanged.
+
 ## Result
 
 The pinned release has 48 PDB packs and 2,878 puzzle entries (not a claim of unique puzzles). Classic accounts for 59. **Classic II adds 59 boards with explicit upstream GPL evidence. The other 46 packs contain 2,760 entries whose adaptation terms remain unresolved.** No runtime packs are added by this review.
