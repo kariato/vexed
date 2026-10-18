@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && tsx scripts/build-pwa.ts",
     "lint": "oxlint",
     "preview": "vite preview",
     "typecheck": "tsc -b && tsc -p tsconfig.domain.json && tsc -p tsconfig.tests.json && tsc -p tsconfig.tools.json",
@@ -17,7 +17,8 @@
     "packs:audit": "tsx scripts/audit-packs.ts",
     "packs:check": "npm run packs:convert -- --check && npm run packs:audit -- --check",
     "test:e2e": "playwright test",
-    "solutions:derive": "tsx scripts/derive-solutions.ts"
+    "solutions:derive": "tsx scripts/derive-solutions.ts",
+    "test:pwa": "playwright test --config playwright.pwa.config.ts"
   },
   "dependencies": {
     "react": "^19.2.8",

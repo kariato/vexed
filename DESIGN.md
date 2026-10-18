@@ -231,3 +231,8 @@ Both original formats are now converted with pinned source hashes, stable IDs an
 ## Phase 3 and 4 implementation status — October 2026
 
 Classic's 59 puzzles now support tablet drag/tap input, keyboard navigation and responsive layouts. Phase 4 adds Classic Palm/Modern presentation, event-projected animations, original audited pack scoring and solution penalties, best completion records, progression with a labelled Practice option, memorize/recall, isolated player/previous replay, full solution viewing, settings and help. All 59 runtime solution paths are newly derived from cleared board layouts, not copied from historical solution strings. Engine state is authoritative before motion starts; Undo can interrupt motion safely. Progress and settings remain tab-local until Phase 5. See [Phase 3](docs/development/PHASE-3.md) and [Phase 4](docs/development/PHASE-4.md). Existing phase reports above describe their historical completion snapshots.
+
+
+## Phase 5 implementation status — October 2026
+
+Versioned IndexedDB saves now preserve the current attempt, exact undo boundary, checkpoint, previous replay, original score/progression records and settings. Restoration replays strict engine commands; invalid/unsupported saves pause autosave without overwriting data. The production PWA caches the full Classic game and newly derived solutions, uses explicit saved-state update activation and supports optional tablet installation. GitHub Pages publishes only the verified dist artifact, with a whitelisted GPL application-source download; private research fixtures remain unpublished. See [Phase 5 notes](docs/development/PHASE-5.md).

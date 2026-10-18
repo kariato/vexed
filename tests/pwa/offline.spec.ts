@@ -1,0 +1,123 @@
+import { expect, test } from '@playwright/test'
+import type { Page } from '@playwright/test'
+async function ready(page: Page) {
+  await page.goto('./')
+  await expect(page.getByRole('grid')).toBeVisible()
+  await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
+  await expect(page.getByText(/All 59 puzzles and solutions ready offline/)).toBeVisible({ timeout: 20000 })
+  await page.evaluate(() => navigator.serviceWorker.ready)
+}
+async function firstMove(page: Page) {
+  await page.locator('#cell-4-2').click(); await page.locator('#cell-5-2').click()
+  await expect(page.locator('.game .board')).toHaveAttribute('aria-busy', 'false')
+  await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
+}
+async function labels(page: Page) { return page.locator('.game .board').getByRole('gridcell').evaluateAll(cells => cells.map(cell => cell.getAttribute('aria-label'))) }
+test('reload offline restores exact attempt, checkpoint, settings and free replay', async ({ page, context }) => {
+  await ready(page)
+  await page.getByRole('button', { name: 'Memorize', exact: true }).click()
+  await firstMove(page)
+  await page.getByText('Settings', { exact: true }).click()
+  await page.getByLabel('Appearance', { exact: true }).selectOption('modern')
+  await page.getByLabel('Animations', { exact: true }).selectOption('off')
+  await page.getByLabel('Practice: unlock all levels').check()
+  await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
+  const before = await labels(page)
+  await context.setOffline(true)
+  await page.reload()
+  await expect(page.locator('.stats dd').first()).toHaveText('1')
+  expect(await labels(page)).toEqual(before)
+  await expect(page.locator('main')).toHaveClass('theme-modern')
+  await page.getByRole('button', { name: 'Replay moves', exact: true }).click()
+  await page.getByRole('dialog').getByRole('button', { name: 'Next step', exact: true }).click()
+  await page.getByRole('button', { name: 'Return to game', exact: true }).click()
+  await page.getByRole('button', { name: 'Recall', exact: true }).click()
+  await expect(page.locator('.stats dd').first()).toHaveText('0')
+  await expect(page.getByRole('button', { name: 'Undo', exact: true })).toBeDisabled()
+  await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
+  await page.reload()
+  await expect(page.locator('.stats dd').first()).toHaveText('0')
+})
+test('offline full solution penalty and current board survive reload', async ({ page, context }) => {
+  await ready(page); await firstMove(page)
+  const before = await labels(page)
+  await context.setOffline(true)
+  page.once('dialog', dialog => dialog.accept())
+  await page.getByRole('button', { name: 'View solution', exact: true }).click()
+  await expect(page.getByRole('dialog')).toBeVisible()
+  await page.getByRole('button', { name: 'Return to game', exact: true }).click()
+  await expect(page.getByLabel('Pack score')).toHaveText('+5')
+  await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
+  await page.reload()
+  await expect(page.getByLabel('Pack score')).toHaveText('+5')
+  expect(await labels(page)).toEqual(before)
+  await page.getByRole('button', { name: 'Undo', exact: true }).click()
+  await expect(page.locator('.stats dd').first()).toHaveText('0')
+})
+test('invalid future save is preserved and cannot silently overwrite data', async ({ page }) => {
+  await ready(page)
+  await page.evaluate(async () => {
+    const db = await new Promise<IDBDatabase>((resolve, reject) => { const r = indexedDB.open('vexed-web-v1', 1); r.onsuccess = () => resolve(r.result); r.onerror = () => reject(r.error) })
+    await new Promise<void>((resolve, reject) => { const tx = db.transaction('saves','readwrite'); tx.objectStore('saves').put({ schemaVersion: 999, marker: 'keep' }, '/vexed/classic'); tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error) }); db.close()
+  })
+  await page.reload()
+  await expect(page.getByText(/Autosave is paused/)).toBeVisible()
+  await page.locator('#cell-4-2').click(); await page.locator('#cell-5-2').click()
+  const saved = await page.evaluate(async () => {
+    const db = await new Promise<IDBDatabase>(resolve => { const r = indexedDB.open('vexed-web-v1',1);r.onsuccess=()=>resolve(r.result) })
+    return new Promise<unknown>(resolve => { const r = db.transaction('saves').objectStore('saves').get('/vexed/classic');r.onsuccess=()=>{db.close();resolve(r.result)} })
+  })
+  expect(saved).toEqual({schemaVersion:999,marker:'keep'})
+})
+test('install manifest, icons and GPL source use the Pages project scope', async ({ page, request }) => {
+  await ready(page)
+  const manifest = await (await request.get('manifest.webmanifest')).json()
+  expect(manifest.start_url).toBe('/vexed/'); expect(manifest.scope).toBe('/vexed/')
+  for (const icon of manifest.icons) expect((await request.get(icon.src)).ok()).toBe(true)
+  expect((await request.get('vexed-source.tar.gz')).ok()).toBe(true)
+  const paths = await page.evaluate(async () => { const names=await caches.keys(); const cache=await caches.open(names.find(name=>name.startsWith('vexed:/vexed/:'))!); return (await cache.keys()).map(request=>new URL(request.url).pathname) })
+  expect(paths).toContain('/vexed/packs/classic-solutions.json')
+  expect(paths.every(path=>path.startsWith('/vexed/'))).toBe(true)
+})
+test('blocked browser storage keeps play available without claiming a save', async ({ page }) => {
+  await page.addInitScript(() => Object.defineProperty(window, 'indexedDB', { get() { throw new Error('Storage blocked for test') } }))
+  await page.goto('./')
+  await expect(page.getByRole('grid')).toBeVisible()
+  await expect(page.getByText(/Browser storage is unavailable/)).toBeVisible()
+  await page.locator('#cell-4-2').click(); await page.locator('#cell-5-2').click()
+  await expect(page.locator('.stats dd').first()).toHaveText('1')
+  await expect(page.getByText('Saved on this device', { exact: true })).toHaveCount(0)
+})
+test('waiting worker update activates only on request and resumes the saved game', async ({ page }) => {
+  const { readFileSync, writeFileSync } = await import('node:fs')
+  await ready(page); await firstMove(page)
+  const original = readFileSync('dist/sw.js', 'utf8')
+  try {
+    const changed = original.replace(/const CACHE = "([^"]+)"/, 'const CACHE = "$1-update-test"')
+    writeFileSync('dist/sw.js', changed)
+    await page.evaluate(async () => { const registration = await navigator.serviceWorker.ready; await registration.update() })
+    await expect(page.getByRole('button', { name: /Update available/ })).toBeVisible({ timeout: 20000 })
+    await expect(page.locator('.stats dd').first()).toHaveText('1')
+    await page.getByRole('button', { name: /Update available/ }).click()
+    await expect(page.getByRole('grid')).toBeVisible()
+    await expect(page.locator('.stats dd').first()).toHaveText('1')
+    await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
+    const active = await page.evaluate(async () => (await caches.keys()).some(key=>key.endsWith('-update-test')))
+    expect(active).toBe(true)
+  } finally { writeFileSync('dist/sw.js', original) }
+})
+test('public source contains the build inputs and no research fixtures', async () => {
+  const { readFileSync } = await import('node:fs')
+  const { gunzipSync } = await import('node:zlib')
+  const tar = gunzipSync(readFileSync('dist/vexed-source.tar.gz'))
+  const names: string[] = []
+  for (let offset = 0; offset + 512 <= tar.length;) {
+    const header = tar.subarray(offset, offset + 512)
+    const name = header.subarray(0,100).toString().split('\0')[0]!
+    if (!name) break
+    const size = parseInt(header.subarray(124,136).toString().replace(/\0/g,''),8)
+    names.push(name); offset += 512 + Math.ceil(size / 512) * 512
+  }
+  for (const name of ['src/domain/reducer.ts','src/storage/save.ts','scripts/build-pwa.ts','scripts/derive-solutions.ts','scripts/native/derive-solution.cpp','tsconfig.node.json','LICENSE','BUILD.txt']) expect(names).toContain(name)
+  expect(names.some(name=>/reference|fixtures|catalogue|\.git\/|\.pdb$|\.ini$|\.prc$/.test(name))).toBe(false)
+})

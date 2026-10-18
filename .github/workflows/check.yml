@@ -1,7 +1,7 @@
 name: Engine and build checks
 on:
   push:
-    branches: [main, phase-1-engine, phase-2-packs, phase-3-touch, phase-4-experience]
+    branches: [main, phase-1-engine, phase-2-packs, phase-3-touch, phase-4-experience, phase-5-pwa]
   pull_request:
 permissions:
   contents: read
@@ -33,3 +33,4 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
+      - run: npm run test:pwa
