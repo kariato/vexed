@@ -16,7 +16,8 @@
     "packs:convert": "tsx scripts/convert-packs.ts",
     "packs:audit": "tsx scripts/audit-packs.ts",
     "packs:check": "npm run packs:convert -- --check && npm run packs:audit -- --check",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "solutions:derive": "tsx scripts/derive-solutions.ts"
   },
   "dependencies": {
     "react": "^19.2.8",

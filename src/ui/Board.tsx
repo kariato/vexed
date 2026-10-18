@@ -1,16 +1,16 @@
 import { useEffect, useRef, useState } from 'react'
-import type { KeyboardEvent, PointerEvent } from 'react'
+import type { KeyboardEvent, PointerEvent, ReactNode } from 'react'
 import { isBlock, tileAt } from '../domain'
 import type { Board as GameBoard, Position } from '../domain'
 import { cellAt, isDrag } from './pointer'
 import type { PointerStart } from './pointer'
 interface Props {
-  board: GameBoard; selected: Position | null; disabled: boolean
+  idPrefix?: string; overlay?: ReactNode; board: GameBoard; selected: Position | null; disabled: boolean
   onTap: (position: Position) => void
   onDrag: (from: Position, target: Position) => void
   onCancel: () => void; onUndo: () => void; onRestart: () => void
 }
-export function Board({ board, selected, disabled, onTap, onDrag, onCancel, onUndo, onRestart }: Props) {
+export function Board({ idPrefix = '', overlay, board, selected, disabled, onTap, onDrag, onCancel, onUndo, onRestart }: Props) {
   const ref = useRef<HTMLDivElement>(null)
   const pointer = useRef<(PointerStart & { width: number; height: number; viewportWidth: number; viewportHeight: number }) | null>(null)
   const [cursor, setCursor] = useState<Position>({ x: 1, y: 1 })
@@ -66,12 +66,13 @@ export function Board({ board, selected, disabled, onTap, onDrag, onCancel, onUn
     else if (event.key === 'Escape') { cancel(); onCancel() }
     else if (event.key.toLowerCase() === 'r') { event.preventDefault(); cancel(); onRestart() }
   }
-  return <div ref={ref} className="board" role="grid" aria-label="Vexed puzzle, 8 rows and 10 columns" aria-rowcount={8} aria-colcount={10}
-    tabIndex={0} aria-activedescendant={'cell-' + cursor.x + '-' + cursor.y} aria-disabled={disabled}
+  return <div ref={ref} className={'board' + (overlay ? ' animating' : '')} role="grid" aria-label="Vexed puzzle, 8 rows and 10 columns" aria-busy={!!overlay} aria-rowcount={8} aria-colcount={10}
+    tabIndex={0} aria-activedescendant={idPrefix + 'cell-' + cursor.x + '-' + cursor.y} aria-disabled={disabled}
     onPointerDown={down} onPointerMove={move} onPointerUp={up} onPointerCancel={cancelPointer} onLostPointerCapture={cancelPointer} onKeyDown={key}>
+    {overlay}
     {board.cells.map((row, y) => <div role="row" className="board-row" key={y}>{row.map((tile, x) => {
       const active = selected?.x === x && selected.y === y
-      return <div role="gridcell" id={'cell-' + x + '-' + y} key={x} aria-selected={active}
+      return <div role="gridcell" id={idPrefix + 'cell-' + x + '-' + y} key={x} aria-selected={active}
         aria-label={'Row ' + (y + 1) + ', column ' + (x + 1) + ': ' + (isBlock(tile) ? 'block ' + tile.toUpperCase() : tile === '#' ? 'wall' : 'empty')}
         className={'tile ' + (tile === '#' ? 'wall' : isBlock(tile) ? 'block block-' + tile : 'air') + (active ? ' selected' : '') + (cursor.x === x && cursor.y === y ? ' cursor' : '') + (preview?.x === x && preview.y === y && tileAt(board, preview) === '.' ? ' preview' : '')}>
         <span aria-hidden="true">{isBlock(tile) ? tile.toUpperCase() : ''}</span></div>

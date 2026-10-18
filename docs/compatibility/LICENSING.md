@@ -38,3 +38,10 @@ The official Cloudpilot example session is used locally as a test environment on
 For reproducible private CI, the original 67 INI/PDB pack files and normalized research catalogue are now development fixtures. This does not expand the runtime content policy or establish blanket contributor-pack licensing. They remain outside public and application imports.
 
 The generated Classic runtime JSON includes the 59 GPL-traced layouts, author attribution, generic numbered labels, provenance and scalar par counts. It excludes original later titles and encoded solution strings. All source variants remain preserved only in development data.
+
+
+## Phase 4 newly derived solutions and artwork
+
+The runtime now includes `public/packs/classic-solutions.json`: 59 newly computed paths over the GPL-traced Classic layouts. `npm run solutions:derive` compiles the newly authored bounded search in `scripts/native/derive-solution.cpp`; its only puzzle input is `public/packs/classic.json`. The TypeScript wrapper replays every candidate through the strict player engine before writing the full asset and records the runtime pack SHA-256. The search reads no historical encoded solutions, titles or research catalogue. The new paths and search code are offered under GPL-2.0-or-later; they are valid completions, not claims to reproduce historical paths or optimum par. CI verifies full coverage, source-pack hash and strict replay. Original solution strings remain private development fixtures.
+
+Classic patterns, Modern styling and animated blocks use newly authored CSS and text glyphs. No upstream bitmap, sound, Palm executable or emulator session has been added to the web bundle.
