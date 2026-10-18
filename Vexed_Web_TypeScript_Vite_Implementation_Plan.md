@@ -1,5 +1,7 @@
 # Vexed Web — TypeScript/Vite Implementation Plan
 
+> **Phase 0 update (17 October 2026):** Original source audit and executable core evidence are now in [REFERENCE.md](docs/compatibility/REFERENCE.md). [RULES.md](docs/compatibility/RULES.md) supersedes the provisional movement, undo and scoring assumptions in this blueprint. [DESIGN.md](DESIGN.md) specifies GitHub Pages and tablet requirements. Remaining Palm UI and licensing checks are explicit; the web application is not implemented.
+
 **Status:** Implementation blueprint (not implemented)  
 **Date:** 17 October 2026  
 **Target:** Responsive, touch-first, installable web port of Palm OS Vexed 2.2  

@@ -2,6 +2,10 @@
 
 **Implementation blueprint · Version 1.1 · October 2026**
 
+## Phase 0 audit update
+
+The original 2.2 sources have now been acquired and the core has been exercised through a native reference harness. See [REFERENCE.md](docs/compatibility/REFERENCE.md), [RULES.md](docs/compatibility/RULES.md), and [LICENSING.md](docs/compatibility/LICENSING.md). The rules contract supersedes earlier assumptions below, especially undo grouping, blocked-step counting, scoring, and solution penalties. Representative Palm UI behavior is now verified in CloudpilotEmu, and all 59 Classic board layouts are traced to explicitly GPL-covered 1.3 source. Later pack metadata/contributor-pack distribution and exhaustive device validation remain open items.
+
 ## Objective
 
 Recreate the original Palm OS Vexed as a modern, installable web application, preserving its puzzles and gameplay while providing excellent touchscreen support for Android, iPhone, tablets, and desktop browsers.
@@ -35,7 +39,7 @@ The supplied planning text reports that original documentation describes the fol
 | Level packs | Import and select multiple puzzle collections | Confirm formats, metadata, and redistribution rights |
 | Replayable solutions | Deterministic move recording and playback | Confirm solution encoding and timing semantics |
 
-The Palm source archive was not inspected during the supplied planning pass. Exact gravity, matching, collision, cascade, gesture, and scoring behavior must therefore remain explicit audit items rather than assumptions.
+The Palm source archive was not inspected during the initial planning pass; the subsequent Phase 0 audit now supplies source-based findings in RULES.md. Exact gravity, matching, collision, cascade, gesture, and scoring behavior must therefore remain explicit audit items rather than assumptions.
 
 ## Architecture decisions
 
@@ -82,11 +86,11 @@ Do not assume that every swipe equals a one-cell move or that each internal boar
 
 Implement movement, collision, gravity, matching, and cascades in the order established by the source audit. Expose meaningful transition events so the UI can animate an authoritative result without duplicating rules.
 
-Reject illegal commands without partially mutating state. Define a stable point at which another command is accepted, and verify the original game's handling of continued dragging during resolution.
+Reject malformed commands and invalid UI endpoints without partially mutating state. Preserve the audited Classic behavior in which a blocked intermediate step on an otherwise valid gesture can increment the move count. Define a stable point at which another command is accepted, and verify the original game's handling of continued dragging during resolution.
 
 ### Undo and replay
 
-Implement the documented 15-move undo capacity after confirming what constitutes a move and which counters are restored. Replay must use the same engine command path as interactive play. Original recorded solutions will provide compatibility fixtures wherever available and legally usable.
+Implement 15 gesture snapshots for undo, restoring board and prior move count. A multi-cell gesture can count several horizontal steps but has a single undo entry, as confirmed by the Phase 0 source audit. Replay must use the same engine command path as interactive play. Original recorded solutions will provide compatibility fixtures wherever available and legally usable.
 
 ## Interaction and responsive presentation
 
@@ -209,6 +213,8 @@ A prototype-first approach can produce playable results sooner but carries great
 
 This document provides the high-level design. The accompanying [TypeScript/Vite Implementation Plan](Vexed_Web_TypeScript_Vite_Implementation_Plan.md) supplies the detailed repository layout, proposed interfaces, input state machine, conversion pipeline, release gates, and prioritized backlog VX-001 through VX-022. Use its section 13 for the canonical Phase 0–6 implementation sequence; some topical section headings in that plan use different phase numbers.
 
-The implementation plan is a supplied blueprint, not evidence that source inspection or implementation has occurred. Its proposed types, settling order, scoring details, and solution codec remain subject to the Phase 0 source audit. Where scope differs, follow its release cuts: one verified pack for MVP; validated redistributable packs, themes, scoring, replay/solutions, and PWA for v1; editor, user pack import, progressive hints, and solver afterward. No implementation work is initiated by adding these planning documents.
+The implementation plan is the original supplied blueprint. Source inspection and a native reference harness have since been completed as documented in the Phase 0 report; the web application has not been implemented. Its proposed types, settling order, scoring details, and solution codec remain subject to the Phase 0 source audit. Where scope differs, follow its release cuts: one verified pack for MVP; validated redistributable packs, themes, scoring, replay/solutions, and PWA for v1; editor, user pack import, progressive hints, and solver afterward. No implementation work is initiated by adding these planning documents.
 
 The GitHub Pages and tablet requirements in this design supersede Firebase-only deployment wording in the accompanying implementation plan.
+
+Phase 0 follow-up: visible level labels use one-based numbering as confirmed by the original 2.2 binary; stable IDs remain zero-based. The initial public MVP content policy is GPL-covered Classic board layouts with generic labels and newly recorded/derived solutions, pending separate clearance of later metadata and contributor packs. See the audit report for 23 handler tests and emulator screenshots.

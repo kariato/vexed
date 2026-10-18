@@ -1,0 +1,2837 @@
+{
+  "retrievedAt": "2026-10-17",
+  "archives": [
+    {
+      "file": "vexed22_src.zip",
+      "bytes": 1656051,
+      "sha256": "ef8cb01779ee340a6c5a354a8e3ac4f37760e78fb4668b95617993099d14f503"
+    },
+    {
+      "file": "vexed22_src.tgz",
+      "bytes": 1657339,
+      "sha256": "3eef78add151ef0b0159389e07ef02d81c466e39a99f714664409de2d1a6f58f"
+    },
+    {
+      "file": "vexed22.zip",
+      "bytes": 889791,
+      "sha256": "8b468db6ec833df9479bcf8bc3c42eac5034a3ae4536c112945dbc7c51e33b2e"
+    },
+    {
+      "file": "vexed22.zip",
+      "bytes": 295905,
+      "sha256": "6d0053b9ca007388ca0c191e4ae57f6e249e667fd5a99d61f1205ba18e5752b5"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "CVS/Entries",
+      "bytes": 97,
+      "sha256": "0df6a1d7903912424c777d0a3c574079d77d2d4c7bd623ed23d3b78f91ad8085"
+    },
+    {
+      "path": "CVS/Entries.Log",
+      "bytes": 12,
+      "sha256": "9e2f1b5e7c89e52033f1c14ba8c26fbf73e66ce225edc211de367658c3843236"
+    },
+    {
+      "path": "CVS/Repository",
+      "bytes": 6,
+      "sha256": "d37cc41ec90aae515a5ede80dba90aae39cbef58b30f9d210026b5707713c6ac"
+    },
+    {
+      "path": "CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/CVS/Entries",
+      "bytes": 1219,
+      "sha256": "cf97480c84d6c6c1a59fb6a742112160b73d7ff8a73b57468db764a204b8183f"
+    },
+    {
+      "path": "game/CVS/Repository",
+      "bytes": 11,
+      "sha256": "fe9ec4a4f221e90537719c9364351a58b3fa0929e494a36cabe0c6216ec5f242"
+    },
+    {
+      "path": "game/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/CVS/Entries",
+      "bytes": 103,
+      "sha256": "1dd9ce9f99e30b799a8b84c9d4575b24a83148be8e9e88a4e41e523d3691e178"
+    },
+    {
+      "path": "game/blockset/CVS/Repository",
+      "bytes": 20,
+      "sha256": "a31859c2b8e5e269262000b9cf39274b4776a49d488e972bde186c519231f7b4"
+    },
+    {
+      "path": "game/blockset/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/flags/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/blockset/flags/CVS/Repository",
+      "bytes": 26,
+      "sha256": "c1a48e9c82358f94d127b16e2f0c7a6c156baaabe8f3ffe28589f09795f72878"
+    },
+    {
+      "path": "game/blockset/flags/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/flags/hires/CVS/Entries",
+      "bytes": 361,
+      "sha256": "69fa15b240c0bdf9c8c6517d86d315b148383bec54bcdf772f4f744187510eb2"
+    },
+    {
+      "path": "game/blockset/flags/hires/CVS/Repository",
+      "bytes": 32,
+      "sha256": "bee700d1bbd6d9cc67add7208cb4938496c6c3f1525b7479ffbd6eeec7cf2247"
+    },
+    {
+      "path": "game/blockset/flags/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/flags/hires/GB.bmp",
+      "bytes": 3126,
+      "sha256": "0895e6bd4a53c815a354659260389059ada339ff6cb5f18fc54b8842158f2b2c"
+    },
+    {
+      "path": "game/blockset/flags/hires/US.bmp",
+      "bytes": 3126,
+      "sha256": "59a4752cc05b09cdb3c8e32c192183734f8662ede1f4bdd6c14ba0166156486f"
+    },
+    {
+      "path": "game/blockset/flags/hires/czech.bmp",
+      "bytes": 3126,
+      "sha256": "22141338bed096fd238b939395ef96f2e8d55a19aa2f0092b0838d9449559e55"
+    },
+    {
+      "path": "game/blockset/flags/hires/france.bmp",
+      "bytes": 3126,
+      "sha256": "bc09435b91bb83e2a4d698eb99a7aa3d0486caa249ed611350805c5d4324b6ad"
+    },
+    {
+      "path": "game/blockset/flags/hires/germany.bmp",
+      "bytes": 3126,
+      "sha256": "96a574f70dea48ad127f87d51b600e6ba64606340dcf0d12ebaa160376a43533"
+    },
+    {
+      "path": "game/blockset/flags/hires/sweden.bmp",
+      "bytes": 3126,
+      "sha256": "ae5121ab765b76327ccec404504899c6cf2a8bf1a93634883c42eb25827c72c3"
+    },
+    {
+      "path": "game/blockset/flags/hires/tonga.bmp",
+      "bytes": 3126,
+      "sha256": "93f51d970ce45542072eb07b482db37a08e9a90054c94d9a9041de51b731f026"
+    },
+    {
+      "path": "game/blockset/flags/hires/vanatu.bmp",
+      "bytes": 3126,
+      "sha256": "a0b3961fd7340c7a2ffccc3716d8ef5dcddf08d5782deb12c9cced962c6d0a6f"
+    },
+    {
+      "path": "game/blockset/flags/lowres/CVS/Entries",
+      "bytes": 728,
+      "sha256": "c145fd14802768b6b1c4ca83f0e518e4c12b3c0954e674d9563e741cf6c7f92d"
+    },
+    {
+      "path": "game/blockset/flags/lowres/CVS/Repository",
+      "bytes": 33,
+      "sha256": "d8fc5a0057f8dd29bc3be30c4cc522ccaf3f35dd38f57d7959bb108b28a38936"
+    },
+    {
+      "path": "game/blockset/flags/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/flags/lowres/GB.bmp",
+      "bytes": 1336,
+      "sha256": "ef9f98d916a58bac03c61992a8b513c02791b73eba5933e1d00c12cafd0fb41d"
+    },
+    {
+      "path": "game/blockset/flags/lowres/GB4.bmp",
+      "bytes": 246,
+      "sha256": "b6af568c5284db7d7206f65feb8a4121a46491b17bc4b1aaf26bd67d5168ae85"
+    },
+    {
+      "path": "game/blockset/flags/lowres/US.bmp",
+      "bytes": 1336,
+      "sha256": "8a88607da914df31967c2dddb170998e1f48a3ddfca4af7a69b20dd5d28b270c"
+    },
+    {
+      "path": "game/blockset/flags/lowres/US4.bmp",
+      "bytes": 246,
+      "sha256": "0ef84f66097187824fe8c70191c75d4b6317cb82e6da4c7b5152b09816d098a6"
+    },
+    {
+      "path": "game/blockset/flags/lowres/czech.bmp",
+      "bytes": 1336,
+      "sha256": "2f902ac78790906d5684585720f6cdf3c6d5a50f121ddf3c133b8d7986f90ca0"
+    },
+    {
+      "path": "game/blockset/flags/lowres/czech4.bmp",
+      "bytes": 246,
+      "sha256": "d8a59841c4bbd6b3dbe52861778ddeed477be2a80d551196a8fbde551a20e7e1"
+    },
+    {
+      "path": "game/blockset/flags/lowres/france.bmp",
+      "bytes": 1336,
+      "sha256": "db946be0dcda73cdca66c1d5443b43b500e78fe39ca5a37ddfe46aa455d9025f"
+    },
+    {
+      "path": "game/blockset/flags/lowres/france4.bmp",
+      "bytes": 246,
+      "sha256": "e878c93449325c59ab422aeb9cb38b1ab40a22ac6f6cbadd06ff9c0a1656babe"
+    },
+    {
+      "path": "game/blockset/flags/lowres/germany.bmp",
+      "bytes": 1336,
+      "sha256": "27edbdbeb1dd1cbf965e502fd61bcc5a96c0d24669e1690cf465fa7ad9f34927"
+    },
+    {
+      "path": "game/blockset/flags/lowres/germany4.bmp",
+      "bytes": 246,
+      "sha256": "ef8d00b1b94f9f2a7dbacacbd98f150b90d92555a1b227b817895c99872f4ca1"
+    },
+    {
+      "path": "game/blockset/flags/lowres/sweden.bmp",
+      "bytes": 1336,
+      "sha256": "0f609cdf262db7d7a85a691a69c8f77cc263f53db5d1c22341faf776ac712009"
+    },
+    {
+      "path": "game/blockset/flags/lowres/sweden4.bmp",
+      "bytes": 246,
+      "sha256": "e47705e1eb9fe6b37b798235a8b8721c98ac7c4b3a255ac1d15956a7e3cb4c0a"
+    },
+    {
+      "path": "game/blockset/flags/lowres/tonga.bmp",
+      "bytes": 1336,
+      "sha256": "860aac9ab9172e8000f1e8e92e3afef9413f6c02bd7790881e10a148af5f2b8d"
+    },
+    {
+      "path": "game/blockset/flags/lowres/tonga4.bmp",
+      "bytes": 246,
+      "sha256": "62947edb2d5c2bc6b38f3573e22d748135842d936bb99a630eb22b3b34e65d00"
+    },
+    {
+      "path": "game/blockset/flags/lowres/vanatu.bmp",
+      "bytes": 1336,
+      "sha256": "e568527c5c21511ad981acfe135e186c615ffe42553abb709c16ccc6abe51c75"
+    },
+    {
+      "path": "game/blockset/flags/lowres/vanatu4.bmp",
+      "bytes": 246,
+      "sha256": "657e5189dd92786d9d8ea658d002710cafca2f10017a9fcf75f8bf709d27eb4f"
+    },
+    {
+      "path": "game/blockset/greek/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/blockset/greek/CVS/Repository",
+      "bytes": 26,
+      "sha256": "8b42cb246034cb0cb78ff549c2eaa8cc88a54d04ddaea2971dc2a098a430db61"
+    },
+    {
+      "path": "game/blockset/greek/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/greek/hires/CVS/Entries",
+      "bytes": 354,
+      "sha256": "1e5b4b685b49184fa2c677fd5edeb62706dcb1efbb0bb28d485cd7d8c908af7f"
+    },
+    {
+      "path": "game/blockset/greek/hires/CVS/Repository",
+      "bytes": 32,
+      "sha256": "78e9e266354f71332fc8790c9cb3cd09af57fbbaf755df2cb6d8e869b5cea8ec"
+    },
+    {
+      "path": "game/blockset/greek/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/greek/hires/gkh1.bmp",
+      "bytes": 3126,
+      "sha256": "665bafc37a85f5b1545650e42d848e34f38343fbf7048bd3dd6eeedf970d580e"
+    },
+    {
+      "path": "game/blockset/greek/hires/gkh2.bmp",
+      "bytes": 3126,
+      "sha256": "fb2bd1202c6cee83625d7541de9a466e9772f07c63f189bb5975279d3a9bebc8"
+    },
+    {
+      "path": "game/blockset/greek/hires/gkh3.bmp",
+      "bytes": 3126,
+      "sha256": "88248b904e76e30994f76a000901f5a755b2ebbfdd0870e71cab580721ce47d3"
+    },
+    {
+      "path": "game/blockset/greek/hires/gkh4.bmp",
+      "bytes": 3126,
+      "sha256": "b7e00a0b4ff450c9403f11948d1f8ded133fe32d0c6cde1c6c2c32cbfec1e8a4"
+    },
+    {
+      "path": "game/blockset/greek/hires/gkh5.bmp",
+      "bytes": 3126,
+      "sha256": "4b7f5ddde654181e0e82a766c18c2dba465f37bc759adcc82761079fe9811896"
+    },
+    {
+      "path": "game/blockset/greek/hires/gkh6.bmp",
+      "bytes": 3126,
+      "sha256": "ad9b4a41c16a64056c667326c0aa2d9dbd02edb9eaaf2d808a815c4c7849f306"
+    },
+    {
+      "path": "game/blockset/greek/hires/gkh7.bmp",
+      "bytes": 3126,
+      "sha256": "bdc8019faca96cf29690dcb3ad13642b49f80cbeee42524265835503d21aed1d"
+    },
+    {
+      "path": "game/blockset/greek/hires/gkh8.bmp",
+      "bytes": 3126,
+      "sha256": "033b784bca70ae37a0051890da26f94579e1d86414cfb911b84b77cffd1eb681"
+    },
+    {
+      "path": "game/blockset/greek/lowres/1grk.bmp",
+      "bytes": 1336,
+      "sha256": "c7d37898270f03586722f06bbb369840e3c84f2c5da39e20b6f531962cb5ea09"
+    },
+    {
+      "path": "game/blockset/greek/lowres/2grk.bmp",
+      "bytes": 1336,
+      "sha256": "198c3955c6e97887cffcff83e2660aed2e5f8a2368ce9fe3324438d0f533bbfc"
+    },
+    {
+      "path": "game/blockset/greek/lowres/3grk.bmp",
+      "bytes": 128,
+      "sha256": "1f0e10bb197021047248affb72dc1e6f3337d1b581c27efb55ecb5dd15cde2cd"
+    },
+    {
+      "path": "game/blockset/greek/lowres/4grk.bmp",
+      "bytes": 128,
+      "sha256": "b42d8440d64ceabdfbfea6019d1c1c6e295d0fc675f434da5725800a73e3c694"
+    },
+    {
+      "path": "game/blockset/greek/lowres/5grk.bmp",
+      "bytes": 128,
+      "sha256": "3c4446c19749495d15e97fae670c3c0fe3bc557ecf6908a473139a07f4eeaa9a"
+    },
+    {
+      "path": "game/blockset/greek/lowres/6grk.bmp",
+      "bytes": 128,
+      "sha256": "a70bfde0a2edd6380294073eb38afb55481ec8a5b5dc37de451eff6d62d29c0c"
+    },
+    {
+      "path": "game/blockset/greek/lowres/7grk.bmp",
+      "bytes": 128,
+      "sha256": "d081a4d5c8402e5d41ddfe34fc5787d917f4524f9b8648294b1d082414af079f"
+    },
+    {
+      "path": "game/blockset/greek/lowres/8grk.bmp",
+      "bytes": 128,
+      "sha256": "1579cf6c849625563c311b4bb79e24c9e0c75b66fa7ecfbcb79c79669a8a4567"
+    },
+    {
+      "path": "game/blockset/greek/lowres/CVS/Entries",
+      "bytes": 1058,
+      "sha256": "00a689ed4abdb8d8af6bd0f94d21959f9a294771ab0f1e3f624143164cab1e47"
+    },
+    {
+      "path": "game/blockset/greek/lowres/CVS/Repository",
+      "bytes": 33,
+      "sha256": "2d0f75da18c8ad57455b8dfe79ff8ec31d4cb49cf21d09d5468ccfe57e68c1f1"
+    },
+    {
+      "path": "game/blockset/greek/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gk41.bmp",
+      "bytes": 246,
+      "sha256": "a79fb5884b3baa10561e20a04e0576fe8d828630a44d7de8ab5564bc7927ac59"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gk42.bmp",
+      "bytes": 246,
+      "sha256": "b9b0c6764abc06237ce9f0ab7cc70d5c3a909aef7742e765e95764e391aa4622"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gk43.bmp",
+      "bytes": 246,
+      "sha256": "56fa987fc4fdc5e2dc23280ca94bacbad5556edfc9e573ac6aba783accf848bd"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gk44.bmp",
+      "bytes": 246,
+      "sha256": "56d3c798b6ae9f8e1adb0b4658a6b12636c4b5afda9e16658b94e56b4526fbc0"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gk45.bmp",
+      "bytes": 246,
+      "sha256": "80911b8e221cb8d5754d725f43e40674dd786d240c7f4e6f6c387d51c9cd6fff"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gk46.bmp",
+      "bytes": 246,
+      "sha256": "f22c02f5fceb103734675b6aa908f56a8ec77d778bb1184d1072edb2be1c01cb"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gk47.bmp",
+      "bytes": 246,
+      "sha256": "0b269b9b5eacb96f2568c48b3bec480e943d8d4fec5075cb097f3cdfb8621891"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gk48.bmp",
+      "bytes": 246,
+      "sha256": "4749e7e68af894bbfc28dcea3dc99af7694726451ecdb2856ff6da1d85e42ea6"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gkc1.bmp",
+      "bytes": 1336,
+      "sha256": "b0e2851fcccd03ae788c6f0340d1d5db00343a20a9ca2fa4d13839b64d681f6d"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gkc2.bmp",
+      "bytes": 1336,
+      "sha256": "7d39ceb161b6ce15b4b141f13fa85aa9cea216ef7cf8a40fb60bd86255477186"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gkc3.bmp",
+      "bytes": 1336,
+      "sha256": "f6fc958b8ef4a12555e647a6e58de91a906a21334f2ad3b8227a61cfe2550052"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gkc4.bmp",
+      "bytes": 1336,
+      "sha256": "4f7d57565b09d081f5f676596a8fef2812a70926c5e561fac897cc55728d8dce"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gkc5.bmp",
+      "bytes": 1336,
+      "sha256": "9f96c229624f3e1721ad2f9660116e9a25d3b7a912edbee71f50b40b2edb0cd9"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gkc6.bmp",
+      "bytes": 1336,
+      "sha256": "378710ca2384c2ac05bd58d7f147a18660c7e45285f594b5f05e128cbdfbe499"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gkc7.bmp",
+      "bytes": 1336,
+      "sha256": "43d3ea4076e037427687a631f3968eb0ccc8a5888c031f9df65640b433608d6d"
+    },
+    {
+      "path": "game/blockset/greek/lowres/gkc8.bmp",
+      "bytes": 1336,
+      "sha256": "12f1918b3573790f567332a87a790ccf024e2c5a971ea3f7ad67cfc7f3b98761"
+    },
+    {
+      "path": "game/blockset/jewels/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/blockset/jewels/CVS/Repository",
+      "bytes": 27,
+      "sha256": "2c3a771f3b358cef18ddb340635f325be080b5619d27424817856fc8c66b68a6"
+    },
+    {
+      "path": "game/blockset/jewels/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/jewels/hires/CVS/Entries",
+      "bytes": 421,
+      "sha256": "36be4aea8ffd3d57fd4b0941e2b1c852ee68ae0cbf18e234ca138b84b359324b"
+    },
+    {
+      "path": "game/blockset/jewels/hires/CVS/Repository",
+      "bytes": 33,
+      "sha256": "dab86aeb54712fee582b0f75ffe9cbfa76d7bab4054f0b06fa852a34c6dc4cea"
+    },
+    {
+      "path": "game/blockset/jewels/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/jewels/hires/jewel1.bmp",
+      "bytes": 2102,
+      "sha256": "d83b6642cde884354fb316fd63665cc9916a92ff663e1cd65e8660aaab06c10e"
+    },
+    {
+      "path": "game/blockset/jewels/hires/jewel2.bmp",
+      "bytes": 2102,
+      "sha256": "ebdb6b2f4d1b09a036015d644abdca16adba0cbfc926837833111860e0d76189"
+    },
+    {
+      "path": "game/blockset/jewels/hires/jewel3.bmp",
+      "bytes": 2102,
+      "sha256": "ca9c38dcda0bbe63c2625380793d291ff66d07e395ba7acc366e0420725e3a10"
+    },
+    {
+      "path": "game/blockset/jewels/hires/jewel4.bmp",
+      "bytes": 2102,
+      "sha256": "170b0c70e14cd57d63c6b391e40c02e66f9e1366ab5a868cb3712545ec64280a"
+    },
+    {
+      "path": "game/blockset/jewels/hires/jewel5.bmp",
+      "bytes": 2102,
+      "sha256": "090f430f51d56d211f58dcb912135ec5161f3768a5ea25638e656d528e29b4ec"
+    },
+    {
+      "path": "game/blockset/jewels/hires/jewel6.bmp",
+      "bytes": 2102,
+      "sha256": "f069418d8ef95c5daaa011ffcca967ba467f14354e5e2f1d0b43f1c8cee0b727"
+    },
+    {
+      "path": "game/blockset/jewels/hires/jewel7.bmp",
+      "bytes": 2102,
+      "sha256": "e5da0e128eb7a50ddd485ca6fc1ef3eff78890b6f608a7c1e1c5190aa5b6a5ab"
+    },
+    {
+      "path": "game/blockset/jewels/hires/jewel8.bmp",
+      "bytes": 2102,
+      "sha256": "182f65658c981874586fae3192b494cf5c17612a8b67037d9b4a1cc96b523bc5"
+    },
+    {
+      "path": "game/blockset/jewels/hires/jewel9-tile.bmp",
+      "bytes": 2102,
+      "sha256": "40ed9c4e5d55b874d060cc1109cc71a35c734a94c63f0ac7053a2b10c9303e20"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/CVS/Entries",
+      "bytes": 682,
+      "sha256": "c0959f97f3720ff9b070f8cb2c9382e8479df9e8e250bc5e7943121e314bc272"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/CVS/Repository",
+      "bytes": 34,
+      "sha256": "e0a132bbc816876cb2c1f40683f70c1f0d34f4e2ce7a3dfa2d989c5689bb9f80"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j1.bmp",
+      "bytes": 1336,
+      "sha256": "a9c8bd2db87c2b2424e90cae59d47b6b3548f6f1877a8f62ec3202645e1bf361"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j14.bmp",
+      "bytes": 246,
+      "sha256": "be13539559e403ebe9fc971595fcc7ef7b263521062c61de53da21b50dec487c"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j2.bmp",
+      "bytes": 1336,
+      "sha256": "ac023e82931882300f4595899a1930569aea60234f811123ed081ce5c7a12e0e"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j24.bmp",
+      "bytes": 246,
+      "sha256": "c2dc928dfc3921740e333dae16aa12336d2af89d1a820a6ad8f5d3b78f01170a"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j3.bmp",
+      "bytes": 1336,
+      "sha256": "3bfd95e0adda8b29919c1d6d9e895ec5ae88e78831c434f083276ffe71e5035c"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j34.bmp",
+      "bytes": 246,
+      "sha256": "741b3072c9d5501d3aa26c5c90b424c9dfad36cc2c34627de0f4d6269f51ff66"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j4.bmp",
+      "bytes": 1336,
+      "sha256": "06847d07568bc10a4c0e4d26465ffebf70ae8698d66250da0d209330e0cd5ec9"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j44.bmp",
+      "bytes": 246,
+      "sha256": "fec78aba1d58739d4fe6772f6909adc80d5a63e297d6b08166a9213ff72846d0"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j5.bmp",
+      "bytes": 1336,
+      "sha256": "8027997af2924ea8ce390effd4def9bccb10f394fec43751bdad6bc4ae89d816"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j54.bmp",
+      "bytes": 246,
+      "sha256": "0026d20c92b71491aaa1b5ef8a57a4022ddc36a6851c1090eb9b79e716226b44"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j6.bmp",
+      "bytes": 1336,
+      "sha256": "af82f2fd9cd462a5c3bf0d626654457bb4f58ce0cd0634a37f5e8aa773612d86"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j64.bmp",
+      "bytes": 246,
+      "sha256": "6b8f9fdc7a51c5d330e48ebef5cf4790be7cd856792384e92432fb8058050ba3"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j7.bmp",
+      "bytes": 1336,
+      "sha256": "7d5165ae2baf15c10ed7f132ed4d0ab585d2a3f584563d468f4f6571534bffa0"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j74.bmp",
+      "bytes": 246,
+      "sha256": "eaacf239ceef4ff36983d8ddf44e51e3b9b99916bb13dd080cbac72baba68e97"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j8.bmp",
+      "bytes": 1336,
+      "sha256": "a667d3299a1080e44c97f402ed2e7a6295c963e6119662274ff9b90fc51822ce"
+    },
+    {
+      "path": "game/blockset/jewels/lowres/j84.bmp",
+      "bytes": 246,
+      "sha256": "9c831d2f8791eaf34099c6c41dcbc55c4a484f4b510834293885315cf5292e5c"
+    },
+    {
+      "path": "game/blockset/numbers/CVS/Entries",
+      "bytes": 13,
+      "sha256": "2db1bf7ad37edcd2027a6fd0b8603f9000e2aeb9730afe329206989c41bb5d78"
+    },
+    {
+      "path": "game/blockset/numbers/CVS/Repository",
+      "bytes": 28,
+      "sha256": "38e12f11efae5523cfb83fd05da53db2e88f178c86f52fa36bc2afd6ae98f3d7"
+    },
+    {
+      "path": "game/blockset/numbers/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/1.bmp",
+      "bytes": 128,
+      "sha256": "72816f63a4ed499a7ea83bc56c257be53d0a6e94b985ce72d4ee7578b3203d3d"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/18.bmp",
+      "bytes": 1336,
+      "sha256": "38de1079bc056c71745db10ec188eb844fd6dc27a8109b6c0d99a086f8fa9f96"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/2.bmp",
+      "bytes": 128,
+      "sha256": "80ef097565b3ee1d176635f26e680978074ea48079a3810ea6044b777f78a6fa"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/28.bmp",
+      "bytes": 1336,
+      "sha256": "83fcfdf3bb61a0ac5589550329d9a4418e40cc8910cb8646546d6a0589a0a716"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/3.bmp",
+      "bytes": 128,
+      "sha256": "30c9eaf3b010d0b157b2352392030f916e7db91e0b547dd80ad33ac1af8cad79"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/38.bmp",
+      "bytes": 1336,
+      "sha256": "a9b12f0a751876b8de8f853d95a13032d43eb66c82a58658f488e90960b3db43"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/4.bmp",
+      "bytes": 128,
+      "sha256": "b62c9ef5b70865ae5d3186c54ce00bce21d1e48ea34df0bb18f151fc13429142"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/48.bmp",
+      "bytes": 1336,
+      "sha256": "cd787296807be78f7d15900dc26dd490c51693ed6fd6f892bfed7510efe64e8a"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/5.bmp",
+      "bytes": 128,
+      "sha256": "8a52bdec9e821d14fa929585b7bc49d46e2423c6f4fd43d4b05a64cc024f7f56"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/58.bmp",
+      "bytes": 1336,
+      "sha256": "d7294eaca737b9310e45256939d0bcb7995ae1ee45b5dc09c35a180bc7308f6b"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/6.bmp",
+      "bytes": 128,
+      "sha256": "50cb6e57e040da216df6d11b6a7c86eeb9fb04abe40bfd3ed95b9f7475a0a723"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/68.bmp",
+      "bytes": 1336,
+      "sha256": "3a52c76ccabf306b2fc325fbbfb7b7b4a2ad8000457af7457764fa4adaa08b68"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/7.bmp",
+      "bytes": 128,
+      "sha256": "3a9798bd20b63967293b97fde55f295b898f2ab7d103a2d502008e3f07955803"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/78.bmp",
+      "bytes": 1336,
+      "sha256": "b1733e1dd5ec3fb5e191c42a9a4868481fc1ebc5f376823315138c8351e4cfce"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/8.bmp",
+      "bytes": 128,
+      "sha256": "1bfe797290d9dcffa4673c0bf0cb36e1b724a2212f3a244a59e69bdce8a89c64"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/88.bmp",
+      "bytes": 1336,
+      "sha256": "751056b0012f8ecad57ecd0f5d05f1eb667a38a1a204eda5901f9fe90c820b1b"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/CVS/Entries",
+      "bytes": 666,
+      "sha256": "0e1fe6ce901066524babb5c9dbfff8368ab2ed9aa7251ff62c89fd81d05267ca"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/CVS/Repository",
+      "bytes": 35,
+      "sha256": "8a23d949404fd40ab1a615a1b9314ec511ce1c1f44146fad45a83597b4941ddb"
+    },
+    {
+      "path": "game/blockset/numbers/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/original/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/blockset/original/CVS/Repository",
+      "bytes": 29,
+      "sha256": "5047b3e65999aa1efa28930e613db593d6dc98ebcb7b276970d8abb38d841c21"
+    },
+    {
+      "path": "game/blockset/original/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/original/hires/CVS/Entries",
+      "bytes": 370,
+      "sha256": "49ac9e3a11dc98b52ddb9bac4d09faa6887a5e00d7a9b768364547b731f24d0b"
+    },
+    {
+      "path": "game/blockset/original/hires/CVS/Repository",
+      "bytes": 35,
+      "sha256": "a82e22fddc93c561328e1c167aad1141f3c8121676edab8565f79cad2460d1af"
+    },
+    {
+      "path": "game/blockset/original/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/original/hires/block1.bmp",
+      "bytes": 2102,
+      "sha256": "fac8de5d2d179aa369a3293dde42569b3508f44b471fc6735fd7903d0d6c4dea"
+    },
+    {
+      "path": "game/blockset/original/hires/block2.bmp",
+      "bytes": 2102,
+      "sha256": "6d9f1bb2eaed3b57dfbbd94d2f613e4e308a639f4faccc401125d397d66f6322"
+    },
+    {
+      "path": "game/blockset/original/hires/block3.bmp",
+      "bytes": 2102,
+      "sha256": "78f44a7d6f731d507b464738c4c9e3a59006f7dce3b1949d8c981c0973bfc803"
+    },
+    {
+      "path": "game/blockset/original/hires/block4.bmp",
+      "bytes": 2102,
+      "sha256": "ae3bfb95d3e8aca366b0e4cfed9f8df1b7f131e4081a70e9a3e7f0624a43878d"
+    },
+    {
+      "path": "game/blockset/original/hires/block5.bmp",
+      "bytes": 2102,
+      "sha256": "f564f3e0f32f5ab345d6e22e5eb14725818ed51896f6cf93732b9b53d2ddac5c"
+    },
+    {
+      "path": "game/blockset/original/hires/block6.bmp",
+      "bytes": 2102,
+      "sha256": "c8b8412bc1e06f8dc6bbb515cfb069c8b1115e20e61508cb60a3885829f97a14"
+    },
+    {
+      "path": "game/blockset/original/hires/block7.bmp",
+      "bytes": 2102,
+      "sha256": "750de36ec20f52a2b9544d38a06a2cf062ac8175d26e648065ae2c77ef9e6b97"
+    },
+    {
+      "path": "game/blockset/original/hires/block8.bmp",
+      "bytes": 2102,
+      "sha256": "375b2a30bc213ac70f52d7bbb3cb68aa725e717e15dee2fb300bff11bf654117"
+    },
+    {
+      "path": "game/blockset/original/lowres/CVS/Entries",
+      "bytes": 1169,
+      "sha256": "b7067e8bcc27ea8585148619377102d532b6c921627c493ca81b35d3c53d2d33"
+    },
+    {
+      "path": "game/blockset/original/lowres/CVS/Repository",
+      "bytes": 36,
+      "sha256": "1957591b42caf59a23d4a2d53e08433e5c3296f90a381d25e5b0841ef2cd26d8"
+    },
+    {
+      "path": "game/blockset/original/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/original/lowres/block1.bmp",
+      "bytes": 126,
+      "sha256": "1b45cdc71387eb4a2773a99a6c4d6a4eabffe6ae3c13cb246d787b7c714fb528"
+    },
+    {
+      "path": "game/blockset/original/lowres/block14.bmp",
+      "bytes": 248,
+      "sha256": "91fbd017d25d4078298b2af19e49030200f2b5d8647b5df6aaddb50dc2ede29b"
+    },
+    {
+      "path": "game/blockset/original/lowres/block18.bmp",
+      "bytes": 1336,
+      "sha256": "6bc12751281e317bb89cfa653d82faa4dd12dbcb1f1dc2dbbb152fe02b31cacd"
+    },
+    {
+      "path": "game/blockset/original/lowres/block2.bmp",
+      "bytes": 126,
+      "sha256": "32550d7c0476871bee233a6edb51a5287a9f77c81dc0e5b32f34a1cfc448e034"
+    },
+    {
+      "path": "game/blockset/original/lowres/block24.bmp",
+      "bytes": 248,
+      "sha256": "4b78882d5b52219199574d3f7018c6749133a3a8c5cdddc1c202ec40c1c83fe0"
+    },
+    {
+      "path": "game/blockset/original/lowres/block28.bmp",
+      "bytes": 1336,
+      "sha256": "11006de2aba338b58326a767604b60544b2474e464173bb727b4dc1b30e45b3a"
+    },
+    {
+      "path": "game/blockset/original/lowres/block3.bmp",
+      "bytes": 126,
+      "sha256": "4cad7642bd757a808a080ac4fede9f9ea50313306b559e97149adecdb38c9496"
+    },
+    {
+      "path": "game/blockset/original/lowres/block34.bmp",
+      "bytes": 248,
+      "sha256": "472b6752fb7088eb9b400943d545b6b0db239ca6e3d3656a21ae7dbb37a92887"
+    },
+    {
+      "path": "game/blockset/original/lowres/block38.bmp",
+      "bytes": 1336,
+      "sha256": "c29bb59d98fc28247177907cafa6374eea0c569fc4a8eeeadb90181c0d1a7e72"
+    },
+    {
+      "path": "game/blockset/original/lowres/block4.bmp",
+      "bytes": 126,
+      "sha256": "2e72726504767dc25b3dfa756e5d65fb876326c3d50b56154e7c55ea051ca5ab"
+    },
+    {
+      "path": "game/blockset/original/lowres/block42.bmp",
+      "bytes": 126,
+      "sha256": "9ebd6f6e2dbb62b2c3e3e42ac2f4035ee3471a8d18f79e9452ad7e4400a9b117"
+    },
+    {
+      "path": "game/blockset/original/lowres/block44.bmp",
+      "bytes": 248,
+      "sha256": "cf5f6603d2568cd17ef72467aebcb660ce05f8171b4baba55711869a3c70d810"
+    },
+    {
+      "path": "game/blockset/original/lowres/block48.bmp",
+      "bytes": 1336,
+      "sha256": "dc938dff4cb6219db558cfc3e0356c44bba34f19b754b442a17b22c709902e52"
+    },
+    {
+      "path": "game/blockset/original/lowres/block5.bmp",
+      "bytes": 126,
+      "sha256": "d909aa85c4f1aa00723d8eda980226285c2f4c703df89f48a12dc88b444ea11a"
+    },
+    {
+      "path": "game/blockset/original/lowres/block54.bmp",
+      "bytes": 248,
+      "sha256": "c320cd8cad4c4bc1119d0b35db7caadc9252dcff79bd7c39c26ba26ce65b48f7"
+    },
+    {
+      "path": "game/blockset/original/lowres/block58.bmp",
+      "bytes": 1336,
+      "sha256": "1d20ada7858c02c6fcd27cd719a3e6b6d10e6446a6854c8b67b83e35a0254f1c"
+    },
+    {
+      "path": "game/blockset/original/lowres/block6.bmp",
+      "bytes": 126,
+      "sha256": "2762c7cc5160567ebd2dda00e43d92b21bfb98c0598080476720eff293e77ef4"
+    },
+    {
+      "path": "game/blockset/original/lowres/block64.bmp",
+      "bytes": 248,
+      "sha256": "12ca8fb534b0c7c298bd91e94725687f1e44dec4966217dc03fe646bc6778de3"
+    },
+    {
+      "path": "game/blockset/original/lowres/block68.bmp",
+      "bytes": 1336,
+      "sha256": "7c135e8b9f1b045fd29c789a51b1ce505fd6f8fe67fd57159baf3d77cb339bdd"
+    },
+    {
+      "path": "game/blockset/original/lowres/block7.bmp",
+      "bytes": 126,
+      "sha256": "4c0b5688ad87f5e5ac33bbf70c4384cabb8543217edc90fadd78b1907bd58f7e"
+    },
+    {
+      "path": "game/blockset/original/lowres/block74.bmp",
+      "bytes": 248,
+      "sha256": "4952c0e109370fd5be4730dc901e552414b6938aa0ca69bfba672d063af629d3"
+    },
+    {
+      "path": "game/blockset/original/lowres/block78.bmp",
+      "bytes": 1336,
+      "sha256": "34a546c6b31e207046264441073f3af5bd9dc2e648c3ad6caee39a4ef3fd02d9"
+    },
+    {
+      "path": "game/blockset/original/lowres/block8.bmp",
+      "bytes": 126,
+      "sha256": "05437d8b2416ac039985e8f4b649f9ea0f5868ea80c7ef3ef7068720e7d4bf58"
+    },
+    {
+      "path": "game/blockset/original/lowres/block84.bmp",
+      "bytes": 248,
+      "sha256": "e23a684d78004897f16fbb7412a6745fe6a5d34420f56502f7aab6b027069817"
+    },
+    {
+      "path": "game/blockset/original/lowres/block88.bmp",
+      "bytes": 1336,
+      "sha256": "419ffe30db152bd159468cadfd31c9c2d82d9b52ef1a81c8132e6aeabf515b82"
+    },
+    {
+      "path": "game/blockset/pills/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/blockset/pills/CVS/Repository",
+      "bytes": 26,
+      "sha256": "8c6b21ae7b454bfc9283b94e4cf83f836f5664182fc34b418f5f80943756b93d"
+    },
+    {
+      "path": "game/blockset/pills/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/pills/hires/CVS/Entries",
+      "bytes": 362,
+      "sha256": "3078f9a5c3058d61bb7ebd1c4c48ce92451d8aef75d6c06714bfc96af47025a5"
+    },
+    {
+      "path": "game/blockset/pills/hires/CVS/Repository",
+      "bytes": 32,
+      "sha256": "af9b653d0a51e0ab6afa81a356554082007ed66c96f8d69728d0fced5aa7c75e"
+    },
+    {
+      "path": "game/blockset/pills/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/pills/hires/pill1.bmp",
+      "bytes": 2102,
+      "sha256": "259426ed0281328d5a694944f16c8e3f8918718c92412315b391c73287801d1b"
+    },
+    {
+      "path": "game/blockset/pills/hires/pill2.bmp",
+      "bytes": 2102,
+      "sha256": "dcd15c2526f60b159b023c5e75440272aaefe16c1c8d62e69ad7645d59ab44ce"
+    },
+    {
+      "path": "game/blockset/pills/hires/pill3.bmp",
+      "bytes": 2102,
+      "sha256": "6628c45821d88c6d93a2bb121f7a487b870d0f3ba941df09c6d1e59940de143a"
+    },
+    {
+      "path": "game/blockset/pills/hires/pill4.bmp",
+      "bytes": 2102,
+      "sha256": "9adf383407949bede7c30968a17b247444255141ae411cf5c16a2277e5fd270c"
+    },
+    {
+      "path": "game/blockset/pills/hires/pill5.bmp",
+      "bytes": 2102,
+      "sha256": "c3bee63eb1191b26888d0788618c11091cb285d379899b9285c072b3f5ff52a7"
+    },
+    {
+      "path": "game/blockset/pills/hires/pill6.bmp",
+      "bytes": 2102,
+      "sha256": "9f79450f1fb885d98ef83dccbb137763c5a2b479d73be04af8211134a9e5523e"
+    },
+    {
+      "path": "game/blockset/pills/hires/pill7.bmp",
+      "bytes": 2102,
+      "sha256": "09c4032d5251a56f49ce0f549db1b8d73a30684ea02a08e5b454eff2186f0260"
+    },
+    {
+      "path": "game/blockset/pills/hires/pill8.bmp",
+      "bytes": 2102,
+      "sha256": "b76697bcce26571a7b2ddc01e7a763d1b99037a489d7e2af728d67076cca84ec"
+    },
+    {
+      "path": "game/blockset/pills/lowres/CVS/Entries",
+      "bytes": 722,
+      "sha256": "1fb5c4e78442bf6a44fe3713c4dab311de85a9730f0d752b0b32f08934b00ed8"
+    },
+    {
+      "path": "game/blockset/pills/lowres/CVS/Repository",
+      "bytes": 33,
+      "sha256": "4a208bba8aa1a51a390fae9576dbd5518d2958ddb895cc919a3a7760027167b4"
+    },
+    {
+      "path": "game/blockset/pills/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/pills/lowres/hypo1.bmp",
+      "bytes": 1336,
+      "sha256": "26336c44b16540f1665c4e364f37745b23b71875f5a7a55b17fab0820bbc9f3a"
+    },
+    {
+      "path": "game/blockset/pills/lowres/hypo2.bmp",
+      "bytes": 1336,
+      "sha256": "ce92ae1c66aaca8b27accc676e455401f73bd8ace0b5b1e319f07e2980d40d53"
+    },
+    {
+      "path": "game/blockset/pills/lowres/hypo3.bmp",
+      "bytes": 1336,
+      "sha256": "6a87e8ef53348299bd6cd8e80a92d885430ae24b61ba07d9bb07828eb3cf9623"
+    },
+    {
+      "path": "game/blockset/pills/lowres/hypo4.bmp",
+      "bytes": 1336,
+      "sha256": "f770de0a022c70d735bfa27d5b34d180506d2d32eb745ad32a8e9dd9d482eb43"
+    },
+    {
+      "path": "game/blockset/pills/lowres/hypo5.bmp",
+      "bytes": 1336,
+      "sha256": "7d7773c41742e012ed10141249641934bd52feab87f51abac55448ab2d1fe027"
+    },
+    {
+      "path": "game/blockset/pills/lowres/hypo6.bmp",
+      "bytes": 1336,
+      "sha256": "fd27d85da2b162c5a8f3b95d95a7bc3c998b0ffeee46c2cf98bc915ff131a72b"
+    },
+    {
+      "path": "game/blockset/pills/lowres/hypo7.bmp",
+      "bytes": 1336,
+      "sha256": "7c439b45549e9beae0c9a2fe76b80bd1322c561e7acf66087438fd54915f6e5b"
+    },
+    {
+      "path": "game/blockset/pills/lowres/hypo8.bmp",
+      "bytes": 1336,
+      "sha256": "fa140020256b99619b6d1077c2c21b7cb4a152cae41b5028cb07b3feca36c7d4"
+    },
+    {
+      "path": "game/blockset/pills/lowres/noir1.bmp",
+      "bytes": 246,
+      "sha256": "ced5e15f6652dda46d71875812b2b121f5b9f897c6e23b811517a6dcfa2b36c1"
+    },
+    {
+      "path": "game/blockset/pills/lowres/noir2.bmp",
+      "bytes": 246,
+      "sha256": "67190f065dcd53c4b6c887ddc13a86192d818043bcc827e321a753201e0d0ead"
+    },
+    {
+      "path": "game/blockset/pills/lowres/noir3.bmp",
+      "bytes": 246,
+      "sha256": "370af0aa605d4cc6c9659895e407424f5d59cb845927a934b8e9749e45fb088f"
+    },
+    {
+      "path": "game/blockset/pills/lowres/noir4.bmp",
+      "bytes": 246,
+      "sha256": "45da15ce550a438769505e7e8b47b67f0db53cce71bc839d13d5a2cbfaad9f01"
+    },
+    {
+      "path": "game/blockset/pills/lowres/noir5.bmp",
+      "bytes": 246,
+      "sha256": "d5490b6371c806fcf484f4c591d779800386eeb52b51cd34954fed0d8119557b"
+    },
+    {
+      "path": "game/blockset/pills/lowres/noir6.bmp",
+      "bytes": 246,
+      "sha256": "5b1c564fa9fa838349356c42b1455e49283a9791946d33781ea8af8c11c83cf7"
+    },
+    {
+      "path": "game/blockset/pills/lowres/noir7.bmp",
+      "bytes": 246,
+      "sha256": "2dab53c42de47a4f1860ab57a4eff8ee132b51161bcacc53d9bad1462cf4c364"
+    },
+    {
+      "path": "game/blockset/pills/lowres/noir8.bmp",
+      "bytes": 246,
+      "sha256": "a41564be019fc7d8bbbad3a4e268b2128dacb81f727f9f8371e598ac5574adbe"
+    },
+    {
+      "path": "game/blockset/symbols/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/blockset/symbols/CVS/Repository",
+      "bytes": 28,
+      "sha256": "6ac39d15eaf0ef2bdad403a1a9cc18da2b601bf19327cd89fe5896d2fb2bc1cd"
+    },
+    {
+      "path": "game/blockset/symbols/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/symbols/hires/CVS/Entries",
+      "bytes": 354,
+      "sha256": "11dcc125fc9ca8bc5119565e689cc05b8215c3e0a89a9c9ba9de1b5581d406b4"
+    },
+    {
+      "path": "game/blockset/symbols/hires/CVS/Repository",
+      "bytes": 34,
+      "sha256": "cefd2ffe7a819282558bbce80240f6c6356fea0da7d6da959de3ca0a03dc767f"
+    },
+    {
+      "path": "game/blockset/symbols/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/symbols/hires/int1.bmp",
+      "bytes": 3126,
+      "sha256": "ce28745c8a94f8e904652ea9f17292ace0e2202147654448450d0d00931b7e16"
+    },
+    {
+      "path": "game/blockset/symbols/hires/int2.bmp",
+      "bytes": 3126,
+      "sha256": "77cedd8dccec774f9aa5746c0b78c6c100e7297012abe77161392ed7e93ae9d1"
+    },
+    {
+      "path": "game/blockset/symbols/hires/int3.bmp",
+      "bytes": 3126,
+      "sha256": "06aaec0f325feeae5a1e18668c5df5494b4ab13ac7ced963459aae6cf69d8588"
+    },
+    {
+      "path": "game/blockset/symbols/hires/int4.bmp",
+      "bytes": 3126,
+      "sha256": "3d1e9ee48cdb9466f4ffbe9ae25f297506165f1159aa7100cccdb5a70ceb87bc"
+    },
+    {
+      "path": "game/blockset/symbols/hires/int5.bmp",
+      "bytes": 3126,
+      "sha256": "d18a54fe14dd215fa274c6421f9f883e2c8875899d8fb68dc679be5246b5e6fa"
+    },
+    {
+      "path": "game/blockset/symbols/hires/int6.bmp",
+      "bytes": 3126,
+      "sha256": "b43c2698fa9a3531f4f7d1d4360c6cf0d7b0f278019299c8ee5979f9b36bba3c"
+    },
+    {
+      "path": "game/blockset/symbols/hires/int7.bmp",
+      "bytes": 3126,
+      "sha256": "7cc4439a6bee5b0ffae899475acea92872b222cb8062a6eab0d037b8d9c95c5a"
+    },
+    {
+      "path": "game/blockset/symbols/hires/int8.bmp",
+      "bytes": 3126,
+      "sha256": "fc8733707359bb9c89bcc1a2c374b885d3834b684b3e788a18b6d77a50c292b7"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/CVS/Entries",
+      "bytes": 714,
+      "sha256": "5bfa1c660c7f950e5a7dffd7fa44752c1fe9ceaa1c13504366371a5f68926188"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/CVS/Repository",
+      "bytes": 35,
+      "sha256": "a2fc7b22c88d4a054e8e008b07eb053fcca4ac3c068934523fc2cc56e9c60872"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int1.bmp",
+      "bytes": 1336,
+      "sha256": "e8532ca92e2a64563a2fa05ce0a0a5df1b01394ff3bcca21ae7809b1f53f43f3"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int14.bmp",
+      "bytes": 246,
+      "sha256": "d218447e4b854b5579b785fd1bc5a93ba7a96310989bd8a187c55cf9634679be"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int2.bmp",
+      "bytes": 1336,
+      "sha256": "1187cee0e9078259decd2ff2d64d8a6a0f05231293f789896fd14673261ae303"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int24.bmp",
+      "bytes": 246,
+      "sha256": "f13419947f3ba80b0f72d44680afc3be74fcebd7523a36f0f9f11f029ed71e30"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int3.bmp",
+      "bytes": 1336,
+      "sha256": "4a9231ec925c246b39102905d035345caf8ebb9d2a1c9246dc3ba679503e17c4"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int34.bmp",
+      "bytes": 246,
+      "sha256": "826fda540d1586657b398619c4eb7c57b3d10541366c79ba76e474deb29af18d"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int4.bmp",
+      "bytes": 1336,
+      "sha256": "f1cb3634b3f208f0017be978d074186db4458d0f968b9df955525cf13d25cfd5"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int44.bmp",
+      "bytes": 246,
+      "sha256": "067c2c1aa902a668cafe62d8fa96d9eae0f9be57156097db2d293c11c7b280a6"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int5.bmp",
+      "bytes": 1336,
+      "sha256": "46ea6089f44703481686c64cf05be2834a7e532233041b3cd6343f83b0904b22"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int54.bmp",
+      "bytes": 246,
+      "sha256": "9dd722b95861c4b9db87b6326870c545392f1967bd033779127b437f796a0114"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int6.bmp",
+      "bytes": 1336,
+      "sha256": "8762a972a1465da4f0aed178709a46a63357f4f13ad0beddc363c62d05b98469"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int64.bmp",
+      "bytes": 246,
+      "sha256": "4e586255555f141e62ed3de1a4bfda2be6b3418cb025c1d9620cf85c8b2408d1"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int7.bmp",
+      "bytes": 1336,
+      "sha256": "768ba8d96bc60764355a179bd10a347288963452acc4bd1f1236755f54c61b6e"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int74.bmp",
+      "bytes": 246,
+      "sha256": "f38b3a1857d1a457b6bb04b6ab74da9967bb816fa2bb2a464de48fbb6a37ea35"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int8.bmp",
+      "bytes": 1336,
+      "sha256": "e06fb8c3eeeeb7d3699491e4241ff957cff8297be54358291ad9d10941e1874d"
+    },
+    {
+      "path": "game/blockset/symbols/lowres/int84.bmp",
+      "bytes": 246,
+      "sha256": "37321fabddd19b97fd7f7d5eee76e710dcf47da2471479535cabcb66789d64b0"
+    },
+    {
+      "path": "game/blockset/wall/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/blockset/wall/CVS/Repository",
+      "bytes": 25,
+      "sha256": "83606840e5efc297687489830d270a0071d677ab85027d8333764af13e7062a2"
+    },
+    {
+      "path": "game/blockset/wall/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/wall/hires/CVS/Entries",
+      "bytes": 95,
+      "sha256": "d94c91843979e240d3c28f362b2468b13605f1ef97e6805339e80ab40d25a543"
+    },
+    {
+      "path": "game/blockset/wall/hires/CVS/Repository",
+      "bytes": 31,
+      "sha256": "111f11ba0967d6f515e81e15ca1ed56f864287055674e08b5ae8b6266ac56fa4"
+    },
+    {
+      "path": "game/blockset/wall/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/wall/hires/wall-dark.bmp",
+      "bytes": 2102,
+      "sha256": "833096aa473a8bd8da610a33cd01db27c9a75576265a8aebaa48475976800ff1"
+    },
+    {
+      "path": "game/blockset/wall/hires/wall.bmp",
+      "bytes": 614,
+      "sha256": "f374b049ea103a7b40119d4c5d3f5d0e2a3bb5656109d12828e0fbe01a6f3af8"
+    },
+    {
+      "path": "game/blockset/wall/lowres/CVS/Entries",
+      "bytes": 136,
+      "sha256": "2f5e5242505203cd5cc75d2ac379368f1764d4a019f70919ef5f607f46b4deca"
+    },
+    {
+      "path": "game/blockset/wall/lowres/CVS/Repository",
+      "bytes": 32,
+      "sha256": "4543a56a2da918863ce10dde8e21e99e9e919f12c610ac8ffa85b0e55c565e6f"
+    },
+    {
+      "path": "game/blockset/wall/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/blockset/wall/lowres/wall.bmp",
+      "bytes": 126,
+      "sha256": "ddae136a019c3817661d83fc2683789e4b4bff87924656e31a3e11eaf54e5454"
+    },
+    {
+      "path": "game/blockset/wall/lowres/wall4.bmp",
+      "bytes": 248,
+      "sha256": "e403b2658b09b35c167643133fa11d42f7a00dc8fe6848bd5c156b7379ea33bc"
+    },
+    {
+      "path": "game/blockset/wall/lowres/wall8.bmp",
+      "bytes": 1336,
+      "sha256": "c6af7b094a66df0f673fd63e3c9f616aec356e0f810c315470df18f60e664b4e"
+    },
+    {
+      "path": "game/changes.txt",
+      "bytes": 8938,
+      "sha256": "34117901349ffdca522c125ac41b3bad5dcd2568a236d3f21f6b824addc1214f"
+    },
+    {
+      "path": "game/congrats/CVS/Entries",
+      "bytes": 13,
+      "sha256": "2db1bf7ad37edcd2027a6fd0b8603f9000e2aeb9730afe329206989c41bb5d78"
+    },
+    {
+      "path": "game/congrats/CVS/Repository",
+      "bytes": 20,
+      "sha256": "6d54577f50471ed5ce5f99ec74f9df8cb9eaf567117dc655436267e1c0b22187"
+    },
+    {
+      "path": "game/congrats/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/congrats/lowres/CVS/Entries",
+      "bytes": 50,
+      "sha256": "08229068d31b16fa141f27a6a68ea1ec3796615c244ad08e39c6233bbfe1679e"
+    },
+    {
+      "path": "game/congrats/lowres/CVS/Repository",
+      "bytes": 27,
+      "sha256": "334d5e14c94fd3e0304b843b315c7891863368684f03d0a6641d0b02cfbdeab6"
+    },
+    {
+      "path": "game/congrats/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/congrats/lowres/congrats.bmp",
+      "bytes": 278,
+      "sha256": "d5a4ddeed11ccc3a88a2491cf7e3b50d27a0e799af5951bdb5fec93a98a6bc98"
+    },
+    {
+      "path": "game/congrats.c",
+      "bytes": 11905,
+      "sha256": "f3ce69589fadc88d979d2f21cd7871147a40630011f18cb262f0cd0459e00a6c"
+    },
+    {
+      "path": "game/controls/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/controls/CVS/Repository",
+      "bytes": 20,
+      "sha256": "231c2f999ebe4128e47286887272bd7595ea91e47aec6ef596ec4a6263c591c5"
+    },
+    {
+      "path": "game/controls/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/controls/hires/CVS/Entries",
+      "bytes": 458,
+      "sha256": "7f16c8adcfc55f95fcd5667125877910c349549ea7321995ea5a6a6d858a633e"
+    },
+    {
+      "path": "game/controls/hires/CVS/Repository",
+      "bytes": 26,
+      "sha256": "e0064636443aacaa834551ab04eb6ce81d13ed7cc6e69685f8711fa84e19942a"
+    },
+    {
+      "path": "game/controls/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/controls/hires/back.bmp",
+      "bytes": 2102,
+      "sha256": "579427f72dc37bd84beb6e5b53fecf230dfdaa57917501b3e59fca0c9c88fb6f"
+    },
+    {
+      "path": "game/controls/hires/first.bmp",
+      "bytes": 2102,
+      "sha256": "0785b9d056ccb8f4b54b1d0e511425dc0b3899622800614d850c7b23dfc3cfee"
+    },
+    {
+      "path": "game/controls/hires/forward.bmp",
+      "bytes": 2102,
+      "sha256": "6c96b2a8172cde4c12a69173ecede65f1503730f14fd920f96bad94d8b6cd7a4"
+    },
+    {
+      "path": "game/controls/hires/last.bmp",
+      "bytes": 2102,
+      "sha256": "e85f02065da353fc971ccb05c7677f96136b24187750ec1ef756a993d9d85e60"
+    },
+    {
+      "path": "game/controls/hires/lookup.bmp",
+      "bytes": 2102,
+      "sha256": "cf701866ae1ff1b53b1f0c31b26b675e760946f05b32849fc6b4adf5519fbc39"
+    },
+    {
+      "path": "game/controls/hires/memory.bmp",
+      "bytes": 2102,
+      "sha256": "4234d5376ff71ae9cca28102adc51122dd98cbf695c1b02f5afd2ec36c87e894"
+    },
+    {
+      "path": "game/controls/hires/pending.bmp",
+      "bytes": 3126,
+      "sha256": "b7357bcfc65e2681e269192e5e8ca7b7aac07cbc94b78a3eba2aa290bf58b0fa"
+    },
+    {
+      "path": "game/controls/hires/recall.bmp",
+      "bytes": 2102,
+      "sha256": "26f0a7153d491f626363755b1b9cb5bd3b167e72a1e6d736285f0e273146f57e"
+    },
+    {
+      "path": "game/controls/hires/restart.bmp",
+      "bytes": 2102,
+      "sha256": "e85a98a41f1aeeceba07a19f2adadddc7a90c62a091b5a36fe4a09ec836b1bb5"
+    },
+    {
+      "path": "game/controls/hires/undo.bmp",
+      "bytes": 2102,
+      "sha256": "a183b733d9898bf9982fe705a6154872bcb77d25ef74549ee5e8e27eacab17e4"
+    },
+    {
+      "path": "game/controls/lowres/CVS/Entries",
+      "bytes": 1390,
+      "sha256": "b68cd256aeb362da533fdc2be4e1e98a4ca77fc38961621975615400fdf1f36f"
+    },
+    {
+      "path": "game/controls/lowres/CVS/Repository",
+      "bytes": 27,
+      "sha256": "8a5c315520abd8a7ae8c47c9f013c58c1bc438eee8e63bd47f9a0824c1af8e1e"
+    },
+    {
+      "path": "game/controls/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/controls/lowres/back.bmp",
+      "bytes": 128,
+      "sha256": "7490ba1436ee59746b7443ecfade8641fe3a596ac7144998fb66321b6beaa381"
+    },
+    {
+      "path": "game/controls/lowres/back4.bmp",
+      "bytes": 246,
+      "sha256": "80c06cabf8a781d7d3917d1599d230b0801c7552158183fefe0fc3235fb68652"
+    },
+    {
+      "path": "game/controls/lowres/back8.bmp",
+      "bytes": 1336,
+      "sha256": "0722171339c2c54ee33b696b7c15f295717f8926492c4e60486370d3bb2fcebc"
+    },
+    {
+      "path": "game/controls/lowres/first.bmp",
+      "bytes": 128,
+      "sha256": "0ee7996cb740efea0605e93ba10a5c78024b2d8d8efbb0517fd74cac7fe12dde"
+    },
+    {
+      "path": "game/controls/lowres/first4.bmp",
+      "bytes": 246,
+      "sha256": "87aca11934ffe14e2b6cac63e15a568d8d402d4c51e5f4580716810b5396a804"
+    },
+    {
+      "path": "game/controls/lowres/first8.bmp",
+      "bytes": 1336,
+      "sha256": "63ce8eb7dfe1dd8090ff2c8e28c8241bd2abfe1f83a35cc79c91d3dcc63cca1a"
+    },
+    {
+      "path": "game/controls/lowres/forward.bmp",
+      "bytes": 128,
+      "sha256": "ca500ea752279e87ddb73f7148b9cb033fb910b8eb9a0f0912252cd915fcfc39"
+    },
+    {
+      "path": "game/controls/lowres/forward4.bmp",
+      "bytes": 246,
+      "sha256": "c31fe0f84610ac8a9f4618ec655d8153f234975c02fb02b2890c646f7eaa350d"
+    },
+    {
+      "path": "game/controls/lowres/forward8.bmp",
+      "bytes": 1336,
+      "sha256": "9db3fbccf84781a98d90aa732be884b8d1b5af35c57543ab16fa97e005ac9988"
+    },
+    {
+      "path": "game/controls/lowres/last.bmp",
+      "bytes": 128,
+      "sha256": "93b84079c269ea1b3aa78166fa68717d2388a975307e0805ce2a3d9e46b74f4b"
+    },
+    {
+      "path": "game/controls/lowres/last4.bmp",
+      "bytes": 246,
+      "sha256": "98c31f4b6ddba33bbfe502609e401b39bb155373ef2c3dfb09aab457e192848a"
+    },
+    {
+      "path": "game/controls/lowres/last8.bmp",
+      "bytes": 1336,
+      "sha256": "575abd480653dfd6f254707d9a59b61057ec1c012960eec70978a8ae52980829"
+    },
+    {
+      "path": "game/controls/lowres/lookup.bmp",
+      "bytes": 128,
+      "sha256": "66c1d265110d7e13570106b5abff5bb3c49ea74481d6065bd3aec300338f66ec"
+    },
+    {
+      "path": "game/controls/lowres/lookup4.bmp",
+      "bytes": 246,
+      "sha256": "5b51ab49e21c2fce0d6cd7a790985b500c7c0b91669d5317a1900fba1d1ae1c4"
+    },
+    {
+      "path": "game/controls/lowres/lookup8.bmp",
+      "bytes": 1336,
+      "sha256": "e4e4866b6b74718df4599855e7a53c2242fc29972d926c088402a789c9213e95"
+    },
+    {
+      "path": "game/controls/lowres/memory.bmp",
+      "bytes": 128,
+      "sha256": "4e2140bf4dfc8804fea131e79bb33040f49dfbd8677624035f667be8d3f39585"
+    },
+    {
+      "path": "game/controls/lowres/memory4.bmp",
+      "bytes": 246,
+      "sha256": "a23f664b4d2083fc3ac81e9f916a6cf07ae178fd89fe70b3f0fca0092d129f52"
+    },
+    {
+      "path": "game/controls/lowres/memory8.bmp",
+      "bytes": 246,
+      "sha256": "9df51e4bf650a6460345b3aeb6f0d2856c0af3d2eba4092053b97bb851a948de"
+    },
+    {
+      "path": "game/controls/lowres/pending.bmp",
+      "bytes": 128,
+      "sha256": "3c883fc1dd728768ec9b6fe789cfe06d55915a1e65ad45c224e290d572604de6"
+    },
+    {
+      "path": "game/controls/lowres/pending4.bmp",
+      "bytes": 1336,
+      "sha256": "20d0faf1e35c443464cd190a737393c5f222e35d0f7f9a2d3e749f34d382590a"
+    },
+    {
+      "path": "game/controls/lowres/pending8.bmp",
+      "bytes": 1192,
+      "sha256": "882032bae1636bf0e2d95292539a6602d98b8ee2881165424f1765a7cd479b24"
+    },
+    {
+      "path": "game/controls/lowres/recall.bmp",
+      "bytes": 128,
+      "sha256": "e7adbc1c4bd642ed395f9b3b343442b8554e049fe54a098f7b9b8c7d8972bede"
+    },
+    {
+      "path": "game/controls/lowres/recall4.bmp",
+      "bytes": 246,
+      "sha256": "c4524ef296075ac252690fbd6b0cc2289d8df312ccb7b85d13e9e7cc6777cf60"
+    },
+    {
+      "path": "game/controls/lowres/recall8.bmp",
+      "bytes": 246,
+      "sha256": "9fec8bbad85bff6e8b992dbe5dc480bdebf2dff1c46a9385a8b68e6a0d7273c6"
+    },
+    {
+      "path": "game/controls/lowres/restart.bmp",
+      "bytes": 128,
+      "sha256": "6bab3a8e4e2b4698d305c2068a61efa07f550603481ea09fb280fd5f55522a23"
+    },
+    {
+      "path": "game/controls/lowres/restart4.bmp",
+      "bytes": 246,
+      "sha256": "960b09163d9f5e8b4d151bc9f7cc5b90ee3a398627efae000275024160ff9236"
+    },
+    {
+      "path": "game/controls/lowres/restart8.bmp",
+      "bytes": 246,
+      "sha256": "8d11dea20d6e3e7928390b758efb3ff864175c8b2896b3ff9eb2ec7004ea4209"
+    },
+    {
+      "path": "game/controls/lowres/undo.bmp",
+      "bytes": 128,
+      "sha256": "e01e25575b3f08b81b121e0c7648ec09a1a5756e8ffb29dfd5855657fef8a949"
+    },
+    {
+      "path": "game/controls/lowres/undo4.bmp",
+      "bytes": 246,
+      "sha256": "e66c025c80c086af032ae7642b7401f177b897c4899947c08470dfe6bcba271f"
+    },
+    {
+      "path": "game/controls/lowres/undo8.bmp",
+      "bytes": 246,
+      "sha256": "88d11a116db6fb7075e638ae37046e6deaa1de42a19f856a4c7a6c3081fa45b6"
+    },
+    {
+      "path": "game/credits.txt",
+      "bytes": 583,
+      "sha256": "f46ba68abc60582dce2db2cfad69237c50a951fd6c6e7537d9347eaca5cd6fa1"
+    },
+    {
+      "path": "game/game.c",
+      "bytes": 18436,
+      "sha256": "543f0c283aedfae234205ed0286d0d0053ac683d54b166bec442200bee7fd438"
+    },
+    {
+      "path": "game/gfx.c",
+      "bytes": 25106,
+      "sha256": "70bdd1f29723350a038026702c52d1e132857dc24f908a2fb5a4e0324d853af5"
+    },
+    {
+      "path": "game/globals.c",
+      "bytes": 4499,
+      "sha256": "fa52da799e2f8e735ddd0c24bbcbdb2e5711aa076eff28cf1e72a0bdf07f1553"
+    },
+    {
+      "path": "game/icons/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/icons/CVS/Repository",
+      "bytes": 17,
+      "sha256": "08652463d8580363cca9cc69a568220f5a2c8dbba97009232cf4c422759c5e01"
+    },
+    {
+      "path": "game/icons/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/icons/hires/CVS/Entries",
+      "bytes": 103,
+      "sha256": "b657e5cf25222d9b2c2ad75ae917351f6c4bae06e5628ad4e8e149e005f3a239"
+    },
+    {
+      "path": "game/icons/hires/CVS/Repository",
+      "bytes": 23,
+      "sha256": "d797f4a862b75c5500ec93fd09e964f42b559083e5eb0ab0b953867b90dfbd4e"
+    },
+    {
+      "path": "game/icons/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/icons/hires/vexed-icon-hires.xcf",
+      "bytes": 4880,
+      "sha256": "c3825229c5377fca1ccb44394bd22518faaeb4877f281d01f2b8208fc96e5fca"
+    },
+    {
+      "path": "game/icons/hires/vexed.bmp",
+      "bytes": 12342,
+      "sha256": "ec3837329805216745a8f3057d2fa2ea21a5a93da33f8ec722256128f07f97c5"
+    },
+    {
+      "path": "game/icons/lowres/CVS/Entries",
+      "bytes": 422,
+      "sha256": "5f33e4d92fe5d4429aa984909be25be957e0d5155107cf64c7e208ffb731596e"
+    },
+    {
+      "path": "game/icons/lowres/CVS/Repository",
+      "bytes": 24,
+      "sha256": "cdb7929596496fcd5706f8e694eedba42d09709428f113fc6ce4c6e72d31944b"
+    },
+    {
+      "path": "game/icons/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/icons/lowres/vexed.bmp",
+      "bytes": 190,
+      "sha256": "29af20e83cc92b3a479048a30c27bb9eadd384d312ada400ec6be22e69d8c45f"
+    },
+    {
+      "path": "game/icons/lowres/vexed4.bmp",
+      "bytes": 630,
+      "sha256": "51bd349ccd31b2d832603226658164a3ba9b7141006db3252e642b3acfbe466a"
+    },
+    {
+      "path": "game/icons/lowres/vexed4a.bmp",
+      "bytes": 630,
+      "sha256": "51bd349ccd31b2d832603226658164a3ba9b7141006db3252e642b3acfbe466a"
+    },
+    {
+      "path": "game/icons/lowres/vexed8.bmp",
+      "bytes": 2104,
+      "sha256": "b0f77a7b5b9c3d2ab5bd7a54099a04371c4160dc0019fac9eaa1c06a1c252344"
+    },
+    {
+      "path": "game/icons/lowres/vexed8a.bmp",
+      "bytes": 2104,
+      "sha256": "b0f77a7b5b9c3d2ab5bd7a54099a04371c4160dc0019fac9eaa1c06a1c252344"
+    },
+    {
+      "path": "game/icons/lowres/vexed8red.bmp",
+      "bytes": 2104,
+      "sha256": "93d34fec1f3f01e8e02c81d8c40ceea4e1e8b9acdd7fde94d738f76ec31262a6"
+    },
+    {
+      "path": "game/icons/lowres/vexeds.bmp",
+      "bytes": 100,
+      "sha256": "49d72fd6ac8ceb704106ed0ad4576904dec3bc161f364cfcbaa451893f9ede50"
+    },
+    {
+      "path": "game/icons/lowres/vexeds4.bmp",
+      "bytes": 190,
+      "sha256": "58f3c1e607f1f0763e6108b70a10a945ccceac198d0688dc04de0daf983f58f2"
+    },
+    {
+      "path": "game/icons/lowres/vexeds8.bmp",
+      "bytes": 1224,
+      "sha256": "4069b28120df1c411e1d7021eaa1190f4a0d9202a54bdc5d60dbf970a1924610"
+    },
+    {
+      "path": "game/ini.c",
+      "bytes": 4256,
+      "sha256": "0e727b0b946aa060e6e9b5f7a5c54a3b5dbb972f170b4ce72e4d4967c61169de"
+    },
+    {
+      "path": "game/ini.h",
+      "bytes": 1448,
+      "sha256": "ba43c1d2a0d6c287c3ad46b6373addd42da026f161967f5faba155c107361329"
+    },
+    {
+      "path": "game/intro/CVS/Entries",
+      "bytes": 25,
+      "sha256": "b4ce99b3acbf042504a1dccb30f8d83106bbfb8006e0dbe5bab053df3c435f82"
+    },
+    {
+      "path": "game/intro/CVS/Repository",
+      "bytes": 17,
+      "sha256": "7043122d67d1669a2fb07ed8b2716278db2f4ec648b1627f7eaf1e9821eec745"
+    },
+    {
+      "path": "game/intro/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/intro/hires/CVS/Entries",
+      "bytes": 379,
+      "sha256": "83b200346518aed800773a6ece609c55595aae399747b7e139e56557d7e985a5"
+    },
+    {
+      "path": "game/intro/hires/CVS/Repository",
+      "bytes": 23,
+      "sha256": "a64e29225dec662c805126aaeec7426a5f9b9a25be984ab256496c7fce28d81c"
+    },
+    {
+      "path": "game/intro/hires/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/intro/hires/introd8.bmp",
+      "bytes": 5238,
+      "sha256": "b03d3f18bbd85f282000c5a6022ff57ed249e8c00e8de3ba51d035659a9f1f83"
+    },
+    {
+      "path": "game/intro/hires/introe28.bmp",
+      "bytes": 5238,
+      "sha256": "9403a0daadbe8925e54ae4ff7b85b7fe5e6e1f45d0b4e838093a199aad4fd6bc"
+    },
+    {
+      "path": "game/intro/hires/introe8.bmp",
+      "bytes": 5238,
+      "sha256": "4eb02cc0f2e32fccbf3bb35a667f0148dfd0a0d25dbc0b66763592cca18e9dc6"
+    },
+    {
+      "path": "game/intro/hires/introo8.bmp",
+      "bytes": 5238,
+      "sha256": "0bd3e363f6bf3e63d82c8a62e80a04186587498f41113d385adbcd899af0b987"
+    },
+    {
+      "path": "game/intro/hires/introt8.bmp",
+      "bytes": 5238,
+      "sha256": "d84327e1089e562e15fda22fff00ed71b42738139d4d70400c0d6980a8a2ba26"
+    },
+    {
+      "path": "game/intro/hires/introv8.bmp",
+      "bytes": 5238,
+      "sha256": "d16c5815236950ef939241b85ed68d35c7d98dde9bcbdc7c7e46198d76e13421"
+    },
+    {
+      "path": "game/intro/hires/introw8.bmp",
+      "bytes": 5238,
+      "sha256": "49e65ce96882eb2a5b1361a1d37797bc91918d29d4906efacb9cd6228b887943"
+    },
+    {
+      "path": "game/intro/hires/introx8.bmp",
+      "bytes": 5238,
+      "sha256": "bc302cb8c3c9a14167046a12ab199ff5c01ee17f0ad81086ca1c5266d1c2a46e"
+    },
+    {
+      "path": "game/intro/lowres/CVS/Entries",
+      "bytes": 1125,
+      "sha256": "f87f4e46c173fe3d69f0d6faa3dc4b5b4baebeb8a12881f408a0cb79c31f4922"
+    },
+    {
+      "path": "game/intro/lowres/CVS/Repository",
+      "bytes": 24,
+      "sha256": "5599166a3c832948d48d2e80dceaae8fcd58b8df3346e8d76c16e550d34eb0e8"
+    },
+    {
+      "path": "game/intro/lowres/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/intro/lowres/introd.bmp",
+      "bytes": 222,
+      "sha256": "87d966ca955dfcecd06cb2840052349df5e84408e3fd9b309258e6b1d3ec1f11"
+    },
+    {
+      "path": "game/intro/lowres/introd4.bmp",
+      "bytes": 760,
+      "sha256": "bc3ced37c1dc1457e1d2ee1578c8b7409371fb133985f9bae5efaff62f68f41d"
+    },
+    {
+      "path": "game/intro/lowres/introd8.bmp",
+      "bytes": 2198,
+      "sha256": "ed466127bbdfa1116f92d6485fb893d5ca2338b546bdc34b5968ca41023da725"
+    },
+    {
+      "path": "game/intro/lowres/introe.bmp",
+      "bytes": 222,
+      "sha256": "d2cd6032f6e81f96045e5961b69f3223e0eff0fc747ec4ae0890fad07823f05b"
+    },
+    {
+      "path": "game/intro/lowres/introe2.bmp",
+      "bytes": 222,
+      "sha256": "b2adb1ed92ba5fad84cf74db6c35683eb2bf12b3270f48a1cf3bed4d9f5a8b5a"
+    },
+    {
+      "path": "game/intro/lowres/introe24.bmp",
+      "bytes": 760,
+      "sha256": "8985d1e653879120c531ee148262d47a02d35a8505d11725ca19b67b5a03bcb0"
+    },
+    {
+      "path": "game/intro/lowres/introe28.bmp",
+      "bytes": 2198,
+      "sha256": "59ba25ad964cdefc411a9aa91448364b763508024f0bdd7cf17e369f1ef6a919"
+    },
+    {
+      "path": "game/intro/lowres/introe4.bmp",
+      "bytes": 758,
+      "sha256": "69d1466dafdd4d92ead25956f951e5aa903b9daa9a5d8b6d6ef25a100bb4735c"
+    },
+    {
+      "path": "game/intro/lowres/introe8.bmp",
+      "bytes": 2198,
+      "sha256": "5b690e9ad16b6fdc9306cf4bb33e55dc84ee2eb7fe0f05debed0a2216de5dc05"
+    },
+    {
+      "path": "game/intro/lowres/introo.bmp",
+      "bytes": 222,
+      "sha256": "42fb7edbdacb5d4fba9b32ba30092ca6cc53cc156bbe4ed9c1b6292fd55d8cf7"
+    },
+    {
+      "path": "game/intro/lowres/introo4.bmp",
+      "bytes": 758,
+      "sha256": "5a0d260ef388ee6b1ffd145328d87db1493e58824090578d0bf77bc6d4841c95"
+    },
+    {
+      "path": "game/intro/lowres/introo8.bmp",
+      "bytes": 2198,
+      "sha256": "0c704b9cc2c9afba1d98cc1e5874ac01d54f28472ea957128918404b030d2dcf"
+    },
+    {
+      "path": "game/intro/lowres/introt.bmp",
+      "bytes": 222,
+      "sha256": "6d38a20b50afa09f6a93ec1636743921c7463018d33b38cf794a12bfe7241353"
+    },
+    {
+      "path": "game/intro/lowres/introt4.bmp",
+      "bytes": 760,
+      "sha256": "34ca4fec4de0f5f30a8a02d4e44e3213fedf90b3a988b86b9eaac49e6b75948b"
+    },
+    {
+      "path": "game/intro/lowres/introt8.bmp",
+      "bytes": 2198,
+      "sha256": "a2a5bdbf6a84d49452e8679508acd74e71b23c796cf2c56066b6ad7be518110c"
+    },
+    {
+      "path": "game/intro/lowres/introv.bmp",
+      "bytes": 222,
+      "sha256": "2ba7b36dbcbaa6dca997a3e143328c6948121e21134d9f30df43c98d49ebff00"
+    },
+    {
+      "path": "game/intro/lowres/introv4.bmp",
+      "bytes": 760,
+      "sha256": "61d36994f677caa182552bbbd56c94c000965d5ad3e76c2125a5ebea83662bac"
+    },
+    {
+      "path": "game/intro/lowres/introv8.bmp",
+      "bytes": 2198,
+      "sha256": "1ad0dcace55a6ff864b32a024429ef7336a86f837d556b0a102bc3850102062d"
+    },
+    {
+      "path": "game/intro/lowres/introw.bmp",
+      "bytes": 222,
+      "sha256": "403a05d2ff5c246961574e9785f43d8d25c93947f78748a5cffeb830378a5f88"
+    },
+    {
+      "path": "game/intro/lowres/introw4.bmp",
+      "bytes": 760,
+      "sha256": "ccec5ff13fa5b8df35e2a7960b9f619e1dd2427e8c4c725ba1b1bbb926fa2d66"
+    },
+    {
+      "path": "game/intro/lowres/introw8.bmp",
+      "bytes": 2198,
+      "sha256": "f2c3d1ad1d7017216853a1cb5708bc86c73620d1dd827681737059e4a9c4275e"
+    },
+    {
+      "path": "game/intro/lowres/introx.bmp",
+      "bytes": 222,
+      "sha256": "0fcd90e88eafe286aec0e600db4547aba40a6075dc3c79e6c5d02fa9b05b25c7"
+    },
+    {
+      "path": "game/intro/lowres/introx4.bmp",
+      "bytes": 760,
+      "sha256": "fefc405c14da6241dbf8f182787a1175cb48ab5d311fa9269a260c3367ad1672"
+    },
+    {
+      "path": "game/intro/lowres/introx8.bmp",
+      "bytes": 2198,
+      "sha256": "a4c181320209068402c779b7a2753993d893d2585e0d4e864a162e6c2d4832c5"
+    },
+    {
+      "path": "game/intro.c",
+      "bytes": 10206,
+      "sha256": "d62eb41d10875ac19a1dcd561b75c69ad4924f379d05fc54a047e500f3eeadc6"
+    },
+    {
+      "path": "game/levelpackform.c",
+      "bytes": 10335,
+      "sha256": "9deea5ef9a0fd45d53dec19146b99036da027b4c5bf425a202beda363cdf318a"
+    },
+    {
+      "path": "game/license.txt",
+      "bytes": 18108,
+      "sha256": "b71c3a2098fe0a67bbb84500c694859f4ebfce7911d8a3a2fc8cb82d752809b3"
+    },
+    {
+      "path": "game/makefile",
+      "bytes": 897,
+      "sha256": "46a0c09a9c0fba5c5ca5d327b64643f3ab8f61a52cbdce5e1dbb8aa8d0d492e7"
+    },
+    {
+      "path": "game/makefile-hires",
+      "bytes": 897,
+      "sha256": "46a0c09a9c0fba5c5ca5d327b64643f3ab8f61a52cbdce5e1dbb8aa8d0d492e7"
+    },
+    {
+      "path": "game/makefile-lowres",
+      "bytes": 853,
+      "sha256": "6b4afd607b35234ca9c6de20810da9178dd8ed9b9fea109412af494d7f3d7780"
+    },
+    {
+      "path": "game/makefile.readme",
+      "bytes": 529,
+      "sha256": "74961a981914d574a2e4e1c627277cbf592ee41424e5c970546acfd3a9c0e194"
+    },
+    {
+      "path": "game/misc/CVS/Entries",
+      "bytes": 102,
+      "sha256": "c0a7200a2080328972637b01d88154f3c6d1e74f3df419aea0eeb95512d8e0ed"
+    },
+    {
+      "path": "game/misc/CVS/Repository",
+      "bytes": 16,
+      "sha256": "b42bf0c3e17a77f4861ec3b372a8a71ee1446a992593e3b053e26c4040d9c76b"
+    },
+    {
+      "path": "game/misc/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "game/misc/thumb_down4.bmp",
+      "bytes": 202,
+      "sha256": "a7c9b8ec1868da19daf127e6a741aac11c12a05f32df1b53d6a96dc41d7e3076"
+    },
+    {
+      "path": "game/misc/thumb_up4.bmp",
+      "bytes": 202,
+      "sha256": "6d92c31c422b323b49b985600a27b937c85ccecd65366a1085008f8c3bda40f0"
+    },
+    {
+      "path": "game/pack.c",
+      "bytes": 7189,
+      "sha256": "0174d4b22af5ee51045cb84a23910ea94b59cb2d82437c611cd55119d9302a3b"
+    },
+    {
+      "path": "game/protos.h",
+      "bytes": 6523,
+      "sha256": "6129be0a147ddcd4ec7b0f54dac70dd3b5a70e6df0aefeaf4cbc74fa007663e3"
+    },
+    {
+      "path": "game/readme.txt",
+      "bytes": 19089,
+      "sha256": "8db6e06716743981c4cc370a9071c13ec5cf222c4618a3b0460fc388c41bd910"
+    },
+    {
+      "path": "game/selectlevelform.c",
+      "bytes": 5591,
+      "sha256": "b41b0e99683fed95d57820171fd990f317c4018d41c8b07655dd2c75467d3662"
+    },
+    {
+      "path": "game/sound.c",
+      "bytes": 1840,
+      "sha256": "0949bfa4c0670ae48eee42bcb16315f7cf08b9f4c280dd6a83ff17384f6ea85f"
+    },
+    {
+      "path": "game/strings.h",
+      "bytes": 1314,
+      "sha256": "c0b1a9f168b2b2a1ed985a4110f01f97812e98fa921a8492d3084ce775c690aa"
+    },
+    {
+      "path": "game/system.c",
+      "bytes": 8427,
+      "sha256": "e93b8d441fc4199167b381c79fca4aef5775c1a66806e2bd3342e78d813f448a"
+    },
+    {
+      "path": "game/vexed-hires.prc",
+      "bytes": 132026,
+      "sha256": "3cf364f33c5fa21f3a6e474c01bab79d76190fc6942fe490ac7f062d00d7a14c"
+    },
+    {
+      "path": "game/vexed-lowres.prc",
+      "bytes": 131942,
+      "sha256": "83031617090d06552b9a09f9cda9c3fbc82d9c00d06aa5c847c153c5f755e7c1"
+    },
+    {
+      "path": "game/vexed.c",
+      "bytes": 52056,
+      "sha256": "6377dfa47f3602e7c57c8743d1f9673cd6718aee8105f531a65ac08f5ab8065e"
+    },
+    {
+      "path": "game/vexed.h",
+      "bytes": 12038,
+      "sha256": "42c3c96451c2492571d93033bb606eb9829c6494bc82e4d57e309f01d7a55749"
+    },
+    {
+      "path": "game/vexed.rcp",
+      "bytes": 37887,
+      "sha256": "89a49aaca0a93a04c710fa71ce74bb8fb7f3795c7fce9bed17f4aef0bcf39df7"
+    },
+    {
+      "path": "game/webbrowsermanager.c",
+      "bytes": 8514,
+      "sha256": "261eb454d3c0ed198603cbf5350e1eb567e11fd4b3ba6ddca9ef0803fb31fe58"
+    },
+    {
+      "path": "game/webbrowsermanager.h",
+      "bytes": 3656,
+      "sha256": "596fccbc5e7e3e1d0190b39c7c95779a320eae1fdb91eb4805cbec0c1d076d20"
+    },
+    {
+      "path": "installer/CVS/Entries",
+      "bytes": 86,
+      "sha256": "8f4c0b20a86a432cb1cc52ccd25b9e9093348cf02c4db2247c7060f30a1ee859"
+    },
+    {
+      "path": "installer/CVS/Repository",
+      "bytes": 16,
+      "sha256": "f91d8fa656df3c89e2fc5f8ae7315aa7c851c2fa6de2f516148fc175fe6f81b3"
+    },
+    {
+      "path": "installer/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "installer/PackageBuilder.exe",
+      "bytes": 942080,
+      "sha256": "e8f6ba5ba4c23ae49f9ee4dfbdfe7e875ce43bd0b3c3cd4637b5d7753b8f397d"
+    },
+    {
+      "path": "installer/makefile",
+      "bytes": 150,
+      "sha256": "14a64a1a6bf644242f0ae1d0e7c1555f639cfef908ca032438902e1bd54b5dc9"
+    },
+    {
+      "path": "installer/vexed.psml",
+      "bytes": 5099,
+      "sha256": "572839e6b1b9a4d073db7bb5abb47ef0ec163bd5eedff95248a48aba44f482b3"
+    },
+    {
+      "path": "levelpacks/CVS/Entries",
+      "bytes": 1884,
+      "sha256": "243e0d64cd9b81a6adf9c07d1377b8bd5c84be264281418b519acaa9eae0e4ff"
+    },
+    {
+      "path": "levelpacks/CVS/Repository",
+      "bytes": 17,
+      "sha256": "23b07934d48d24e400656eba0f5bdb750542d24efef8d28d8e7582d564a50964"
+    },
+    {
+      "path": "levelpacks/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "levelpacks/Children's Pack.ini",
+      "bytes": 6709,
+      "sha256": "22cc312c2cedc471bd73b693ccd0d2e57b443d34cdbfec3d1e79fc6ad7222fc7"
+    },
+    {
+      "path": "levelpacks/Children's Pack.pdb",
+      "bytes": 6194,
+      "sha256": "3068d96399a5c25715205080824b9d1597c432648f8b9a80081fa22519e1b3ed"
+    },
+    {
+      "path": "levelpacks/Classic II Levels.ini",
+      "bytes": 10114,
+      "sha256": "fca763f3bd315fcfe13d8bf8ccf8e498044743e8624ccf449b36b7fd791b5fac"
+    },
+    {
+      "path": "levelpacks/Classic II Levels.pdb",
+      "bytes": 9590,
+      "sha256": "d65438e27c39e6c1c0299a389255be933d18fbb99f79a2e9f707eba8be70d7c9"
+    },
+    {
+      "path": "levelpacks/Classic Levels.ini",
+      "bytes": 7643,
+      "sha256": "b1fb1aad0c6e57f2f746213bc0c850e79abf0e1706d4c8eefb866807a8b09c28"
+    },
+    {
+      "path": "levelpacks/Classic Levels.pdb",
+      "bytes": 7174,
+      "sha256": "76719649bcdae93b2945e0a1385f2a3b0743b9ed8a38f71eac3bc413299bd836"
+    },
+    {
+      "path": "levelpacks/Confusion Pack.ini",
+      "bytes": 9397,
+      "sha256": "0356e351d29d754fa2d3b5226802ec7452bba56f7194872e6184cb9fabe6531b"
+    },
+    {
+      "path": "levelpacks/Confusion Pack.pdb",
+      "bytes": 8922,
+      "sha256": "b8e049cb0610a042c1dadd4bd060b51319708893847ff15a36998a8098d7eb01"
+    },
+    {
+      "path": "levelpacks/DrSeuss1.txt",
+      "bytes": 787,
+      "sha256": "ddc16986a48929a629b6d0022ea7ee50a65c714454b76cba13575e276b12266b"
+    },
+    {
+      "path": "levelpacks/DrSeuss2.txt",
+      "bytes": 706,
+      "sha256": "1bc567634def496afcf12335a1c73273d35b79ef81054522bc5b424415d28c15"
+    },
+    {
+      "path": "levelpacks/DrSeuss3.txt",
+      "bytes": 712,
+      "sha256": "74962932c20dcadd36c464434634b8a35a0a4e15f1b540cf9987c25d2d84b7c5"
+    },
+    {
+      "path": "levelpacks/DrSeuss4.txt",
+      "bytes": 704,
+      "sha256": "c42ba0033111e43b5762e8581b38f7e890e5f41f829f7171cc093b6e8942426a"
+    },
+    {
+      "path": "levelpacks/DrSeuss5.txt",
+      "bytes": 704,
+      "sha256": "31d4a7862bfc6caabe99f69aa1351aecc9bdf5ade15ebe11babdcbd0d4ead10e"
+    },
+    {
+      "path": "levelpacks/DrSeuss6.txt",
+      "bytes": 783,
+      "sha256": "11df9b710a8b7424411eb8707bcf601d7fa6faa9fea2619fe09b4c5c94be56a8"
+    },
+    {
+      "path": "levelpacks/DrSeuss7.txt",
+      "bytes": 730,
+      "sha256": "f8af83a234ed7f3823a7bd3644d28ab7bf6370aae1bb7623acd497c22697fe1e"
+    },
+    {
+      "path": "levelpacks/Impossible Pack.ini",
+      "bytes": 12648,
+      "sha256": "f7fdd770961fc925b94abee301ab2fa6dea6d2fa01c55556154593641010aacd"
+    },
+    {
+      "path": "levelpacks/Impossible Pack.pdb",
+      "bytes": 12164,
+      "sha256": "8220aa8ffbf6c327252e1a3ca0e3f0934f6d07afd40759b73adc8f667538409d"
+    },
+    {
+      "path": "levelpacks/Panic Pack.ini",
+      "bytes": 10711,
+      "sha256": "fa33b33ec34af91f7d6fc7155faabb6d63229a7bcb6efc64386cae68b98aec83"
+    },
+    {
+      "path": "levelpacks/Panic Pack.pdb",
+      "bytes": 10236,
+      "sha256": "47ee8ff61a3aa170528cd79550dc339d21b3df9de3955d606af028c162eb2e86"
+    },
+    {
+      "path": "levelpacks/Twister Levels.ini",
+      "bytes": 8669,
+      "sha256": "888932910b69bbfc452f22e703c4f0a70634ed4565aa2fdf0b1a8cf61911f7d5"
+    },
+    {
+      "path": "levelpacks/Twister Levels.pdb",
+      "bytes": 8190,
+      "sha256": "58dbd9949ec56d343b7467a90bfab63f0d358482f2dc632eef2a3818c648fb5d"
+    },
+    {
+      "path": "levelpacks/Variety 10 Pack.ini",
+      "bytes": 8179,
+      "sha256": "a090e22a5d5710d02af4d81984c35c81679d6169c107ac30dd917876203baa1e"
+    },
+    {
+      "path": "levelpacks/Variety 10 Pack.pdb",
+      "bytes": 7700,
+      "sha256": "d1cd4e020b48ca1dff9d2ba259af0b841bf1ec926feeb99cb19394742b661360"
+    },
+    {
+      "path": "levelpacks/Variety 11 Pack.ini",
+      "bytes": 8135,
+      "sha256": "7415400c462a99c2466a7e36690295c784feacf0e13428b041319b1d7f0c15da"
+    },
+    {
+      "path": "levelpacks/Variety 11 Pack.pdb",
+      "bytes": 7652,
+      "sha256": "7fbaae0e4e70c3504be90172e1213789134621d2d490a7593cc533da7542a4bd"
+    },
+    {
+      "path": "levelpacks/Variety 12 Pack.ini",
+      "bytes": 8213,
+      "sha256": "91ccda7114977c6972f8e33386177aa731b67a7299aadecb10d4a32196e56053"
+    },
+    {
+      "path": "levelpacks/Variety 12 Pack.pdb",
+      "bytes": 7732,
+      "sha256": "e473180063c96ac8ab2d0f1eacb1adb88c4fe8d7c476034dd77b748e71fb3369"
+    },
+    {
+      "path": "levelpacks/Variety 13 Pack.pdb",
+      "bytes": 7962,
+      "sha256": "51c99603d3b7feeff8f7ac812f0207ca100c1c410e3fb94af64651c4e377b252"
+    },
+    {
+      "path": "levelpacks/Variety 14 Pack.pdb",
+      "bytes": 8056,
+      "sha256": "068c8d664063e0894ef33074bcd2102327c4c5746eef25ef13b995a87f092503"
+    },
+    {
+      "path": "levelpacks/Variety 15 Pack.pdb",
+      "bytes": 8136,
+      "sha256": "9f9152b578c4b64f78845f7f5a01b6063c62cdbcd2fc9470f5ae7e20b31f7c96"
+    },
+    {
+      "path": "levelpacks/Variety 16 Pack.pdb",
+      "bytes": 7626,
+      "sha256": "c233edad1b019efacdb0162213a13933b74cb99debd0a2bd9625a9a693b9840d"
+    },
+    {
+      "path": "levelpacks/Variety 17 Pack.pdb",
+      "bytes": 7534,
+      "sha256": "2781ad9e46acfb413651aeef313f484a3f0cfe739ab66b7afc999f1ae50e7aed"
+    },
+    {
+      "path": "levelpacks/Variety 18 Pack.pdb",
+      "bytes": 7598,
+      "sha256": "86cd6fc384ed57adaf749bd70bedde16c3698951b6951782ffaafdd2800e69e3"
+    },
+    {
+      "path": "levelpacks/Variety 19 Pack.pdb",
+      "bytes": 8010,
+      "sha256": "581a3f99d4d77b5061a76f2935e59c1132c776114da7f8a1ef790f2990534458"
+    },
+    {
+      "path": "levelpacks/Variety 20 Pack.pdb",
+      "bytes": 8108,
+      "sha256": "f27b76035843f67091c7a6ade07566606d9af95297a433ad1d85725a5dfd9022"
+    },
+    {
+      "path": "levelpacks/Variety 21 Pack.pdb",
+      "bytes": 8096,
+      "sha256": "3ce04e5947f3a8b5216302b9db66ba94cd9cf418c479619ee99ad2e685417d8f"
+    },
+    {
+      "path": "levelpacks/Variety 22 Pack.pdb",
+      "bytes": 7808,
+      "sha256": "048daae5668f5e23fc54bfe59d47716ead7143cb28ae63c1f35ece6a12c9ef82"
+    },
+    {
+      "path": "levelpacks/Variety 23 Pack.pdb",
+      "bytes": 7806,
+      "sha256": "38f4d69661f4523de95cdef3014c939ad78d8c46b4bd9289dbd4310997039858"
+    },
+    {
+      "path": "levelpacks/Variety 24 Pack.pdb",
+      "bytes": 7878,
+      "sha256": "d91bf6fa9a4e53eb16bb78054e76e00b54f1c6f55c9a1a59a8500f14ddbf0689"
+    },
+    {
+      "path": "levelpacks/Variety 25 Pack.pdb",
+      "bytes": 7784,
+      "sha256": "0e46a7a5a2e4d3c413159d031f190458f7852af32c588b2e45a801b06df15cea"
+    },
+    {
+      "path": "levelpacks/Variety 26 Pack.pdb",
+      "bytes": 7844,
+      "sha256": "056e88f99201d71a1c596d7a57d3f05b16e3b2ca63ca1bd131c37ba5ee3df474"
+    },
+    {
+      "path": "levelpacks/Variety 27 Pack.pdb",
+      "bytes": 8066,
+      "sha256": "c62e0c9f6547741e8b030da632c329da3d416e8f8fdaec11f04b0f015fd82c0d"
+    },
+    {
+      "path": "levelpacks/Variety 28 Pack.pdb",
+      "bytes": 7630,
+      "sha256": "c92125f12cce04020536ec30d45eddea353e9c2bf73275455d5e748fc2f14ebc"
+    },
+    {
+      "path": "levelpacks/Variety 29 Pack.pdb",
+      "bytes": 7582,
+      "sha256": "138181f79dbb5186d646c276e036d1fc4845a69d64260814ad7e5fb7ab985335"
+    },
+    {
+      "path": "levelpacks/Variety 3 Pack.ini",
+      "bytes": 8329,
+      "sha256": "82c766b830873e8ac8cda5f3f37d1216417d9a15194f5c16eb60f8199004ef1a"
+    },
+    {
+      "path": "levelpacks/Variety 3 Pack.pdb",
+      "bytes": 7852,
+      "sha256": "87bee7cd7eb25ecce25f76091f3085333316462fa81b0623425c43d24ddb3edc"
+    },
+    {
+      "path": "levelpacks/Variety 30 Pack.pdb",
+      "bytes": 7744,
+      "sha256": "b63448af34371b753777f17e387df92b1ca4108e58ce0df857ae86c5fc33bac6"
+    },
+    {
+      "path": "levelpacks/Variety 31 Pack.pdb",
+      "bytes": 7818,
+      "sha256": "6216cdd65c4a1f557c65819f5fdf377c9b6edf1594a2d415c5adcacd61b1c8ed"
+    },
+    {
+      "path": "levelpacks/Variety 32 Pack.pdb",
+      "bytes": 7914,
+      "sha256": "22d15182ca7bb766e3badca9f3cc420839df10c05896a5e02a1c983ddf0cf268"
+    },
+    {
+      "path": "levelpacks/Variety 33 Pack.pdb",
+      "bytes": 7616,
+      "sha256": "4365332f98f2dd84fd0e4440a19a7f9902f04285179844e8b4e44d3afd27c9f5"
+    },
+    {
+      "path": "levelpacks/Variety 34 Pack.pdb",
+      "bytes": 7464,
+      "sha256": "776779ec95f291f59cc0b055abd377d49b791a8a585933a35b91b090bd3c6ac9"
+    },
+    {
+      "path": "levelpacks/Variety 35 Pack.pdb",
+      "bytes": 7612,
+      "sha256": "1630e9f44d10e676b95e085b4894345a1e4ff950671e1906f7427018715d3500"
+    },
+    {
+      "path": "levelpacks/Variety 36 Pack.pdb",
+      "bytes": 7906,
+      "sha256": "12fe1bb160829f7822e47ee0d5c5548f81b0b1791151ccd8dc32470771591fc4"
+    },
+    {
+      "path": "levelpacks/Variety 37 Pack.pdb",
+      "bytes": 8134,
+      "sha256": "2a1cc9a08454f87888e7acf28327993d6bbdca4d3373367841125ef42f830a44"
+    },
+    {
+      "path": "levelpacks/Variety 38 Pack.pdb",
+      "bytes": 8240,
+      "sha256": "9457fa824fb74a834f62a926eb01e3a76b7786fc72e0b18634db6f268e10e748"
+    },
+    {
+      "path": "levelpacks/Variety 39 Pack.pdb",
+      "bytes": 7740,
+      "sha256": "800e8d6ea8f27dfd10acf86f2aa075e91a235cd66a4445536ea7720b7ed7261a"
+    },
+    {
+      "path": "levelpacks/Variety 4 Pack.ini",
+      "bytes": 8149,
+      "sha256": "926fa08e935e22a9904b94cad6e33c5d6d26661b483297b1804b0ebb86bdf883"
+    },
+    {
+      "path": "levelpacks/Variety 4 Pack.pdb",
+      "bytes": 7668,
+      "sha256": "4d056f8660e44328a3e36f4a2504bf2359f76a7920700a2364e1455f86ec677e"
+    },
+    {
+      "path": "levelpacks/Variety 40 Pack.pdb",
+      "bytes": 7662,
+      "sha256": "c1b22d86a90cb16e1cef11d2ccdb1f2995d20c9b112149c2fed43d35f889f050"
+    },
+    {
+      "path": "levelpacks/Variety 41 Pack.pdb",
+      "bytes": 7912,
+      "sha256": "5d656670ebb937e04609055fc3302a74572e0ac00b32e9adf010103dce2bbe80"
+    },
+    {
+      "path": "levelpacks/Variety 5 Pack.ini",
+      "bytes": 7988,
+      "sha256": "ec6e411717ec4b940a9bfe1a11fa3d48b9e7d78fe2a544d836359daada3abec6"
+    },
+    {
+      "path": "levelpacks/Variety 5 Pack.pdb",
+      "bytes": 7504,
+      "sha256": "d21893831f2ec6adc51c8cd40a5a9b84cc477db4c3a8114e6465d5f786069e6c"
+    },
+    {
+      "path": "levelpacks/Variety 6 Pack.ini",
+      "bytes": 8198,
+      "sha256": "5ee91ac7c7c0495734cca8699976120717ada6eef33d49b37ccccedc6018bdd5"
+    },
+    {
+      "path": "levelpacks/Variety 6 Pack.pdb",
+      "bytes": 7722,
+      "sha256": "a397327afb988cba7ff82f9592bcbd17eb1f0cc4c206f89b55eae2f93b951a9b"
+    },
+    {
+      "path": "levelpacks/Variety 7 Pack.ini",
+      "bytes": 8251,
+      "sha256": "c37d03e60392bc34b31e0c14d2ae31ab43a8924ac66175f16cae01640c1de3a1"
+    },
+    {
+      "path": "levelpacks/Variety 7 Pack.pdb",
+      "bytes": 7778,
+      "sha256": "d43bb4aec30753a79ae3b926d0af2c2f462eb0b79b62e790ac94e4d394dc578f"
+    },
+    {
+      "path": "levelpacks/Variety 8 Pack.ini",
+      "bytes": 8554,
+      "sha256": "ea253cd2677dd94c0c82689dcebc8cf631dc45ef9ae85d076824cbfaa3f18be7"
+    },
+    {
+      "path": "levelpacks/Variety 8 Pack.pdb",
+      "bytes": 8074,
+      "sha256": "bd39141632f49f30a4d682a4014c6475fcd3153edbf1042725a47c75a5923358"
+    },
+    {
+      "path": "levelpacks/Variety 9 Pack.ini",
+      "bytes": 8523,
+      "sha256": "6a71409ae6943f4ea8260bb3fad4224974e5a58bc8afb7df5190edd5cb2baad6"
+    },
+    {
+      "path": "levelpacks/Variety 9 Pack.pdb",
+      "bytes": 8044,
+      "sha256": "4f48b98214007245623a2bc64d215521cc0c501489876997e42794d2d5085c18"
+    },
+    {
+      "path": "levelpacks/Variety II Pack.ini",
+      "bytes": 8357,
+      "sha256": "eb75dc98de0d0135a9696266880c650a761b18a8c3a4a191d15b155951c63824"
+    },
+    {
+      "path": "levelpacks/Variety II Pack.pdb",
+      "bytes": 7882,
+      "sha256": "096a9dad438552c6f9369c3668b791dac4bec7f7f9cfaacf6a1492886f02d421"
+    },
+    {
+      "path": "levelpacks/Variety Pack.ini",
+      "bytes": 8370,
+      "sha256": "6ac488aa6673675d604ea689e38312f502d78d20b44aa94fd80fb68d62b45b5b"
+    },
+    {
+      "path": "levelpacks/Variety Pack.pdb",
+      "bytes": 7892,
+      "sha256": "bf05d6db02a62d2c1e059a226e6285cff8456914f2e353f420873793c51de671"
+    },
+    {
+      "path": "levelpacks/bad_food.txt",
+      "bytes": 2478,
+      "sha256": "df1e051f56d26da6b05bf00003da827454cf4abef616ea554e08a82d61fdeec1"
+    },
+    {
+      "path": "levelpacks/beatles.txt",
+      "bytes": 5964,
+      "sha256": "9ca98bbe4d8c11d021b1a240080ae40f337a2494ce7de2c142a32024ba5c02d4"
+    },
+    {
+      "path": "levelpacks/cards.txt",
+      "bytes": 965,
+      "sha256": "014727aed03877879c47af0c121d306790a8b98d9065de862c633bcb41fc058b"
+    },
+    {
+      "path": "levelpacks/cartoon.txt",
+      "bytes": 727,
+      "sha256": "55b3d2db8cb240940d40509db26bbe15e3216a37b913484aeadf3dbd535a5303"
+    },
+    {
+      "path": "levelpacks/confusion_related.txt",
+      "bytes": 965,
+      "sha256": "cce76db9336904b6254112662e9cfc0f559480d73ef5290a931fe21c8fcb7c9f"
+    },
+    {
+      "path": "levelpacks/countries.txt",
+      "bytes": 614,
+      "sha256": "96bc22ddc9ca688629a58fa6b417bd8d8a1e839f3f564382aa6735b368106fc3"
+    },
+    {
+      "path": "levelpacks/horror_movies.txt",
+      "bytes": 20279,
+      "sha256": "9e49a3ba23074ec3d5dc6b38c7dc2e82d89ac78af0bd11f9e6ece6d8699c8653"
+    },
+    {
+      "path": "levelpacks/icecream.txt",
+      "bytes": 2096,
+      "sha256": "d4e31b51d6405d2166b0f83414a19dadebbd68a1c352fe3ad331d9363defb42f"
+    },
+    {
+      "path": "levelpacks/jellybelly.txt",
+      "bytes": 1105,
+      "sha256": "e8429934127f97201ad53b04b7ff5a28c82058229b2707aa049c2e7836862bca"
+    },
+    {
+      "path": "levelpacks/level_pack_file_format.txt",
+      "bytes": 2281,
+      "sha256": "ae906f3129c09a50f504e1e7cbf88fcf0e35c4a5956a5501b0fa4dc966b454ac"
+    },
+    {
+      "path": "levelpacks/makepacks.bat",
+      "bytes": 3644,
+      "sha256": "09f0e39444e223ccb330b222a22daceb7b70b4ae9f82118d898814d68da1d04a"
+    },
+    {
+      "path": "levelpacks/solitaire.txt",
+      "bytes": 4601,
+      "sha256": "be62f24832548dd31068c13051b6cdfe38ecd9c9fff32e2f74b2c23d270c4670"
+    },
+    {
+      "path": "levelpacks/uscities.txt",
+      "bytes": 2145,
+      "sha256": "f9eb804715f4943c6032066cf7a2eebaf21a2adb1bfbb6adf4fe26ca854d8168"
+    },
+    {
+      "path": "levelpacks/wind.txt",
+      "bytes": 1044,
+      "sha256": "2cdda996f45cddbeaac2a0ed7c7f5ce85f8290a173ccc404b3cecb35d8227e4b"
+    },
+    {
+      "path": "titler/CVS/Entries",
+      "bytes": 164,
+      "sha256": "56b305651b8730bb08e751562f0cffa0f72ea176f411b9d6d9947360e032d37b"
+    },
+    {
+      "path": "titler/CVS/Repository",
+      "bytes": 13,
+      "sha256": "ee352388a5ac7776def247d9d5443ddb5827587b9c372c22f06f0b84656e5063"
+    },
+    {
+      "path": "titler/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "titler/ini.cpp",
+      "bytes": 6272,
+      "sha256": "a4375aad861cd9e1fdf1ea8b7ed6753bb9445da9be3e0f2305621447ad0c8894"
+    },
+    {
+      "path": "titler/ini.h",
+      "bytes": 1389,
+      "sha256": "c64d98df72e5a8ba06ce289b76696fbee7bbbdd48dd3bd44b213fedec765aeb3"
+    },
+    {
+      "path": "titler/main.cpp",
+      "bytes": 5578,
+      "sha256": "b76c45dd9565be41dbc437b0d764c6d22f595f130c170843a5c425ac37077fd6"
+    },
+    {
+      "path": "titler/titler.dsp",
+      "bytes": 3991,
+      "sha256": "20f80522dd78d6f50f14e9477156aa5a695293eddf5f21463e4d3c6493c58797"
+    },
+    {
+      "path": "vexgen/12562.txt",
+      "bytes": 139246,
+      "sha256": "576e2737ea1066412aeda7b278c3adb704d75e91cf6ce559edc401de62e7d2a3"
+    },
+    {
+      "path": "vexgen/12562_solv.txt",
+      "bytes": 25302,
+      "sha256": "08557dce1c7a3ba4106a4b1f70d6042a578783992a85e7a12c02314662f2361d"
+    },
+    {
+      "path": "vexgen/13991.txt",
+      "bytes": 243781,
+      "sha256": "625cde2021b25c33a67b2db1eb06c3418a23f87e012eca9dd548427e885886ae"
+    },
+    {
+      "path": "vexgen/13991_solv.txt",
+      "bytes": 46529,
+      "sha256": "2ed6c6a8eab6891231cd69df1e14e33d909b2a9c6128494c1dad1ae6c698636d"
+    },
+    {
+      "path": "vexgen/14a.txt",
+      "bytes": 4062,
+      "sha256": "25ea85c598574a0a78dad714617e8753429d27e1c5e5b0d46c6ffc04804c9964"
+    },
+    {
+      "path": "vexgen/16823.txt",
+      "bytes": 15401,
+      "sha256": "03869c2686b0e1209b12b525207051ddf00ca1fb5c8bc37df29b25aa4bc2ccf9"
+    },
+    {
+      "path": "vexgen/16823_solv.txt",
+      "bytes": 13540,
+      "sha256": "75ee5baad0cd302f2af8a3fe020c14352cc24d6a4f3d98f9a2f8d6b59a378064"
+    },
+    {
+      "path": "vexgen/17553.txt",
+      "bytes": 139328,
+      "sha256": "06b114a4c18deb365af55156c462d93087fc3e4e68677d3372c7ca1c5e3305fa"
+    },
+    {
+      "path": "vexgen/17553_solv.txt",
+      "bytes": 25724,
+      "sha256": "3f69f4e971e250a30dbc0a9085fda376281abbfe0bc06a2ef2162c78ceb491f8"
+    },
+    {
+      "path": "vexgen/19234.txt",
+      "bytes": 139228,
+      "sha256": "0190279d9a0db451cb75f249ab34d815b79ba82b5da0ef36f0b9bd541ebab427"
+    },
+    {
+      "path": "vexgen/19234_solv.txt",
+      "bytes": 23040,
+      "sha256": "d4c7376e5b6133adf9002e0f82998871a877d7010baabf5ac53c3e3e6a22959e"
+    },
+    {
+      "path": "vexgen/23637.txt",
+      "bytes": 14502,
+      "sha256": "fa9a125a26f5b7e3403b54a1973f1888fea1e5ed1f00761156016539fe740ba5"
+    },
+    {
+      "path": "vexgen/23637_solv.txt",
+      "bytes": 12619,
+      "sha256": "fdcfbb7fa7ffa208ca8abcd662e97ea9626a8905dae03e9f0a59c7bc7ed20970"
+    },
+    {
+      "path": "vexgen/29828.txt",
+      "bytes": 348228,
+      "sha256": "619b050af5d23f74d3fe19273c168013a7643778750d28d97683975c17d46c0a"
+    },
+    {
+      "path": "vexgen/29828_solv.txt",
+      "bytes": 61307,
+      "sha256": "64d411250e5243935a33c3fa1b6c4c2f77545b81fd95d938ab48e75c05d3b986"
+    },
+    {
+      "path": "vexgen/538.txt",
+      "bytes": 37447,
+      "sha256": "f2369676531ca566bb50625183ed03d37c2b76fd4921f2c1c41254e863557b71"
+    },
+    {
+      "path": "vexgen/538_solv.txt",
+      "bytes": 32284,
+      "sha256": "42424f00e8cc9910f310bb3c851226229b4202ca055fd5e6171a188642d9f38d"
+    },
+    {
+      "path": "vexgen/7559.txt",
+      "bytes": 69654,
+      "sha256": "36c5a8c6c24a4392b06a49ebc734bbcc6e90e522947d25aed003e12281a0e24d"
+    },
+    {
+      "path": "vexgen/7559_solv.txt",
+      "bytes": 13295,
+      "sha256": "87f1bfcd30aac835bab4d48826498e4d3b1275fe9b9e1021d854f09ec63b77af"
+    },
+    {
+      "path": "vexgen/7917.txt",
+      "bytes": 69677,
+      "sha256": "672cb2688fb0ad50a4caabb494b628f1d00dda035ec9ec070eeeb0e248644ac0"
+    },
+    {
+      "path": "vexgen/7917_solv.txt",
+      "bytes": 12092,
+      "sha256": "8b5c5d282b40424f49c2bcf26c7b62a805472a22dc56284674cf2b03ccc2458c"
+    },
+    {
+      "path": "vexgen/CVS/Entries",
+      "bytes": 1147,
+      "sha256": "dbbb5e1cddcba0fc643f67d446c87da5176602623b24aff78dbcda4a2d48feb9"
+    },
+    {
+      "path": "vexgen/CVS/Repository",
+      "bytes": 13,
+      "sha256": "4bffaf9746e3c72abdcfe9afae3a3771e5fdd1c7a11b14333d69998cd816583d"
+    },
+    {
+      "path": "vexgen/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "vexgen/classic.txt",
+      "bytes": 2798,
+      "sha256": "0d2a27ac143aaedcf8303cb52d3083dbf34878f48eaf85447992388ddb559f95"
+    },
+    {
+      "path": "vexgen/puzzlegen2.py",
+      "bytes": 8549,
+      "sha256": "14007de308b5701911cc8e49a3d0b6a5bdde4624d73bc2da1e0d39584d7f4ab1"
+    },
+    {
+      "path": "vexgen/puzzlegen3.py",
+      "bytes": 3958,
+      "sha256": "92c5b07ebdd808be90fd7b9c6b4007b616ac50316a084898a25d8101e9a994b9"
+    },
+    {
+      "path": "vexgen/puzzlegen4.py",
+      "bytes": 4257,
+      "sha256": "0d78a939b9df262d5485204617ea9fbde1aa41f9f365116168c171bbf3298d00"
+    },
+    {
+      "path": "vexgen/solv.bat",
+      "bytes": 111,
+      "sha256": "2b6ee3bc009c6bac920b5eb360413f96fa56cbee840c1d43e90b60b8437caa69"
+    },
+    {
+      "path": "vexpdb/CVS/Entries",
+      "bytes": 164,
+      "sha256": "d6f3045276c8224eb1df2e71eef3106d4c81d2a5d82e059203b1ae338f1f0ac4"
+    },
+    {
+      "path": "vexpdb/CVS/Repository",
+      "bytes": 13,
+      "sha256": "2eac3139bf9dbaf2784d8896e5c655b61ec542d3570b7a02866321c327aea810"
+    },
+    {
+      "path": "vexpdb/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "vexpdb/ini.cpp",
+      "bytes": 6101,
+      "sha256": "62a0b0225db6afa7befc7328d4cb74c418fc6175360b1f58a17818c9bdb2482b"
+    },
+    {
+      "path": "vexpdb/ini.h",
+      "bytes": 1335,
+      "sha256": "3bc770f94fe303bd9fb6de914dedfa403e86f36376c42b41768f06cf4b9c597f"
+    },
+    {
+      "path": "vexpdb/main.cpp",
+      "bytes": 11684,
+      "sha256": "87ffe90f5e46422555e5a21ce9a2c4c2e8e1ca79fc5519a765fda641f091958d"
+    },
+    {
+      "path": "vexpdb/vexpdb.dsp",
+      "bytes": 3991,
+      "sha256": "a4213ae5b5c6f91f96e38e6226085b23060d616c1635f6ae36cc7676e39b47f1"
+    },
+    {
+      "path": "vexsolv/CVS/Entries",
+      "bytes": 90,
+      "sha256": "468f150f1a662c37b07c27384dc1fb8eb419c40f13c97d471b3b7b7c2fc4a798"
+    },
+    {
+      "path": "vexsolv/CVS/Repository",
+      "bytes": 14,
+      "sha256": "01d52b624b5366efc12e30e51891ddf2668f81be9e12c74bb64ad6ef337752d2"
+    },
+    {
+      "path": "vexsolv/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "vexsolv/main.cpp",
+      "bytes": 78464,
+      "sha256": "e6be6b5d995ddebda9ae6b4c76e7c7597e7b25e970a75f502950f51b8123b437"
+    },
+    {
+      "path": "vexsolv/vexsolv.dsp",
+      "bytes": 3980,
+      "sha256": "179d81a03281041a97a9861459244d32cadb558519900addb8cc8bcd43d7ac4a"
+    },
+    {
+      "path": "www/CVS/Entries",
+      "bytes": 35,
+      "sha256": "312f89bd3ab341f3c77e71c7a0d0760878928847a3a3e293137a059fb8b92a56"
+    },
+    {
+      "path": "www/CVS/Repository",
+      "bytes": 10,
+      "sha256": "9bcc20acf4198a08a0734eebcd8e1e1b649e263bfbeb595d85d89c418404c1ed"
+    },
+    {
+      "path": "www/CVS/Root",
+      "bytes": 48,
+      "sha256": "73b812ed1def3221d624eaeb94a1980f9d08dbc0e72b46488921e78d44a0b445"
+    },
+    {
+      "path": "www/version.php",
+      "bytes": 3458,
+      "sha256": "ce5507708e92445f7f1504dbb9883572f60276177560798db9312141b5c2dd69"
+    }
+  ]
+}
