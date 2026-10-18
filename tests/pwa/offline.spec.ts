@@ -1,4 +1,9 @@
 import { expect, test } from '@playwright/test'
+async function packMenu(page: import('@playwright/test').Page) {
+  const panel = page.locator('details.pack-switcher')
+  if (!await panel.evaluate(element => (element as HTMLDetailsElement).open)) await panel.locator('summary').click()
+  return page.getByLabel('Puzzle pack', { exact: true })
+}
 import type { Page } from '@playwright/test'
 async function ready(page: Page) {
   await page.goto('./')
@@ -153,7 +158,7 @@ test('all packs are cached and other-pack selection, solutions and reload work o
     expect(paths).toContain('/vexed/packs/' + id + '-solutions.json')
   }
   await context.setOffline(true)
-  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('variety-41-pack')
+  await (await packMenu(page)).selectOption('variety-41-pack')
   await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
   page.once('dialog', dialog => dialog.accept())
   await page.getByRole('button', {name:'View solution',exact:true}).click()
@@ -165,6 +170,6 @@ test('all packs are cached and other-pack selection, solutions and reload work o
   await expect(page.getByLabel('Puzzle pack', { exact: true })).toHaveValue('variety-41-pack')
   await expect(page.getByLabel('Pack score')).toHaveText('+5')
   await expect(page.getByLabel('Puzzle pack', { exact: true })).toBeEnabled()
-  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('classic')
+  await (await packMenu(page)).selectOption('classic')
   await expect(page.getByLabel('Pack score')).toHaveText('0')
 })

@@ -1,4 +1,9 @@
 import { expect, test } from '@playwright/test'
+async function packMenu(page: import('@playwright/test').Page) {
+  const panel = page.locator('details.pack-switcher')
+  if (!await panel.evaluate(element => (element as HTMLDetailsElement).open)) await panel.locator('summary').click()
+  return page.getByLabel('Puzzle pack', { exact: true })
+}
 async function saved(page: import('@playwright/test').Page) {
   await expect(page.getByText('Saved on this device', { exact: true })).toBeVisible()
   await expect(page.getByLabel('Puzzle pack', { exact: true })).toBeEnabled()
@@ -9,7 +14,7 @@ test('pack switching preserves isolated attempts, preferences, checkpoints and r
   await page.locator('#cell-4-2').click(); await page.locator('#cell-5-2').click()
   await expect(page.locator('.stats dd').first()).toHaveText('1')
   await saved(page)
-  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('classic-ii'); await saved(page)
+  await (await packMenu(page)).selectOption('classic-ii'); await saved(page)
   await expect(page.locator('.stats dd').first()).toHaveText('0')
   await expect(page.getByRole('button', { name: 'Recall', exact: true })).toBeDisabled()
   await page.getByText('Settings', { exact: true }).click()
@@ -18,10 +23,10 @@ test('pack switching preserves isolated attempts, preferences, checkpoints and r
   await page.reload(); await saved(page)
   await expect(page.getByLabel('Puzzle pack', { exact: true })).toHaveValue('classic-ii')
   await expect(page.getByLabel('Go to level', { exact: true })).toHaveValue('58')
-  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('classic'); await saved(page)
+  await (await packMenu(page)).selectOption('classic'); await saved(page)
   await expect(page.locator('.stats dd').first()).toHaveText('1')
   await expect(page.getByRole('button', { name: 'Recall', exact: true })).toBeEnabled()
-  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('variety-41-pack'); await saved(page)
+  await (await packMenu(page)).selectOption('variety-41-pack'); await saved(page)
   await expect(page.locator('.stats').getByText('/ 60')).toBeVisible()
   await page.getByText('Settings', { exact: true }).click()
   await page.getByLabel('Practice: unlock all levels').check(); await saved(page)
@@ -32,7 +37,7 @@ test('pack switching preserves isolated attempts, preferences, checkpoints and r
 test('a failed other-pack request can recover without losing Classic saves', async ({ page }) => {
   await page.goto('./'); await saved(page)
   await page.route('**/packs/classic-ii.json', route => route.fulfill({status:503,body:'Unavailable'}))
-  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('classic-ii')
+  await (await packMenu(page)).selectOption('classic-ii')
   await expect(page.getByRole('heading', {name:'Could not load the puzzles'})).toBeVisible()
   await page.getByRole('button', {name:'Return to Classic',exact:true}).click(); await saved(page)
   await expect(page.getByLabel('Puzzle pack', { exact: true })).toHaveValue('classic')
@@ -43,10 +48,10 @@ test('storage failure requires confirmation before leaving an unsaved pack', asy
   await page.goto('./')
   await expect(page.getByRole('grid')).toBeVisible()
   page.once('dialog', dialog => dialog.dismiss())
-  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('classic-ii')
+  await (await packMenu(page)).selectOption('classic-ii')
   await expect(page.getByLabel('Puzzle pack', { exact: true })).toHaveValue('classic')
   page.once('dialog', dialog => dialog.accept())
-  await page.getByLabel('Puzzle pack', { exact: true }).selectOption('classic-ii')
+  await (await packMenu(page)).selectOption('classic-ii')
   await expect(page.getByLabel('Puzzle pack', { exact: true })).toHaveValue('classic-ii')
   await expect(page.getByRole('grid')).toBeVisible()
 })

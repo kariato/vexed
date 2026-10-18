@@ -19,7 +19,7 @@ npm run check
 npm run dev
 ```
 
-The preview starts with Classic. Use Puzzle pack to choose among 48 packs / 2,878 puzzle entries. Solve to unlock the next level, or enable Practice for every level in that pack. Each pack retains its own attempt, scores, settings, checkpoint and undo history. Pack links use ?pack=<id> and reopen the same pack on reload. Undo the last 15 gestures, memorize/recall a position, replay an attempt, or view a full solution with the original scoring penalty. Progress, settings, undo and checkpoints are saved on this device when browser storage is available.
+The preview starts with Classic. Open Change puzzle pack just above Settings, then use the menu to choose among 48 packs / 2,878 puzzle entries. Solve to unlock the next level, or enable Practice for every level in that pack. Each pack retains its own attempt, scores, settings, checkpoint and undo history. Pack links use ?pack=<id> and reopen the same pack on reload. Undo the last 15 gestures, memorize/recall a position, replay an attempt, or view a full solution with the original scoring penalty. Progress, settings, undo and checkpoints are saved on this device when browser storage is available.
 `npm run check` runs lint, strict app/domain/test typechecks, unit/reference tests and a production build.
 
 ```sh
