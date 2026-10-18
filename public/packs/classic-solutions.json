@@ -1,0 +1,7089 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": 1,
+  "packId": "classic",
+  "license": "GPL-2.0-or-later",
+  "origin": "New offline search over GPL Classic layouts; no original solution input.",
+  "packSha256": "580a1214bb39792b4afc8bf5c87a116d2b89aac4b8615fc5651d56525e836cad",
+  "levels": [
+    {
+      "levelId": "classic:0",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:1",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:2",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:3",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:4",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:5",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:6",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:7",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:8",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:9",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:10",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:11",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:12",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:13",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:14",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:15",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:16",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:17",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:18",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:19",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:20",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:21",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:22",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:23",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:24",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:25",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:26",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:27",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:28",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:29",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:30",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:31",
+      "commands": [
+        {
+          "from": {
+            "x": 1,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:32",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:33",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:34",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:35",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:36",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:37",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:38",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:39",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:40",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:41",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:42",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:43",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:44",
+      "commands": [
+        {
+          "from": {
+            "x": 7,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:45",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:46",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:47",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:48",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:49",
+      "commands": [
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:50",
+      "commands": [
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:51",
+      "commands": [
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:52",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:53",
+      "commands": [
+        {
+          "from": {
+            "x": 8,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:54",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:55",
+      "commands": [
+        {
+          "from": {
+            "x": 3,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:56",
+      "commands": [
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 3
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:57",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "levelId": "classic:58",
+      "commands": [
+        {
+          "from": {
+            "x": 6,
+            "y": 2
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 4,
+            "y": 5
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 0,
+            "y": 1
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 3
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 5,
+            "y": 6
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 1,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 2,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 3,
+            "y": 2
+          },
+          "direction": 1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 7,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 8,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 9,
+            "y": 4
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 9,
+            "y": 5
+          },
+          "direction": -1,
+          "distance": 1
+        },
+        {
+          "from": {
+            "x": 6,
+            "y": 4
+          },
+          "direction": 1,
+          "distance": 1
+        }
+      ]
+    }
+  ]
+}

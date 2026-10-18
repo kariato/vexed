@@ -2,6 +2,7 @@ import { expect, test } from '@playwright/test'
 import type { Page } from '@playwright/test'
 const cell = (page: Page, x: number, y: number) => page.locator('#cell-' + x + '-' + y)
 async function tap(page: Page, x: number, y: number) {
+  await expect(page.getByRole('grid')).toHaveAttribute('aria-busy', 'false')
   const target = cell(page, x, y)
   if (test.info().project.name === 'desktop') await target.click()
   else await target.tap()

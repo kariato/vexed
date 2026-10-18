@@ -226,3 +226,8 @@ The strict Vite/React scaffold and DOM-free TypeScript engine are implemented. M
 ## Phase 2 implementation status
 
 Both original formats are now converted with pinned source hashes, stable IDs and strict validation. All 4,016 source solution sequences pass through the TypeScript replay audit, including a documented reference-only empty move; the two datasets overlap. Classic has all 59 final-solution regression tests and a generated runtime pack using generic labels and par counts. The canonical private research catalogue has 48 PDB packs and 2,878 entries. See [Phase 2 notes](docs/development/PHASE-2.md). Full touchscreen play remains Phase 3.
+
+
+## Phase 3 and 4 implementation status — October 2026
+
+Classic's 59 puzzles now support tablet drag/tap input, keyboard navigation and responsive layouts. Phase 4 adds Classic Palm/Modern presentation, event-projected animations, original audited pack scoring and solution penalties, best completion records, progression with a labelled Practice option, memorize/recall, isolated player/previous replay, full solution viewing, settings and help. All 59 runtime solution paths are newly derived from cleared board layouts, not copied from historical solution strings. Engine state is authoritative before motion starts; Undo can interrupt motion safely. Progress and settings remain tab-local until Phase 5. See [Phase 3](docs/development/PHASE-3.md) and [Phase 4](docs/development/PHASE-4.md). Existing phase reports above describe their historical completion snapshots.

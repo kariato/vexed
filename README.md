@@ -1,6 +1,6 @@
 # Vexed Web
 
-A touch-first TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 3 makes all 59 original Classic puzzles playable with dragging, tap-to-move, large arrow controls and keyboard navigation. The pure engine is checked against the original Palm implementation and solutions.
+A touch-first TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 4 adds Classic Palm/Modern themes, event animations, original pack scoring, progression, checkpoints, player replays and full solution playback to the 59 touch-playable Classic puzzles. The pure engine is checked against the original Palm implementation and solutions.
 
 - [Design](DESIGN.md)
 - [Implementation plan](Vexed_Web_TypeScript_Vite_Implementation_Plan.md)
@@ -19,7 +19,7 @@ npm run check
 npm run dev
 ```
 
-The preview plays the Classic pack. Choose any level, undo the last 15 gestures, restart, or advance after solving. Progress currently lasts for the open tab.
+The preview plays the Classic pack. Solve to unlock the next level, or enable Practice for all 59. Undo the last 15 gestures, memorize/recall a position, replay an attempt, or view a full solution with the original scoring penalty. Progress currently lasts for the open tab.
 `npm run check` runs lint, strict app/domain/test typechecks, unit/reference tests and a production build.
 
 ```sh
@@ -57,7 +57,17 @@ npm run test:e2e
 
 Browser checks use desktop, tablet and 360px phone configurations, with the `/vexed/` GitHub Pages base path. CI installs Chromium and runs these alongside the Node checks. See [Phase 3 notes](docs/development/PHASE-3.md) for controls, input cancellation and remaining device validation.
 
-Next: Phase 4 adds the full presentation and gameplay experience; persistent saves, offline installation and deployment follow later.
+See [Phase 4 notes](docs/development/PHASE-4.md) for animation boundaries, scoring, progression and solution provenance. All 59 shipped solution paths are newly derived from cleared boards and replay-verified; historical reference strings remain development-only.
+
+To regenerate solution content locally (requires a C++17 compiler named `c++`):
+
+```sh
+npm run solutions:derive
+```
+
+This offline authoring tool reads only the cleared runtime boards, performs bounded search, verifies every move through the strict engine and writes the complete asset after all 59 pass. Normal builds and CI use the checked-in asset and do not require a compiler or run search in the browser. Search finds valid solutions and does not guarantee historical par.
+
+Next: Phase 5 adds persistent saves, offline installation and GitHub Pages deployment.
 
 
 ## Pack conversion and complete replay
