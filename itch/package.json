@@ -1,0 +1,12 @@
+{
+  "name": "vexed-itch-export",
+  "private": true,
+  "version": "1.0.0-rc.2",
+  "type": "module",
+  "scripts": {
+    "check": "tsc -p tsconfig.json",
+    "build": "npm run check && vite build",
+    "package": "npm run build && python3 package.py",
+    "test": "playwright test --config playwright.config.ts"
+  }
+}
