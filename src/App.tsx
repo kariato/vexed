@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { applyCommand, applyGesture, calculatePackScore, createBoard, createSession, emptyProgress, isBlock, openSolution, recordCompletion, tileAt } from './domain'
 import type { GameCommand, GameSession, MoveRequest, PackProgress, Position, StepResult } from './domain'
 import { loadPack } from './data/packLoader'
@@ -9,6 +9,9 @@ import { animationFrames } from './ui/presentation'
 import type { VisualFrame } from './ui/presentation'
 import { Replay } from './ui/ReplayViewer'
 import { replayStates, validateSolutions } from './ui/replayData'
+import { readSave, writeSave } from './storage/database'
+import { decodeSave, encodeSave } from './storage/save'
+import { Offline } from './ui/Offline'
 import './App.css'
 function session(pack: RuntimePack, index: number) {
   const level = pack.levels[index]!
@@ -23,22 +26,48 @@ export default function App() {
   const [selected, setSelected] = useState<Position | null>(null)
   const [message, setMessage] = useState('Select a block or drag it sideways.')
   const [progress, setProgress] = useState<PackProgress>(emptyProgress)
-  const [theme, setTheme] = useState('classic')
-  const [motion, setMotion] = useState('normal')
+  const [theme, setTheme] = useState<'classic' | 'modern'>('classic')
+  const [motion, setMotion] = useState<'normal' | 'fast' | 'off'>('normal')
   const [practice, setPractice] = useState(false)
   const [frames, setFrames] = useState<VisualFrame[] | null>(null)
   const [viewer, setViewer] = useState<Viewer | null>(null)
   const [previous, setPrevious] = useState<GameSession | null>(null)
   const [loadingSolution, setLoadingSolution] = useState(false)
+  const [savedPayload, setSavedPayload] = useState<ReturnType<typeof encodeSave> | null>(null)
+  const [loaded, setLoaded] = useState(false)
+  const [saveStatus, setSaveStatus] = useState('Loading saved progress…')
+  const [storageOK, setStorageOK] = useState(true)
+  const [recovery, setRecovery] = useState(false)
   const [epoch, setEpoch] = useState(0)
   const finishAnimation = useCallback(() => setFrames(null), [])
   const busy = frames !== null || loadingSolution || viewer !== null
   const unlocked = Math.min(58, Math.max(-1, ...Object.keys(progress.completions).map(Number)) + 1)
+  const payload = useMemo(() => game && pack ? encodeSave(pack.id, game, previous, progress, { theme, motion, practice }) : null, [pack, game, previous, progress, theme, motion, practice])
+  const saving = loaded && storageOK && !recovery && payload !== savedPayload
   useEffect(() => {
     let active = true
-    loadPack('classic').then(value => { if (active) { setPack(value); setGame(session(value, 0)); setError(false) } }).catch(() => { if (active) setError(true) })
+    loadPack('classic').then(async value => {
+      let restored = null
+      try {
+        const saved = await readSave(import.meta.env.BASE_URL + 'classic')
+        if (saved !== undefined) {
+          try { restored = decodeSave(saved, value) }
+          catch { if (active) { setRecovery(true); setSaveStatus('Saved data could not be read. It has been kept for recovery. Autosave is paused.') } }
+        }
+      } catch { if (active) { setStorageOK(false); setSaveStatus('Browser storage is unavailable. This game will last for this tab.') } }
+      if (!active) return
+      setPack(value); setGame(restored?.game ?? session(value, 0)); setError(false)
+      if (restored) { setProgress(restored.progress); setPrevious(restored.previous); setTheme(restored.preferences.theme); setMotion(restored.preferences.motion); setPractice(restored.preferences.practice); setMessage('Your saved game is ready.') }
+      setLoaded(true)
+    }).catch(() => { if (active) setError(true) })
     return () => { active = false }
   }, [attempt])
+  useEffect(() => {
+    if (!loaded || !payload || !storageOK || recovery) return
+    let active = true
+    writeSave(import.meta.env.BASE_URL + 'classic', payload).then(() => { if (active) { setSavedPayload(payload); setSaveStatus('Saved on this device') } }).catch(() => { if (active) { setStorageOK(false); setSaveStatus('Could not save on this device. Keep this tab open to retain your progress.') } })
+    return () => { active = false }
+  }, [loaded, payload, storageOK, recovery])
   const accept = (result: StepResult, feedback?: string, interrupt = false) => {
     if (busy && !interrupt) return
     setSelected(null)
@@ -124,9 +153,9 @@ export default function App() {
       </section>
       <aside><span className="guide-number" aria-hidden="true">01—59</span><h2>A little space.<br/>A lot to untangle.</h2>
         <div className="tools"><h3>Your toolkit</h3><div className="tool-buttons"><button className="secondary" disabled={busy} onClick={() => command({ type: 'memorize' }, 'Position memorized. Recall will restore this board and move count.')}>Memorize</button><button className="secondary" disabled={busy || !game.checkpoint} onClick={() => command({ type: 'recall' }, 'Memorized position recalled. Undo history cleared.')}>Recall</button><button className="secondary" disabled={busy || !game.commands.length} onClick={() => replay(game)}>Replay moves</button><button className="secondary" disabled={busy || !previous} onClick={() => previous && replay(previous)}>Replay previous</button><button className="secondary" disabled={busy} onClick={() => void reveal()}>View solution</button></div><p className="session-note">Best: {progress.completions[game.level.index]?.moves ?? '—'} moves · Unlocked through: {unlocked + 1}{practice ? ' · Practice enabled' : ''}</p></div>
-        <details className="settings" onToggle={settingsChanged}><summary>Settings</summary><label>Appearance<select aria-label="Appearance" disabled={loadingSolution} value={theme} onChange={event => { setTheme(event.target.value); settingsChanged() }}><option value="classic">Classic Palm</option><option value="modern">Modern</option></select></label><label>Animations<select aria-label="Animations" disabled={loadingSolution} value={motion} onChange={event => { setMotion(event.target.value); settingsChanged() }}><option value="normal">Normal</option><option value="fast">Fast</option><option value="off">Off</option></select></label><label className="check"><input type="checkbox" disabled={loadingSolution} checked={practice} onChange={event => changePractice(event.target.checked)}/>Practice: unlock all levels</label><p>Reduced-motion preferences automatically disable movement animation. Settings and progress last for this tab.</p></details>
+        <details className="settings" onToggle={settingsChanged}><summary>Settings</summary><label>Appearance<select aria-label="Appearance" disabled={loadingSolution} value={theme} onChange={event => { setTheme(event.target.value as 'classic' | 'modern'); settingsChanged() }}><option value="classic">Classic Palm</option><option value="modern">Modern</option></select></label><label>Animations<select aria-label="Animations" disabled={loadingSolution} value={motion} onChange={event => { setMotion(event.target.value as 'normal' | 'fast' | 'off'); settingsChanged() }}><option value="normal">Normal</option><option value="fast">Fast</option><option value="off">Off</option></select></label><label className="check"><input type="checkbox" disabled={loadingSolution} checked={practice} onChange={event => changePractice(event.target.checked)}/>Practice: unlock all levels</label><p>Reduced-motion preferences automatically disable movement animation. Settings and progress are saved on this device when browser storage is available.</p></details>
         <details className="help"><summary>How to play & scoring</summary><p>Drag blocks sideways or tap a block, then an empty destination, even on a different row. Gravity pulls blocks down; matching edges disappear. Arrow buttons move selected blocks one space. Undo remembers 15 gestures.</p><p>Tab to the board. Arrows move the cursor; Enter/Space selects or commits, Escape clears, Z undoes and R restarts.</p><p>Lower pack scores are better. Best completed moves minus par are added across levels, with active excess moves and solution penalties following the audited Palm rules. Every confirmed solution viewing costs 5 points unless this level was already cleared at or below par. Replays are free.</p><p>Memorize stores one checkpoint; Recall restores its board and move count and clears undo history. Restart clears the checkpoint. Completing a puzzle unlocks the next; Practice opens all 59.</p></details>
-        <p className="session-note">Progress lasts for this tab. Refreshing starts fresh.</p><p className="license">Original game: James McCombe and the Vexed project team.<br/>New CSS artwork and solution paths · GPL-2.0-or-later · <a href="https://github.com/kariato/vexed">Source & documentation</a></p>
+        <div className="device-status"><p className="session-note" aria-live="polite">{saving ? 'Saving…' : saveStatus}</p>{recovery && <button className="secondary" onClick={() => { if (window.confirm('Replace the unreadable saved game with this attempt?')) setRecovery(false) }}>Start a new save</button>}{!storageOK && <button className="secondary" onClick={() => { setStorageOK(true); setSaveStatus('Retrying save…') }}>Retry saving</button>}<Offline canUpdate={!saving && saveStatus === 'Saved on this device' && !busy}/></div><p className="license">Original game: James McCombe and the Vexed project team.<br/>New CSS artwork and solution paths · GPL-2.0-or-later · <a href="https://github.com/kariato/vexed">Source & documentation</a></p>
       </aside>
       {viewer && <Replay states={viewer.states} title={viewer.title} close={() => setViewer(null)}/>}
     </>}

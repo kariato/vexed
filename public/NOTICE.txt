@@ -9,7 +9,7 @@ in docs/compatibility and docs/development/PHASE-1.md.
 The port separates deterministic state from Palm drawing, sound and event APIs.
 Original notices and GPLv2 text are retained under LICENSES and LICENSE.
 
-The browser preview contains an authored demonstration board and new CSS artwork.
+The game uses newly authored CSS artwork and freshly derived solution paths.
 Original titles, solution strings and contributor packs are development fixtures only.
 The runtime Classic pack contains 59 GPL-traced layouts, generic labels and par counts.
 See docs/development/PHASE-2.md for conversion/provenance and compatibility changes.
@@ -17,3 +17,7 @@ The supplied planning documents keep their original status; this notice does not
 retroactively assign licensing terms to their text.
 
 Runtime dependency notices are retained in public/THIRD_PARTY_NOTICES.txt.
+
+The published build includes vexed-source.tar.gz with corresponding application
+source, licenses and BUILD.txt instructions. Private research fixtures and
+original solution strings are excluded from the public build and source archive.

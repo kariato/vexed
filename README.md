@@ -1,6 +1,6 @@
 # Vexed Web
 
-A touch-first TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 4 adds Classic Palm/Modern themes, event animations, original pack scoring, progression, checkpoints, player replays and full solution playback to the 59 touch-playable Classic puzzles. The pure engine is checked against the original Palm implementation and solutions.
+An installable, offline-capable TypeScript/Vite port of Palm OS Vexed 2.2, designed for GitHub Pages and tablet browsers. Phase 4 adds Classic Palm/Modern themes, event animations, original pack scoring, progression, checkpoints, player replays and full solution playback to the 59 touch-playable Classic puzzles. The pure engine is checked against the original Palm implementation and solutions.
 
 - [Design](DESIGN.md)
 - [Implementation plan](Vexed_Web_TypeScript_Vite_Implementation_Plan.md)
@@ -19,7 +19,7 @@ npm run check
 npm run dev
 ```
 
-The preview plays the Classic pack. Solve to unlock the next level, or enable Practice for all 59. Undo the last 15 gestures, memorize/recall a position, replay an attempt, or view a full solution with the original scoring penalty. Progress currently lasts for the open tab.
+The preview plays the Classic pack. Solve to unlock the next level, or enable Practice for all 59. Undo the last 15 gestures, memorize/recall a position, replay an attempt, or view a full solution with the original scoring penalty. Progress, settings, undo and checkpoints are saved on this device when browser storage is available.
 `npm run check` runs lint, strict app/domain/test typechecks, unit/reference tests and a production build.
 
 ```sh
@@ -67,7 +67,19 @@ npm run solutions:derive
 
 This offline authoring tool reads only the cleared runtime boards, performs bounded search, verifies every move through the strict engine and writes the complete asset after all 59 pass. Normal builds and CI use the checked-in asset and do not require a compiler or run search in the browser. Search finds valid solutions and does not guarantee historical par.
 
-Next: Phase 5 adds persistent saves, offline installation and GitHub Pages deployment.
+## Play and install
+
+Open https://kariato.github.io/vexed/ on a tablet or desktop browser. After Ready offline appears, all 59 puzzles and solutions work without a network connection. Installation is optional; use Install Vexed when offered, Safari Share → Add to Home Screen, or the Android browser menu.
+
+The Saved on this device indicator confirms the latest transaction. Unknown/corrupt saves are kept for recovery and pause autosave. Updates wait for a saved, idle game and require your reload action. See [Phase 5 notes](docs/development/PHASE-5.md).
+
+```sh
+npm run test:pwa
+```
+
+The Pages workflow publishes only the verified dist artifact. The repository/research fixtures stay private; the published site includes a GPL application-source download that rebuilds without those fixtures.
+
+Next: Phase 6 covers compatibility, real tablets and release accessibility checks.
 
 
 ## Pack conversion and complete replay
